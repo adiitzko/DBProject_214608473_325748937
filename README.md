@@ -120,7 +120,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 #####  Entering a data to 
 -  Group Number  scope 700-1200
 📜[View `insertDat.py`](א/Programing/insert.py)
--  Group Number  scope 700-1200
+-  
 📜[View `insertDat.sal`](א/insertTables.sql)
 
 
