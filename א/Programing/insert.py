@@ -1,7 +1,6 @@
 import random
 import datetime
 
-# פונקציות ליצירת נתונים רנדומליים
 def random_date():
     start_date = datetime.date(2024, 1, 1)
     random_days = random.randint(1, 365)
@@ -15,7 +14,7 @@ domains = ["example.com", "mail.com", "test.org", "demo.net"]
 countries = ["USA", "France", "Japan", "Germany", "Canada"]
 addresses = ["Main St 123", "Baker St 221B", "Sunset Blvd 100", "5th Avenue 987", "High St 456"]
 
-# מילון לשמירת המידע
+
 customers = []
 guides = []
 flights = []
@@ -25,26 +24,26 @@ trips = []
 invites = []
 includes = []
 
-# יצירת נתונים
-for i in range(4, 204):
-    # לקוחות
+
+for i in range(1, 400):
+
     full_name = random.choice(names) + f"_{i}"
     email = f"{full_name.lower()}@{random.choice(domains)}"
     phone = random_phone()
     customers.append((i, full_name, phone, email))
 
-    # מדריכים
+   
     guide_name = f"Guide_{i}"
     guide_phone = random_phone()
     guides.append((i, guide_name, guide_phone))
 
-    # יעדים
+    
     zip_code = 1000 + i  # מוודאים zip ייחודי
     country = random.choice(countries)
     address = random.choice(addresses)
     destinations.append((zip_code, country, address))
 
-    # מלונות
+    
     hotel_name = f"Hotel_{i}"
     location = random.choice(addresses)
     total_rooms = random.randint(20, 200)
@@ -56,7 +55,7 @@ for i in range(4, 204):
     return_date = random_date()
     flights.append((i, airline, departure_date, return_date))
 
-    # טיולים
+
     trip_start = random_date()
     trip_end = random_date()
     guide_id = random.randint(4, 203)
@@ -64,16 +63,16 @@ for i in range(4, 204):
     destination_zip = random.choice(destinations)[0]
     trips.append((i, trip_start, trip_end, destination_zip, hotel_id, guide_id))
 
-    # הזמנות
+    
     customer_id = random.randint(4, 203)
     total_customer = random.randint(1, 5)
     invites.append((i, customer_id, total_customer))
 
-    # שילובים
+    
     flight_id = random.randint(4, 203)
     includes.append((i, flight_id))
 
-# כתיבת הנתונים לקובץ SQL
+
 with open("insert_data2.sql", "w", encoding="utf-8") as f:
     f.write("-- Inserting data into customer\n")
     for row in customers:
@@ -107,4 +106,3 @@ with open("insert_data2.sql", "w", encoding="utf-8") as f:
     for row in includes:
         f.write(f"INSERT INTO include (tripID, flightID) VALUES {row};\n")
 
-print("✅ הקובץ insert_data.sql נוצר עם 200 רשומות לכל טבלה החל ממספר 4!")
