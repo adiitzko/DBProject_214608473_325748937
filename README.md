@@ -76,8 +76,8 @@ Provide the following SQL scripts:
   
 ###  Data  
 ####  First tool: using [mockaro](א/mockarooFiles) to create csv file
-#####  Entering a data to costumer table
--  customer id scope 1-1000
+#####  Entering a data to customer table
+-  customer id scope 1-400
 📜[View `customerMock_data.csv`](א/mockarooFiles/customer.csv)
 #####  Entering a data to destination table
 -  destination zipcode scope 1-400
@@ -117,7 +117,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](א/picture/guideCsvImage.png)
 
 ####  Second tool: using [python](א/Programing). 
-#####  Entering a data to 
+#####  Entering a data to customer
 -  Group Number  scope 700-1200
 📜[View `insertDat.py`](א/Programing/insert.py)
 -  Data
@@ -128,13 +128,22 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 
-####  Third tool:Xml File
+####  Third tool:[excel File](א/excel)
+-excel file customer table 200 record
+📜[View `insertDat.py`](א/excel/travel_database.xlsx)
+-convert to csv file
+
 
 
 ### Backup 
 -   backups files are kept with the date and hour of the backup:  
 
-[עבור לתיקיית הגיבויים](א/backup 3.29.25.backup)
+[backupFile](א/backup_3.29.25.backup)
+
+![image](א/picture/backupImage.png)
+![image](א/picture/restoreImage.png)
+
+
 
 
 
