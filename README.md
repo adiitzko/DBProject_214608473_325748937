@@ -109,23 +109,23 @@ Provide the following SQL scripts:
 
 📜 **[View `costumerMock_data.csv`](א/mockarooFiles/customer.csv)
 ![image](א/picture/customerCsvImage.png)
-![image]()
+![image](א/picture/success.png)
 results for  the command `SELECT COUNT(*) FROM guide;`:
 <br>
 ![image](א/picture/guideCsvImage.png)
 
-####  Second tool: using [python](א/Programing). t 
-#####  Entering a data to babyGroup table
--  Group Number  scope 1-400 \\כאן
+####  Second tool: using [python](א/Programing). 
+#####  Entering a data to 
+-  Group Number  scope 700-1200
 📜[View `insertDat.csv`](א/Programing/insert.py)
 
-![image](א/Programing/insert_data2.sql)\\קישור לא תמונה
+
 
 ![image](https://github.com/user-attachments/assets/046ee01c-599b-4858-886f-7c9809c60bfa)// תמונה של הקובץ שנוצר 
 
 
 
-####  Third tool: using python to create csv file
+####  Third tool:
 
 ### Backup 
 -   backups files are kept with the date and hour of the backup:  
