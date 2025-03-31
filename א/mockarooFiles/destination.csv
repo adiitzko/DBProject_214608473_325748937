@@ -1,1001 +1,401 @@
-zipCode,country
-WOW,Dubai
-KND,Singapore
-ROF,Los Angeles
-HUT,London
-BUV,Frankfurt
-ZBK,Los Angeles
-HTW,London
-BTV,Tokyo
-GLA,Copenhagen
-MNC,Mexico City
-OOR,Rome
-MBV,Tokyo
-GBP,Delhi
-PEH,Madrid
-OPS,Rome
-SFX,Amsterdam
-DEN,Sydney
-AZZ,Madrid
-SYB,Copenhagen
-TEQ,Bogotá
-PDD,Delhi
-MUG,Seoul
-PTA,Sydney
-LSX,Amsterdam
-TRG,Delhi
-MXH,Amsterdam
-USR,Singapore
-TAR,Madrid
-TXG,Toronto
-XMG,Addis Ababa
-TDL,Paris
-CKL,Johannesburg
-QEF,Frankfurt
-LID,Amsterdam
-KFP,São Paulo
-PMX,Tokyo
-JEK,Bogotá
-GDT,New York
-TBI,Doha
-MOI,Singapore
-MLW,Frankfurt
-PSQ,Los Angeles
-OCC,New York
-LUF,Rome
-VCD,London
-AOO,New York
-YKU,Toronto
-BGT,London
-KXF,London
-BHG,Copenhagen
-LEC,New York
-RAK,New York
-EPL,Madrid
-CHS,Sydney
-VAW,Copenhagen
-LKU,Toronto
-MWC,Bogotá
-CHP,Addis Ababa
-BYN,Copenhagen
-NMB,Mexico City
-WLO,Los Angeles
-SIV,Madrid
-YBQ,Rome
-SPR,Singapore
-LGB,Mexico City
-PAB,Auckland
-TIP,Doha
-PUB,Bogotá
-KBI,Johannesburg
-TPC,Delhi
-HFF,Bogotá
-NEC,New York
-DRR,Addis Ababa
-BNB,Delhi
-DVK,Singapore
-ZNZ,Addis Ababa
-VRE,Seoul
-ISC,Amsterdam
-MGK,Hong Kong
-VTE,Seoul
-RRE,London
-GFN,Amsterdam
-AZA,New York
-IRB,Copenhagen
-GMV,Los Angeles
-MYJ,Los Angeles
-OLC,Amsterdam
-0,New York
-WIC,Addis Ababa
-MHY,Copenhagen
-YOD,São Paulo
-ITH,Paris
-BTX,New York
-MMZ,Bangkok
-CAN,Addis Ababa
-KNT,New York
-BTN,Sydney
-TBC,Dubai
-AGU,Doha
-EPL,Toronto
-HKD,Los Angeles
-BXX,Hong Kong
-LDB,Amsterdam
-MOC,Seoul
-FVL,New York
-BGO,Addis Ababa
-ZWL,Tokyo
-PAF,Bangkok
-MFB,São Paulo
-APY,Madrid
-0,Rome
-KZD,Bangkok
-BRD,São Paulo
-RNC,Bangkok
-PUS,Paris
-AMN,Rome
-DOL,Hong Kong
-SXB,Doha
-PUU,New York
-SLE,Amsterdam
-ONP,Bangkok
-CEV,Delhi
-TQN,São Paulo
-SMV,Dubai
-SYD,Madrid
-VAD,Copenhagen
-BEX,Delhi
-GRC,Auckland
-HRL,Auckland
-RSJ,Johannesburg
-MFM,Addis Ababa
-YRT,Seoul
-HAS,New York
-PTD,Auckland
-STW,Tokyo
-WSX,Frankfurt
-SQK,Bangkok
-GRY,Delhi
-YWO,Hong Kong
-REY,Seoul
-OKC,Amsterdam
-AKK,New York
-NMT,Seoul
-ULK,New York
-PBJ,São Paulo
-XMP,Toronto
-ALM,São Paulo
-PHL,Tokyo
-FSS,Amsterdam
-JGR,Copenhagen
-WAN,Amsterdam
-PSU,Doha
-CLD,Paris
-KKH,Addis Ababa
-ENO,Dubai
-ZOF,Addis Ababa
-FSZ,Hong Kong
-LGB,New York
-KWL,Los Angeles
-TMF,Johannesburg
-TCC,Los Angeles
-DIR,Copenhagen
-GZT,Copenhagen
-DZN,Bogotá
-RAF,Toronto
-LEJ,Copenhagen
-WAB,Johannesburg
-MWR,Madrid
-DDM,New York
-MRS,Seoul
-UIL,Tokyo
-BBC,London
-MCN,Bogotá
-RTL,Rome
-JEJ,Johannesburg
-MXK,Singapore
-OKE,Los Angeles
-HFD,New York
-TVL,Copenhagen
-AZI,Amsterdam
-DAT,Bangkok
-TYA,Toronto
-WIC,Hong Kong
-OGL,Los Angeles
-AOE,Bogotá
-CXL,Paris
-CRD,Delhi
-LBP,Los Angeles
-MBQ,Johannesburg
-CVR,Madrid
-UIN,Paris
-ODC,New York
-BDR,New York
-HZH,Doha
-CTQ,Bangkok
-KJU,Delhi
-HOE,Madrid
-AIL,Mexico City
-LUZ,Bogotá
-AAN,Toronto
-LUE,Los Angeles
-BEN,Johannesburg
-KRD,São Paulo
-TJN,Addis Ababa
-BTH,Mexico City
-LYC,Los Angeles
-MKZ,New York
-BGK,Bangkok
-YKM,Singapore
-TSY,Auckland
-VGO,Los Angeles
-URA,Mexico City
-WUS,Johannesburg
-CTO,Doha
-DGL,Frankfurt
-AAH,New York
-RJK,Singapore
-YXZ,Madrid
-MYT,Doha
-PNT,Rome
-SBO,Paris
-LPB,Bogotá
-MNG,London
-NTQ,Singapore
-VYD,Madrid
-SUM,Frankfurt
-TKY,Doha
-TR7,Los Angeles
-FME,Amsterdam
-GJR,Doha
-AXD,Addis Ababa
-NLS,Los Angeles
-LKP,Toronto
-SQR,New York
-UTT,Singapore
-IFH,Toronto
-MGD,Singapore
-TIM,Bogotá
-MYQ,São Paulo
-JNZ,Madrid
-TKA,Copenhagen
-YXS,Rome
-STJ,Auckland
-HLO,Bogotá
-RAM,Paris
-FFO,Mexico City
-KOM,Mexico City
-TVS,Madrid
-BAO,Paris
-HSL,Copenhagen
-BPH,Copenhagen
-TVC,Madrid
-PGM,Los Angeles
-YVT,São Paulo
-OVE,Amsterdam
-IFU,Toronto
-HRT,Singapore
-YZF,Johannesburg
-ESM,Toronto
-ZAR,Bangkok
-SJR,Madrid
-PZS,Hong Kong
-OSK,Toronto
-UNR,São Paulo
-SKK,Addis Ababa
-KLS,Rome
-PHM,Tokyo
-BMF,Amsterdam
-KEW,Bangkok
-WDN,Rome
-PCF,Rome
-0,Copenhagen
-RGO,Sydney
-SNI,Seoul
-KCB,Bangkok
-LHA,Dubai
-BHR,Seoul
-LYC,Mexico City
-AAZ,Mexico City
-JVI,Doha
-VEY,Hong Kong
-YXN,Frankfurt
-ATA,Johannesburg
-AUN,Madrid
-DVR,Hong Kong
-SNS,Delhi
-IRG,Toronto
-SAP,Addis Ababa
-BDQ,Sydney
-KRM,Toronto
-MCJ,Bangkok
-BPL,Mexico City
-EYS,Amsterdam
-COI,Delhi
-GYS,Los Angeles
-YLT,Seoul
-0,Tokyo
-LNQ,Delhi
-TEX,Singapore
-EPS,Doha
-SEU,Auckland
-NLU,Sydney
-PBM,Seoul
-VGD,Sydney
-ONB,New York
-MLS,London
-LTH,New York
-FOR,Paris
-ELY,Addis Ababa
-AIE,Frankfurt
-SPF,Seoul
-CBB,Paris
-YNB,Singapore
-MZZ,Tokyo
-NGS,Doha
-MUF,London
-PTA,New York
-LST,Copenhagen
-PNN,Hong Kong
-MIK,Doha
-CUA,Copenhagen
-TGQ,Madrid
-VQS,New York
-BSL,Singapore
-KFE,Tokyo
-PXM,London
-ORR,Los Angeles
-GTF,Amsterdam
-BJW,Bangkok
-BTF,Seoul
-BAI,Johannesburg
-CBH,Mexico City
-FBG,Frankfurt
-PNL,Bogotá
-YDJ,Addis Ababa
-BAB,London
-INO,Hong Kong
-SDD,Frankfurt
-PAJ,Dubai
-QLF,New York
-YDO,Frankfurt
-CMR,Dubai
-NQX,Doha
-SCC,Sydney
-BCJ,Rome
-ZPB,Sydney
-WNA,Copenhagen
-MEY,Frankfurt
-YZP,Toronto
-LEN,Seoul
-MAL,Copenhagen
-YRS,Paris
-MDD,Copenhagen
-OGB,Singapore
-NQL,Madrid
-TCB,Copenhagen
-OHB,Mexico City
-THU,Doha
-JPN,Rome
-TBY,São Paulo
-TVU,Paris
-JCH,Toronto
-TUM,Frankfurt
-SSF,Los Angeles
-CUB,Bangkok
-SAK,Dubai
-XNT,Tokyo
-KRW,Madrid
-SSU,Rome
-MWP,Hong Kong
-KSK,Bangkok
-PZB,Bogotá
-MPH,Copenhagen
-AIH,Copenhagen
-TFI,Dubai
-CGI,Los Angeles
-UCT,London
-AAY,Hong Kong
-OUH,Toronto
-HTL,Frankfurt
-WGP,Singapore
-RVN,Doha
-KEG,Madrid
-RJB,Paris
-PPJ,Johannesburg
-PEW,Bogotá
-NUF,Los Angeles
-DSG,New York
-ODB,Tokyo
-GPN,São Paulo
-HMO,London
-TEU,London
-HJT,Singapore
-CSE,Delhi
-DAA,Bangkok
-LNB,Tokyo
-EGC,Johannesburg
-OSO,Rome
-KNI,Mexico City
-SFT,Addis Ababa
-KBD,Toronto
-VEL,Rome
-TLM,Bogotá
-CCA,Copenhagen
-NRA,Doha
-HVB,New York
-AJF,Tokyo
-PPV,Dubai
-DAP,São Paulo
-VSG,Bogotá
-MXF,Sydney
-GLI,Auckland
-TAI,Paris
-OBC,Paris
-ZMH,Addis Ababa
-URU,Frankfurt
-IRA,Los Angeles
-DVP,São Paulo
-RDU,Sydney
-NTA,Singapore
-NNU,New York
-LAO,Johannesburg
-INO,Auckland
-CAV,Madrid
-AHS,Tokyo
-RAN,Bangkok
-MKN,Auckland
-KIR,Paris
-ZLG,Singapore
-RDZ,Mexico City
-MCU,Auckland
-WST,Copenhagen
-KBX,Singapore
-HTY,Seoul
-BEW,London
-REH,Madrid
-DRH,Amsterdam
-QIG,Rome
-MFV,Tokyo
-UTM,Amsterdam
-GDD,Bangkok
-TXU,Addis Ababa
-GHN,Copenhagen
-RME,Johannesburg
-TAV,Bogotá
-SNS,Hong Kong
-SKZ,Bangkok
-CIP,Tokyo
-MQK,Bangkok
-AKW,Seoul
-LVO,São Paulo
-AQY,Delhi
-BCK,Doha
-MXT,Madrid
-UNT,Bangkok
-KMF,Paris
-CNX,Dubai
-PAN,Auckland
-SAW,Singapore
-RKW,São Paulo
-BHE,Amsterdam
-KZB,Los Angeles
-CIU,Paris
-IFN,Dubai
-TGA,Mexico City
-TCS,New York
-BPG,Doha
-BHE,Johannesburg
-OSS,Bangkok
-DYR,Addis Ababa
-TPF,Bangkok
-PPM,Doha
-KIX,Copenhagen
-MTU,New York
-BLI,Amsterdam
-ABF,Paris
-GVL,Copenhagen
-NBH,Johannesburg
-JNU,Copenhagen
-NKM,Sydney
-KYZ,Bogotá
-MQF,Sydney
-OUG,Bangkok
-IFA,Frankfurt
-NCR,Bangkok
-GCM,Frankfurt
-HAD,Seoul
-HPY,Dubai
-PIT,Mexico City
-BPE,Auckland
-CPQ,São Paulo
-BEO,Sydney
-YOL,Doha
-ILU,Los Angeles
-THE,Bogotá
-YUA,Johannesburg
-NAV,New York
-GPB,Johannesburg
-RIA,Copenhagen
-APP,Tokyo
-LII,Madrid
-LRJ,Frankfurt
-FMA,São Paulo
-HYN,Tokyo
-SBF,Delhi
-OSM,Singapore
-ANN,Dubai
-PVI,Seoul
-OIA,Singapore
-KDS,Paris
-DHI,London
-MIS,Toronto
-KOJ,Auckland
-RCM,Tokyo
-NLE,Singapore
-CTS,Madrid
-CFQ,Bangkok
-YWQ,Bogotá
-GBT,Amsterdam
-TPR,New York
-BSB,Bogotá
-GOB,Addis Ababa
-TDT,Hong Kong
-NKT,Delhi
-BNI,Mexico City
-MGS,New York
-BJX,Singapore
-SYH,Sydney
-VJI,Doha
-MGN,Rome
-OKC,Los Angeles
-DBQ,Copenhagen
-LBM,Tokyo
-OAH,Amsterdam
-TCH,São Paulo
-PWY,Tokyo
-HJR,Dubai
-MMD,Frankfurt
-TOQ,London
-NUU,Amsterdam
-YYI,Los Angeles
-KTP,Copenhagen
-HES,Los Angeles
-OTM,Los Angeles
-KTV,Amsterdam
-LLB,Copenhagen
-KMI,New York
-MHS,Sydney
-TIM,Bogotá
-YGB,Bangkok
-CWS,Madrid
-PBN,Dubai
-NDS,Los Angeles
-GRL,New York
-TSL,Hong Kong
-KJA,Doha
-WMB,Frankfurt
-YYA,Johannesburg
-PEX,Auckland
-TNB,Sydney
-MUJ,Hong Kong
-DOS,Rome
-HGE,Madrid
-WAQ,Seoul
-MMX,Los Angeles
-THU,Los Angeles
-EVH,Copenhagen
-RIV,London
-AUL,Los Angeles
-NYN,New York
-VIL,Bangkok
-TRL,Frankfurt
-CBB,New York
-MTA,Madrid
-SZH,Johannesburg
-EMG,London
-AKH,Toronto
-YUB,Amsterdam
-HLG,New York
-EMO,Bangkok
-KZI,Toronto
-BTJ,Sydney
-MKZ,Amsterdam
-KCM,Auckland
-SUV,Rome
-BKF,Delhi
-HEO,Sydney
-EGC,Doha
-MPU,Amsterdam
-ILA,Singapore
-ZXT,New York
-BUY,Frankfurt
-GLL,Rome
-PTV,São Paulo
-CTM,Sydney
-CMN,Mexico City
-ITP,London
-DAN,Los Angeles
-MCX,Delhi
-TBL,Madrid
-EKS,Sydney
-MIK,Madrid
-IMA,London
-MAN,Los Angeles
-SJM,New York
-NAG,Johannesburg
-TJC,Addis Ababa
-CZO,Seoul
-CDG,São Paulo
-WUV,Los Angeles
-BDV,Los Angeles
-DYR,Tokyo
-VXE,New York
-MCL,Johannesburg
-MUP,Bangkok
-SDS,Amsterdam
-WTK,Singapore
-AJY,London
-SZR,Delhi
-VAD,Madrid
-CGR,Bangkok
-GOE,Bogotá
-FLR,Amsterdam
-EZV,Rome
-GGS,Doha
-SKX,New York
-PNI,Copenhagen
-MDC,Sydney
-DLD,Bogotá
-FNU,Mexico City
-YKU,Copenhagen
-SFF,New York
-AST,Madrid
-DAM,Dubai
-SHJ,Copenhagen
-RNI,Copenhagen
-CKE,New York
-OME,Los Angeles
-IBZ,Seoul
-HGT,São Paulo
-AUY,Los Angeles
-CPV,Los Angeles
-YGW,Copenhagen
-POX,Copenhagen
-BIH,Los Angeles
-BVG,Frankfurt
-BOF,Los Angeles
-NEV,New York
-SUN,São Paulo
-KCT,São Paulo
-BMM,Delhi
-LAA,Delhi
-MNI,Paris
-MMD,Los Angeles
-SRU,Johannesburg
-KKW,Dubai
-PAJ,Paris
-DOY,Doha
-YBB,Madrid
-JCB,Rome
-OCE,Auckland
-CGJ,Addis Ababa
-MFK,Delhi
-MIR,São Paulo
-LRD,Tokyo
-BKD,Mexico City
-0,Tokyo
-UOX,Sydney
-ALM,London
-YVB,Mexico City
-CZS,Seoul
-DTB,Los Angeles
-FPY,Seoul
-DOU,Copenhagen
-PPJ,Madrid
-GIS,Delhi
-OTD,Los Angeles
-FUJ,Hong Kong
-SGR,Seoul
-STL,Mexico City
-RCS,Hong Kong
-HFD,Bangkok
-WME,Toronto
-OGS,Frankfurt
-YAD,São Paulo
-TTJ,Dubai
-MCL,Frankfurt
-MPC,New York
-FIL,Auckland
-MSA,Los Angeles
-IQT,New York
-RSU,Doha
-LKZ,Delhi
-KRO,Johannesburg
-SLY,Seoul
-KKT,Madrid
-NTE,Copenhagen
-YJN,New York
-MVS,Auckland
-BCM,Hong Kong
-CPF,New York
-LML,Copenhagen
-SOK,Los Angeles
-FHU,Dubai
-VBA,Bangkok
-HYD,New York
-OML,Delhi
-OOR,Singapore
-0,Amsterdam
-IRO,Addis Ababa
-HTY,Los Angeles
-ILA,Bogotá
-AVX,Bangkok
-LNN,New York
-YRO,Amsterdam
-PGA,Bangkok
-YFG,Sydney
-VIB,Los Angeles
-HOI,Dubai
-WHT,Rome
-LIG,Los Angeles
-AGR,Delhi
-CUL,New York
-PSI,Frankfurt
-RBP,Doha
-MOG,Mexico City
-DTD,Amsterdam
-MVA,Mexico City
-VIH,New York
-NNU,Tokyo
-YVQ,Seoul
-GCY,Doha
-XBX,Madrid
-LNN,Los Angeles
-UTD,Bangkok
-REZ,Doha
-NYW,Los Angeles
-YRB,São Paulo
-CSV,Madrid
-MCR,São Paulo
-ABN,Seoul
-PUF,Singapore
-PPG,Delhi
-WPC,London
-CWS,Johannesburg
-LZC,Los Angeles
-TNF,Singapore
-CYD,Tokyo
-CZB,Copenhagen
-ELM,Madrid
-MEA,Madrid
-SJU,Addis Ababa
-VAK,Bangkok
-SWH,Sydney
-YCU,Madrid
-BKY,São Paulo
-SMZ,Hong Kong
-PRO,New York
-ZFD,Toronto
-SZF,Delhi
-RSE,Hong Kong
-WMR,Singapore
-TUH,Bogotá
-YQL,Toronto
-JSJ,Copenhagen
-HRE,Bogotá
-GRB,São Paulo
-BEW,Bangkok
-LYK,Toronto
-TCR,Bogotá
-LND,Bangkok
-ILZ,Paris
-0,Mexico City
-TVC,Sydney
-MDE,Bangkok
-MHD,Copenhagen
-KST,Paris
-XBE,Addis Ababa
-MNU,Madrid
-IPH,London
-OMR,Rome
-HOD,Singapore
-DSN,Auckland
-BNO,Paris
-VBG,Frankfurt
-TYA,Auckland
-SIM,Delhi
-FRW,Dubai
-LRT,Doha
-URD,Toronto
-BWA,Bangkok
-GBG,London
-SEH,Los Angeles
-CWX,Doha
-BEX,Paris
-TTL,Singapore
-SAU,Los Angeles
-CZK,Johannesburg
-CDO,Doha
-TBJ,Tokyo
-DJA,Copenhagen
-ENW,Seoul
-CRV,Bogotá
-OKS,Dubai
-MTC,Toronto
-WPA,Hong Kong
-BKJ,Los Angeles
-FRG,Madrid
-PMX,Bangkok
-HXD,Copenhagen
-QJP,Amsterdam
-TKY,Los Angeles
-AKS,Sydney
-FIK,New York
-SRZ,Copenhagen
-RBT,Auckland
-BBP,Los Angeles
-GAL,Sydney
-YLJ,Delhi
-TYS,Doha
-WPA,Dubai
-KRB,Dubai
-WSD,Bogotá
-HNC,Copenhagen
-WUV,Rome
-TGK,Los Angeles
-GTY,São Paulo
-MKL,Delhi
-NLL,New York
-TTO,Auckland
-YAH,Los Angeles
-SHW,Los Angeles
-MMB,Dubai
-AVP,Los Angeles
-TMN,Delhi
-OPB,London
-AEL,Mexico City
-NLC,Mexico City
-LWT,Copenhagen
-SGH,Hong Kong
-YCF,Addis Ababa
-YCU,São Paulo
-PZS,Seoul
-VCT,São Paulo
-TMI,Los Angeles
-HAV,Frankfurt
-FBA,Tokyo
-MAI,Los Angeles
-MYD,Addis Ababa
-BKU,Seoul
-MUH,São Paulo
-GUY,Bogotá
-WPB,Doha
-JNN,Los Angeles
-GGC,Mexico City
-BGX,Singapore
-CSQ,Bangkok
-NKB,Los Angeles
-GKH,Mexico City
-CAU,Los Angeles
-SYW,New York
-GGS,Singapore
-GBF,Los Angeles
-DGA,Tokyo
-YQU,Delhi
-ENC,Los Angeles
-AYE,Singapore
-MYE,Copenhagen
-PBV,Amsterdam
-SWJ,Copenhagen
-UTB,London
-JGA,Tokyo
-OGO,New York
-CXJ,Madrid
-CMG,New York
-EGX,Los Angeles
-CBD,Rome
-MJY,Los Angeles
-BUQ,Toronto
-STI,São Paulo
-HUE,Sydney
-GBE,Copenhagen
-KFG,Los Angeles
-NFO,Seoul
-KNW,London
-UVO,Singapore
-NCN,Delhi
-SER,Auckland
-TCE,Singapore
-LRD,Singapore
-JXN,Bangkok
-LAK,São Paulo
-LBC,Copenhagen
-EGP,London
-SXS,Frankfurt
-IRN,Dubai
-KRR,Addis Ababa
-FFL,Delhi
-TR7,Madrid
-HAE,Dubai
-AHB,London
-KAF,New York
-WCA,New York
-CRO,Los Angeles
-LLM,Addis Ababa
-GRB,Bangkok
-BVO,Madrid
-HOS,Addis Ababa
-KYU,Seoul
-LRD,Copenhagen
-LED,Delhi
-TCP,New York
-CYS,London
-PAL,Seoul
-LEB,Madrid
-ROF,Doha
-WDI,São Paulo
-NTT,London
-AOJ,Madrid
-JIM,Frankfurt
-BBQ,Johannesburg
-KBZ,Mexico City
-NRT,Frankfurt
-CMM,Dubai
-MDT,Mexico City
-YKG,Copenhagen
-DOH,New York
-UTD,Johannesburg
-SUF,Addis Ababa
-BEX,New York
-NKC,Auckland
-CBV,New York
-KUA,Rome
-TEK,Paris
-CGP,Sydney
-PMF,Rome
-NFG,Seoul
-BOJ,Delhi
-BAP,Auckland
-BGZ,Tokyo
-SYM,Singapore
-KLV,Frankfurt
-ERG,Auckland
-YMU,Toronto
-EBO,Copenhagen
-MTS,Rome
-PZL,Addis Ababa
-BRS,Doha
-TMP,New York
-GMN,New York
-NSL,Sydney
-YJA,Amsterdam
-ULI,Johannesburg
-EMX,Madrid
-PSI,Doha
-BJC,Dubai
-JOS,Seoul
-KDM,Los Angeles
-APL,São Paulo
-AMA,Delhi
-VIV,Sydney
-HMN,Doha
-RNU,Seoul
-BMN,Los Angeles
-EUA,Toronto
-EOH,Dubai
-APN,Johannesburg
-RGA,London
-URE,Hong Kong
-ILU,New York
-LWA,Madrid
-PEF,Delhi
-LNM,Mexico City
-IXT,Johannesburg
-TTE,Hong Kong
-NEV,Paris
-FLZ,Copenhagen
-KMF,Sydney
-TSJ,Copenhagen
-GLK,São Paulo
-YOA,London
-LUZ,Seoul
-NAZ,São Paulo
-NKX,Madrid
-EGC,Los Angeles
-SLI,Addis Ababa
-ESF,Mexico City
-AMA,Sydney
-BDT,Tokyo
-SOK,New York
-PCM,Paris
-LRQ,Doha
-NDG,Hong Kong
-SSY,Johannesburg
-KRC,São Paulo
-AHY,London
-GOO,Dubai
-JHM,Delhi
-ESA,Seoul
-CIF,Hong Kong
+zipCode,country,address
+96,China,84 Bluejay Lane
+52,United States,2 Arrowood Lane
+53,Mongolia,2 Buell Road
+41,Russia,90 Moose Point
+9,Russia,6444 Summerview Point
+46,China,713 Pawling Terrace
+82,Netherlands,5 Walton Parkway
+56,Russia,286 Brickson Park Point
+82,Brazil,4 Butterfield Drive
+37,Philippines,662 Marcy Crossing
+39,Peru,174 Butterfield Hill
+65,United States,72420 Mallard Place
+72,Jamaica,2 Sundown Lane
+35,Philippines,21 Manley Plaza
+7,Uganda,816 West Pass
+34,France,920 Portage Way
+16,China,352 Crescent Oaks Street
+20,Philippines,5422 Maywood Alley
+48,Poland,65 Rutledge Street
+26,Ukraine,2 Scott Avenue
+14,Sweden,90 Forest Run Street
+65,Denmark,6 Park Meadow Center
+66,Indonesia,75 Eastlawn Lane
+25,Indonesia,21251 Miller Park
+56,Greece,467 Loomis Trail
+80,Indonesia,8 Meadow Vale Terrace
+57,Portugal,9883 Harbort Center
+60,Philippines,23 Nobel Junction
+8,China,3 Red Cloud Alley
+87,Japan,33 Cherokee Terrace
+43,Peru,20 Pennsylvania Place
+12,Brazil,3 Bunker Hill Drive
+81,Norway,7 Fieldstone Street
+67,Indonesia,5 Graceland Junction
+49,Iran,99024 Lighthouse Bay Plaza
+5,China,09831 Calypso Point
+55,Sweden,06235 Derek Way
+58,China,5 Summer Ridge Road
+44,Greece,9727 Donald Junction
+3,Estonia,03 Parkside Drive
+72,Ukraine,9308 Kinsman Lane
+88,France,04 Manley Hill
+64,Indonesia,94194 Kensington Court
+40,Japan,0 Center Crossing
+99,Poland,708 Village Green Park
+42,Brazil,40657 Michigan Alley
+3,Nigeria,11 Ruskin Alley
+9,Indonesia,13 Park Meadow Point
+75,Paraguay,76 Sheridan Court
+47,Philippines,0086 Weeping Birch Place
+96,China,306 Rieder Place
+16,China,83 Dahle Court
+90,Japan,222 Almo Circle
+11,China,9350 Swallow Drive
+63,Greece,3200 Fisk Crossing
+70,Falkland Islands,3 Schlimgen Park
+41,United States,559 Ridge Oak Avenue
+87,Japan,95 Holmberg Court
+91,Poland,8030 Mallory Parkway
+52,Malawi,78 Nova Hill
+85,Poland,126 Cherokee Park
+62,Indonesia,1940 Pankratz Way
+52,Czech Republic,3969 Crownhardt Park
+14,Russia,15 Monterey Street
+49,Indonesia,4 Fieldstone Center
+63,Chile,59166 Butternut Alley
+41,Trinidad and Tobago,01 Brickson Park Plaza
+40,Costa Rica,59361 Westridge Avenue
+62,South Africa,3931 Bay Alley
+2,Brazil,0751 Sheridan Avenue
+99,China,7848 Longview Trail
+66,Japan,748 Hayes Court
+49,Czech Republic,9355 Maple Point
+93,Philippines,35 Burning Wood Lane
+68,Armenia,723 Melvin Crossing
+57,Lithuania,3177 Parkside Trail
+98,Portugal,2 Loomis Park
+30,Russia,314 Judy Drive
+61,China,9 Graedel Park
+57,China,4807 Rigney Park
+16,Croatia,78659 Shelley Drive
+18,Poland,578 Tomscot Trail
+94,China,0 Sunfield Drive
+67,Argentina,0 Bultman Circle
+33,Czech Republic,5 Mayer Crossing
+45,Zambia,5416 Troy Point
+97,Armenia,395 Express Street
+23,Portugal,0 Arkansas Parkway
+49,Thailand,86748 6th Plaza
+74,Poland,83 Shasta Point
+21,China,0054 Elgar Hill
+97,Indonesia,58103 Brown Parkway
+95,Japan,081 Twin Pines Circle
+61,Indonesia,2498 Crownhardt Alley
+47,Russia,6 Rowland Trail
+67,United States,901 Meadow Vale Court
+66,Indonesia,586 Merrick Street
+14,Palestinian Territory,39 Ridge Oak Plaza
+42,Indonesia,279 Corben Avenue
+43,Indonesia,98016 Ryan Street
+34,Indonesia,2 David Trail
+9,Indonesia,72 Upham Avenue
+31,China,020 Sunfield Way
+43,Germany,7 Novick Plaza
+60,Palestinian Territory,00590 Grayhawk Plaza
+43,Indonesia,13 Glacier Hill Park
+6,China,4607 Myrtle Drive
+14,Ukraine,3997 Arapahoe Pass
+11,China,137 Dorton Lane
+29,Honduras,20936 Oak Valley Lane
+80,Sweden,97 Ohio Court
+89,China,16 Union Way
+1,Finland,53935 Springview Trail
+90,China,2 Red Cloud Avenue
+23,China,099 Kingsford Trail
+71,Philippines,481 Lien Park
+15,China,8 Valley Edge Alley
+71,Indonesia,68 Sage Place
+60,Philippines,05 Clemons Pass
+20,Indonesia,8 Park Meadow Avenue
+73,Indonesia,5 Dwight Street
+78,Serbia,6 Caliangt Lane
+6,China,73 Harper Avenue
+71,Portugal,302 Hansons Alley
+88,Portugal,4 Reindahl Point
+57,Belarus,1371 Moulton Terrace
+82,Indonesia,98 Hazelcrest Parkway
+23,Canada,634 Coolidge Hill
+90,Vietnam,3 Little Fleur Court
+6,Indonesia,35 Esch Terrace
+98,China,3620 Montana Center
+2,Iraq,7480 Pine View Junction
+90,China,475 Shasta Pass
+96,Russia,86749 Thierer Circle
+47,Philippines,1 Darwin Pass
+66,China,6 Hanover Terrace
+63,Mexico,72295 Bluejay Court
+70,Greece,9658 Lakeland Road
+86,Russia,93 Debs Trail
+85,Indonesia,5393 Norway Maple Parkway
+47,Sweden,92 Clyde Gallagher Circle
+19,China,78597 Vermont Crossing
+28,Russia,078 Laurel Pass
+78,Nigeria,088 Karstens Parkway
+47,China,13153 Crescent Oaks Place
+50,Dominica,3474 Loomis Park
+50,Afghanistan,26439 Anniversary Point
+2,Russia,21 Brickson Park Street
+1,Argentina,66550 Brentwood Lane
+6,Azerbaijan,7583 Mccormick Place
+41,Algeria,8174 Brown Point
+18,New Zealand,7 Victoria Parkway
+61,Indonesia,84 Stephen Park
+44,Brazil,956 Eastlawn Drive
+45,China,8432 American Point
+11,Malaysia,347 Pleasure Drive
+65,China,773 Mifflin Trail
+52,China,0 Miller Lane
+69,Poland,8161 Messerschmidt Park
+70,Indonesia,493 Bunting Terrace
+7,Indonesia,2 Mccormick Hill
+25,Indonesia,01317 Sachs Place
+97,China,6 Swallow Hill
+64,Indonesia,066 Evergreen Court
+62,Philippines,443 Commercial Avenue
+77,Philippines,2 Shasta Junction
+76,Vietnam,619 Spenser Park
+56,China,873 School Terrace
+6,China,3882 Morrow Street
+29,Russia,86 Clyde Gallagher Lane
+55,Peru,734 Del Sol Avenue
+61,South Korea,70 Northridge Court
+34,Philippines,0182 Stuart Alley
+13,Poland,8 Elka Junction
+82,Guatemala,42 Marcy Circle
+94,Luxembourg,88286 Elmside Park
+26,China,99765 Texas Center
+65,Russia,14461 Maryland Street
+25,Brazil,8659 Parkside Point
+11,Ivory Coast,72797 Bartillon Terrace
+13,China,4 Weeping Birch Junction
+30,Thailand,8548 Bayside Lane
+41,China,3 Eliot Pass
+47,Mexico,44427 Merrick Trail
+16,Indonesia,29 Loftsgordon Junction
+48,China,211 Cascade Court
+85,China,5753 Prentice Road
+9,Peru,20 Esch Way
+99,Portugal,4098 Menomonie Way
+81,China,31873 Superior Junction
+64,China,25388 Hanson Plaza
+68,Bulgaria,80 Comanche Terrace
+31,Latvia,6361 Becker Crossing
+86,China,13 Acker Way
+6,China,218 Dunning Road
+17,China,7794 Forest Dale Plaza
+75,China,0 Jay Alley
+75,Sweden,862 Emmet Way
+71,Indonesia,27068 Emmet Street
+5,Chile,95552 Maywood Park
+43,China,3456 Steensland Point
+76,Palestinian Territory,78 Moulton Plaza
+87,Indonesia,572 Ridgeview Terrace
+64,Indonesia,432 Rutledge Street
+71,Netherlands,9 Tennyson Park
+79,Belarus,4 Talisman Park
+29,China,400 Donald Place
+84,Russia,11388 Helena Alley
+14,Germany,110 Debs Parkway
+69,Russia,4173 Becker Point
+49,China,64 Green Center
+34,Ireland,45851 Lawn Park
+31,Mexico,15431 Holy Cross Terrace
+32,Mexico,816 Oak Valley Court
+57,South Africa,237 Katie Parkway
+34,United States,694 Commercial Drive
+85,Egypt,86 Coleman Road
+45,Finland,776 Johnson Alley
+63,Honduras,43475 Sherman Circle
+62,Peru,23 Shelley Crossing
+61,China,3 Roth Avenue
+36,China,71603 Melby Park
+67,Syria,2 Dunning Parkway
+54,Peru,77 Prairie Rose Center
+66,Czech Republic,1232 Hayes Street
+22,Indonesia,260 Grasskamp Circle
+90,Portugal,7790 Welch Way
+78,Philippines,2 Oneill Street
+95,Japan,53376 Holy Cross Street
+96,Czech Republic,3985 Nevada Road
+18,Vietnam,3872 Kinsman Center
+18,Russia,034 Arapahoe Crossing
+83,Peru,5232 Bayside Pass
+79,China,19 Toban Hill
+31,Philippines,50 Harbort Avenue
+23,Indonesia,1469 Beilfuss Trail
+21,India,6498 Canary Pass
+17,Peru,3752 Jackson Pass
+65,China,6 Columbus Trail
+42,Indonesia,4 Melrose Center
+71,Sweden,181 Alpine Place
+71,Russia,40929 Bowman Court
+39,Poland,82 Claremont Crossing
+61,Sweden,3714 Forest Dale Terrace
+16,Thailand,9 Lakewood Trail
+42,Russia,57764 Kinsman Lane
+30,Slovenia,28 Colorado Point
+65,China,5 Dunning Circle
+9,Philippines,61 Kensington Circle
+55,Canada,0 Eggendart Avenue
+93,Philippines,87 Orin Plaza
+76,China,87 Oak Valley Avenue
+93,Portugal,985 Oak Center
+98,France,81 Anzinger Court
+4,Pakistan,76 Kennedy Hill
+95,Japan,5 Spenser Way
+49,Greece,710 Talmadge Drive
+71,Russia,2 Nobel Pass
+40,China,407 Scoville Lane
+99,China,4 Weeping Birch Alley
+84,United States,408 Village Center
+58,Indonesia,9 Donald Lane
+98,Brazil,0 Boyd Hill
+46,Iran,15 Mallory Way
+81,Macedonia,1071 Fair Oaks Park
+78,Lithuania,200 Montana Avenue
+84,France,04537 Fairfield Terrace
+64,China,51 Walton Terrace
+42,Thailand,0 Marquette Road
+27,Sweden,176 Division Hill
+3,Indonesia,4514 Kensington Crossing
+73,Russia,4803 Brentwood Lane
+55,Russia,291 Rieder Junction
+70,China,9 Basil Pass
+51,Russia,11 Haas Street
+91,China,62553 Kensington Plaza
+65,United States,6 Sutteridge Way
+65,Russia,52677 Westport Way
+53,Portugal,955 Kinsman Terrace
+55,Brazil,8 Cottonwood Alley
+80,China,776 Barby Road
+50,Kazakhstan,9631 Eastlawn Trail
+24,China,49032 Barnett Trail
+26,Gambia,23 Westend Center
+7,Thailand,31170 Washington Lane
+43,Russia,24 Ruskin Court
+48,Colombia,3 Sauthoff Parkway
+15,China,0929 Talmadge Alley
+36,Greece,3 Nova Park
+66,Indonesia,63 Forest Drive
+59,China,36 Longview Place
+99,Argentina,425 Vidon Terrace
+85,Moldova,86 Fair Oaks Plaza
+87,China,5239 Westport Junction
+58,Czech Republic,72674 Merchant Terrace
+12,Malaysia,01 Thompson Street
+42,Indonesia,153 Annamark Lane
+79,Philippines,6134 5th Trail
+28,Ukraine,65845 Ludington Parkway
+69,Portugal,22 Buell Way
+62,Jordan,2 Holy Cross Junction
+76,Indonesia,76749 Crowley Court
+47,Philippines,057 Eastlawn Court
+43,Colombia,27945 Scoville Pass
+27,China,6474 Dennis Circle
+4,Malaysia,49206 Bartillon Avenue
+17,Mexico,97948 Hagan Drive
+82,Ukraine,0 Meadow Valley Point
+39,Macedonia,288 Del Mar Circle
+37,Indonesia,514 Green Ridge Trail
+19,China,686 Hollow Ridge Parkway
+76,Czech Republic,98518 Hollow Ridge Alley
+4,Philippines,4 Melby Park
+69,Czech Republic,73 Westridge Crossing
+47,Poland,6 Knutson Center
+13,Indonesia,7 Stang Junction
+2,Philippines,2 Hooker Place
+38,Mongolia,8991 Cardinal Street
+18,Indonesia,9911 Novick Avenue
+86,Israel,6 Lighthouse Bay Crossing
+68,Peru,50352 Algoma Place
+100,United States,79 Derek Trail
+5,Sweden,987 Warner Pass
+50,Indonesia,7 Colorado Court
+37,China,20 Gulseth Junction
+46,Philippines,5427 Sloan Avenue
+95,Sweden,6577 Vernon Hill
+4,Philippines,35557 Fordem Avenue
+21,Nepal,2 Maple Wood Alley
+55,South Korea,03 Pennsylvania Point
+92,Indonesia,70 Bashford Drive
+57,Indonesia,4 Acker Road
+97,Philippines,29 Hintze Avenue
+75,Czech Republic,08 High Crossing Court
+40,China,9586 Fuller Center
+34,China,612 Anzinger Parkway
+31,Ecuador,072 Darwin Crossing
+67,Peru,22 Farragut Plaza
+49,Ukraine,009 Ryan Avenue
+81,France,3039 Summer Ridge Street
+65,Bulgaria,60373 Northview Trail
+9,China,5 Colorado Plaza
+6,Greece,3 Summit Parkway
+31,Thailand,16065 North Trail
+24,Sweden,13351 Melrose Terrace
+4,China,28188 Luster Alley
+50,China,65361 Manley Parkway
+77,France,4034 Daystar Trail
+41,Vietnam,12 Blackbird Alley
+70,Brazil,88945 Dayton Street
+21,Macedonia,62758 Hallows Pass
+86,China,2591 Wayridge Parkway
+27,Mexico,1 Gateway Plaza
+17,Botswana,592 Hanson Street
+2,Peru,3 7th Crossing
+51,Poland,457 Goodland Street
+49,China,9 Cherokee Place
+33,Saint Kitts and Nevis,315 Algoma Road
+2,Peru,1423 Park Meadow Avenue
+45,Czech Republic,9224 Paget Lane
+97,Peru,1064 Northfield Lane
+39,Indonesia,6705 Arrowood Point
+41,Belarus,30822 Hudson Place
+37,Indonesia,65 Amoth Lane
+45,Portugal,37117 Cambridge Plaza
+46,Argentina,5620 Monica Road
+57,China,0727 Hagan Terrace
+12,Lebanon,602 Porter Parkway
+59,Colombia,10535 Jay Circle
+49,Luxembourg,10 Spohn Place
+54,China,29 Cherokee Point
+1,Saudi Arabia,67 Coleman Drive
+94,Philippines,2 5th Alley
+59,Ireland,4593 Maywood Center
+43,Uzbekistan,2 Dorton Road
+51,Slovenia,62895 Little Fleur Center
+66,China,2 Sundown Road
+81,Indonesia,25 Northland Parkway
+58,Indonesia,73062 Hagan Crossing
+95,Indonesia,90125 Eastlawn Park
+18,Philippines,330 Laurel Junction
+55,France,6680 Vidon Trail
+33,Poland,57 Buell Way
+16,Egypt,6 Ohio Court
+12,South Africa,59710 Briar Crest Crossing
+19,United States,5 Buell Street
+79,Indonesia,149 Tomscot Plaza
+95,Nicaragua,37838 Killdeer Lane
+17,Jamaica,7 Rutledge Pass
+94,China,3021 Everett Plaza
+32,Afghanistan,2 Crownhardt Hill
+25,Russia,61942 Fairview Pass
+52,France,8510 Dryden Pass
+32,China,95187 Springs Center
+91,Czech Republic,27663 Birchwood Parkway
+89,Portugal,01 Tennyson Park
+55,Cuba,64798 Anhalt Pass
+37,Indonesia,3 Cascade Circle
+55,Portugal,694 Red Cloud Junction
+54,China,833 Randy Hill

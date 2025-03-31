@@ -1,1001 +1,401 @@
-hotelID,hotelName,totalRooms
-1,SUPRAX,95
-2,Zaleplon,25
-3,RHODOTORULA RUBRA,48
-4,Diethylpropion HydrochlorideER,18
-5,Ciprofloxacin,53
-6,Kuvan,26
-7,No7 Protect and Perfect Day Sunscreen Broad Spectrum SPF 15,26
-8,Aranelle,17
-9,White Potato,12
-10,Morphine Sulfate,48
-11,Bengay Arthritis Pain Relieving,53
-12,Otrexup,27
-13,Ziprasidone hydrochloride,71
-14,Red Cedar,61
-15,Ramipril,2
-16,NERVE TONIC,64
-17,Desoximetasone,31
-18,Stomach Relief,46
-19,Camilia,41
-20,Fluoxetine,4
-21,Cortizone 10 Plus,53
-22,mirtazapine,51
-23,Goose Feathers,80
-24,Alka-Seltzer Heartburn Plus Gas ReliefChews Tropical Punch,78
-25,Glipizide XL,66
-26,Ladys Choice Invisible Solid,49
-27,L OCCITANE IMMORTELLE BRIGHTENING SHIELD SPF 40 SUNSCREEN,79
-28,OXY Daily Defense Advanced Facial Cleanser,73
-29,WhiskCare 387,92
-30,Diazepam,92
-31,Quinapril,15
-32,Crest Cavity Protection,42
-33,Ranitidine,52
-34,Ringing in Ears,80
-35,4 in 1 Pressed Mineral SPF 15 Tan,24
-36,Oxybutynin Chloride,98
-37,ZOSTAVAX,39
-38,Saline Laxative,87
-39,ACETAMINOPHEN and CODEINE,35
-40,SHISEIDO ADVANCED HYDRO-LIQUID COMPACT (REFILL),62
-41,Potassium Chloride,31
-42,GPS Topical Anesthetic,65
-43,Miconazole 1,11
-44,"Pollens - Trees, Tree of Heaven Ailanthus altissima",66
-45,ANTIBACTERIAL FOAMING,10
-46,Testosterone,29
-47,GUNA-IGF,16
-48,Ceftriaxone,96
-49,Rizatriptan Benzoate,26
-50,Extra Strength Pain Reliever,100
-51,Injury Topical,62
-52,Treatment Set TS333400,27
-53,CY BETTER LIPS BALM Humectante para Labios con color FPS 18,90
-54,"Pollens - Weeds, Dock/Sorrel Mix",43
-55,Rough Pigweed,25
-56,arthritis pain relief,60
-57,Lovastatin,89
-58,Duck Feather,10
-59,ALLERGY RELIEF 4 KIDS,90
-60,Governing Vessel Conception Vessel,43
-61,LAClotion,25
-62,losartan potassium,63
-63,"Carbidopa, levodopa and entacapone",16
-64,Junior Pain Relief,88
-65,BD E-Z Scrub,3
-66,First Aid Antibiotic Pain Relief,55
-67,Sodium Chloride,77
-68,Lipo-Chord,95
-69,Soft Care Antiseptic Skin Cleanser II,6
-70,Flecainide Acetate,59
-71,TopCare Daytime Severe Cold and Cough,27
-72,Tangerine,25
-73,Cardene I.V.,45
-74,Cetirizine Hydrochloride,23
-75,Witch Hazel,45
-76,Good Neighbor Pharmacy Sore Throat,89
-77,DOPamine Hydrochloride,25
-78,Mirtazapine,57
-79,Moisture Renew,15
-80,Go Smile,87
-81,Methocarbamol,32
-82,bethanechol chloride,47
-83,formula em,21
-84,Alka Seltzer,29
-85,MINERALIZE FOUNDATION,100
-86,Tretinoin Gel Microsphere,4
-87,Isosulfan Blue,19
-88,Lidocaine Hydrochloride,27
-89,TOPROL,57
-90,Alcohol Prep Pad,43
-91,Lipitor,61
-92,Fresh Prep Laxative,59
-93,Edema,63
-94,Hackberry,56
-95,Ban,66
-96,Divalproex Sodium,12
-97,ESSENTIAL SOLUTION HONEY MASK SHEET,54
-98,Vanilla Sunscreen Lip Moisturizer,31
-99,MANGO BUTTER LIPSTICK,7
-100,SENSAI,75
-101,Pinceladas Para Hongos Navarro,4
-102,Saltbush,33
-103,Hard Maple Pollen,25
-104,Pure Transformation Sheer Fair,39
-105,Etodolac,52
-106,BC Arthritis,30
-107,Vancocin,93
-108,Lamotrigine,68
-109,Dasetta 7/7/7,37
-110,LANOXIN,90
-111,Glyburide,73
-112,Losortan Potassium,51
-113,Dicyclomine Hydrochloride,17
-114,Risk Force,78
-115,ABILIFY,66
-116,fexo fenadine,93
-117,tussin dm,4
-118,Doxazosin,31
-119,Metoprolol Succinate,48
-120,DENBLAN,51
-121,RECOMBIVAX HB,53
-122,Dr. Scholls,46
-123,Aspirin 81 mg,22
-124,California Black Oak,39
-125,bareMinerals READY Touch Up Veil Broad Spectrum SPF 15,58
-126,Folic Acid,97
-127,WHOO GONGJINHYANG SEOL WHITENING JINAEK PROGRAM KIT,73
-128,Phentermine Hydrochloride,93
-129,ACPURIS,38
-130,Prednisolone Sodium Phosphate,12
-131,Dioscorea batata 16 Special Order,19
-132,Beefwood/Australian Pine,75
-133,GUNA-TF PAPILLOMA,43
-134,Topcare Allergy,25
-135,Fenofibrate,70
-136,MINOXIDIL,75
-137,Reprexain,57
-138,Amitriptyline Hydrochloride,11
-139,Pegasys,10
-140,DIANEAL PD-2 with Dextrose,100
-141,AFEDITAB,32
-142,Dandruff,60
-143,Penicillin V Potassium,44
-144,ASPERGILLUS FUMIGATUS,60
-145,Oxygen,27
-146,Publix,65
-147,Solar Protection Formula TiZO SPF 35,56
-148,Perrigo Seb Prev,1
-149,Pleo Not,52
-150,Methocarbamol,32
-151,Tussin DM,56
-152,Premarin,91
-153,Dexamethasone,87
-154,Zonisamide,68
-155,ESIKA Extreme Moisturizing SPF 16,23
-156,Hibiclens,42
-157,ADVAIR,17
-158,Ray Defense,62
-159,Plasbumin,80
-160,Ondansetron Hydrochloride,56
-161,Neutrogena Healthy Defense Daily Moisturizer,54
-162,BLEPHAMIDE,12
-163,EXSEL SPORT,45
-164,Lorazepam,18
-165,CEFPODOXIME PROXETIL,15
-166,OXY Daily Moisturizer,61
-167,PENTOXIFYLLINE,27
-168,Viral Plus,63
-169,LBEL,10
-170,Proderm,78
-171,Escitalopram,30
-172,Halls,23
-173,Therapeutic Relief,88
-174,Acid Reducer 150,68
-175,Cedar Elm,4
-176,OBAGI-C RX SYSTEM SUN SHIELD BROAD SPECTRUM SPF 50,35
-177,Alternaria,64
-178,Extra Strength Headache Relief,68
-179,Isosorbide,64
-180,Oxymorphone Hydrochloride,69
-181,Prialt,14
-182,Risperidone,1
-183,Senna S Stool Softener with Laxative,36
-184,Brewers Yeast,51
-185,Dermasil,76
-186,Propranolol Hydrochloride,17
-187,Eight Hour Cream Lip Protectant Sheer Tint SPF 15 Melon,10
-188,Pleo Usti,7
-189,Gentle Relief Senna Laxative,57
-190,Ziprasidone Hydrochloride,5
-191,Carvedilol,70
-192,Hydrochlorothiazide,11
-193,MK Alcohol Prep Pads Medium,56
-194,Morning Sickness Relief,19
-195,DELFLEX,7
-196,LIDODERM,6
-197,Sunmark Loratadine ODT,65
-198,CENTER-AL - POA ANNUA POLLEN,57
-199,SAPHRIS,10
-200,Ibuprofen,30
-201,Ramipril,73
-202,Ondansetron,97
-203,ADVAIR,67
-204,Ampicillin and Sulbactam,8
-205,Aconitum e tub. 6,54
-206,Clearasil Ultra,3
-207,Maybelline New York Fit Me,78
-208,Tolazamide,69
-209,WHOO GONGJINHYANG SEOL WHITENING JINAEK PROGRAM KIT,50
-210,Clorazepate Dipotassium,47
-211,DIGOX,45
-212,Degree,55
-213,Ondansetron Hydrochloride,91
-214,Perfect Sleep,76
-215,Platinum Cichorium,51
-216,Aurum 5,73
-217,Glipizide and Metformin Hydrochloride,71
-218,pravastatin sodium,50
-219,Hand Kleen Foaming Antibacterial Hand,14
-220,Medi First Plus Sinus Pain and Pressure,59
-221,Torsemide,68
-222,PEACH SAKE PORE BB,51
-223,Red Cedar,73
-224,Sorbet APF,74
-225,Labetalol hydrochloride,78
-226,Ketorolac Tromethamine,27
-227,Berry Scented Hand Sanitizer,19
-228,RHIZOPUS ARRHIZUS VAR ARRHIZUS,65
-229,CLAM,39
-230,No7 Dual Action Tinted Moisturiser Fair,25
-231,Valsartan and Hydrochlorothiazide,31
-232,HISTEX-DM,45
-233,Jasmine Eco Mist,41
-234,Cardizem,29
-235,CURVULARIA SPICIFERA,59
-236,lisinopril,65
-237,Ethereal Rose,32
-238,SUPRANE,10
-239,SKIN CAVIAR CONCEALER FOUNDATION SUNSCREEN SPF 15 - Creme Blush,94
-240,Paroxetine,10
-241,Tussin Cough,81
-242,SunScreen SPF30,83
-243,MAC PRO LONGWEAR SPF 20 COMPACT FOUNDATION BROAD SPECTRUM SPF 20,48
-244,fluocinonide,30
-245,ESZOPICLONE,7
-246,Stool Softener,59
-247,Pepcid,93
-248,Glimepiride,92
-249,Premier Value Famotidine,63
-250,Bald Cypress,20
-251,CellCept,51
-252,pravastatin sodium,45
-253,pain relief pm,48
-254,FLAWLESS FINISH FOUNDATION,78
-255,Shortleaf Pine Pollen,78
-256,Ranitidine 75,18
-257,SKELAXIN,50
-258,TOPIRAMATE,1
-259,Health Mart nicotine polacrilex,82
-260,welby health acetaminophen,53
-261,St. Ives Blemish and Blackhead Facial,81
-262,Dr Young 2p Brightening UV Sun Block SPF50 PA,34
-263,LBEL NATURAL FINISH MOISTURIZING FOUNDATION SPF 25,62
-264,Childrens Pain Relief,77
-265,CVS Pharmacy,55
-266,Retin-A MICRO,89
-267,Risperidone,77
-268,Goats Milk,89
-269,Lidocaine Hydrochloride,64
-270,Doxycycline Hyclate,73
-271,Atovaquone and Proguanil Hydrochloride,37
-272,Hydrochlorothiazide,25
-273,Pleo Rec,77
-274,Multi-Specialty Kit,39
-275,Vancomycin Hydrochloride,31
-276,CitraNatal DHA,1
-277,Tasmar,95
-278,Lisinopril and Hydrochlorothiazide,21
-279,Duet DHA,24
-280,Amlodipine and Benazepril Hydrochloride,10
-281,Dulcolax,26
-282,Nortriptyline Hydrochloride,35
-283,risedronate sodium,40
-284,Doxazosin,33
-285,Quinapril Hydrochloride and Hydrochlorothiazide,35
-286,Ocean Potion Quick Dry 30 Sunscreen,5
-287,Glipizide,92
-288,Naloxone Hydrochloride,19
-289,TopCare Medicated,98
-290,Perphenazine,89
-291,Quality Choice Maximum Strength Triple Antibiotic,93
-292,Allopurinol,35
-293,Medline Alcohol Prep,35
-294,Fosinopril sodium,29
-295,"Pollens - Trees, Tree Mix 11",70
-296,VITALUMIERE AQUA,91
-297,Prednisone,100
-298,03 Moisture Foundation SPF 15,87
-299,naproxen sodium,23
-300,SAFEWAY CARE,94
-301,Dial Tropical Escape Antibacterial Body Wash,36
-302,CLARINS Skin Illusion SPF 10 Natural Radiance Foundation Tint 116.5,73
-303,Aloe Vesta Clear Antifungal,15
-304,Baclofen,99
-305,Trichoderma harzianam,62
-306,CPDA-1,4
-307,Proactiv Solution Daily Protection Plus Sunscreen,72
-308,sunmark arthritis pain relief,74
-309,Midwest Regional Allergies,85
-310,Atenolol,10
-311,IHS 2000 INSTANT HAND SANITIZER,80
-312,AZITHROMYCIN,50
-313,ARTEMISIA TRIDENTATA POLLEN,93
-314,Methocarbamol,49
-315,YS Solution Ac control Skin Regular Mild,80
-316,SENSAI CELLULAR PERFORMANCE POWDER FOUNDATION,36
-317,Lisinopril,65
-318,Mouse Epithelium,27
-319,Minral Oil,86
-320,Prednisone,38
-321,Spatherapy,37
-322,Xartemis,79
-323,CAPTOPRIL,41
-324,Rocainol TOPICAL ANALGESIC,48
-325,Zap APF,100
-326,DIORSNOW WHITE REVEAL PURE TRANSPARENCY MAKEUP SPF 30 020 Light Beige,25
-327,anti diarrheal,91
-328,Acne Clear,24
-329,Instant Hand sanitizer,13
-330,BencoCaine Topical Anesthetic,49
-331,The New Parent First Aid,84
-332,Medline Alcohol Prep,68
-333,Carbidopa and Levodopa,2
-334,Mint,41
-335,Levetiracetam,82
-336,Lisinopril,44
-337,Acetylcysteine,33
-338,"Butalbital, Aspirin and Caffeine",80
-339,Flu-Cold,47
-340,Onfi,57
-341,Metoclopramide,57
-342,Hemoban,75
-343,PureLife APF,7
-344,Phentermine Hydrochloride,38
-345,Spironolactone,46
-346,CENTER-AL - POA PRATENSIS POLLEN,25
-347,SORE MUSCLE AND JOINT PAIN RELIEF,44
-348,White Hickory,36
-349,Molds - Mold Mix 4,88
-350,Cold-EEZE,39
-351,"Losartan potassium Tablets, 50 mg",20
-352,Muscle Rescue,7
-353,Hydrocodone Bitartrate and Acetaminophen Tablets,26
-354,DAYTIME NIGHTTIME COLD/FLU RELIEF,55
-355,"Animal Allergens, Guinea Pig Hair and Dander",32
-356,Morphine sulfate,17
-357,Cerebellum 4 Special Order,80
-358,all day relief,11
-359,PCXX ONE MINTE GEL RASPBERRY BLAST,19
-360,Vaseline,81
-361,Ibuprofen,68
-362,Alprazolam,42
-363,Hydroxyzine,88
-364,Citrus Hand Sanitizer,18
-365,Typhim Vi,78
-366,Propranolol Hydrochloride,32
-367,Instant Hand Sanitizer Citrus Scent,25
-368,Heparin Sodium,20
-369,nexafed,66
-370,HAMSOA YUYU PURE MILD FOAMING WASH,42
-371,MEDI-PAK,91
-372,GUNA-ALLERGY T,18
-373,First Aid Antiseptic,31
-374,Goats Milk,69
-375,New Lip Protector Sunscreen SPF15,22
-376,Gossipy,69
-377,Ludens Honey Licorice Throat Drops,64
-378,Colitis,81
-379,Fexofenadine HCl,4
-380,Clopidogrel,36
-381,Vibramycin Monohydrate,32
-382,Hair Scalp,52
-383,Fexofenadine Hydrochloride,80
-384,SOMAVERT,100
-385,BlancTis Essence,56
-386,Nor QD,97
-387,Omeprazole,82
-388,Amoxicillin,20
-389,Creamsicle Hand Sanitizer,21
-390,Sufentanil Citrate,44
-391,Fenofibrate,60
-392,Isradipine,76
-393,BETULA NIGRA POLLEN,46
-394,Navy Beans,11
-395,ZOLPIDEM TARTRATE,64
-396,Cubicin,10
-397,Bayer,77
-398,LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF 15,67
-399,MYNEPHROCAPS,93
-400,Black Birch,28
-401,Tea,37
-402,Allscale,7
-403,Asthma Symptom Relief,6
-404,Osteodoron PM Bone Support,2
-405,Glytone essentials rejuvenate daily,37
-406,Fanapt,25
-407,Olay Total Effects CC Tone Correcting,37
-408,Milk of Magnesia Mint,70
-409,DR. RECKEWEG R40 Diaglukon,8
-410,LOSARTAN POTASSIUM and HYDROCHLOROTHIAZIDE,20
-411,Plum Duo Emergency Eyewash,27
-412,Foaming Hand Sanitizer,38
-413,Trandolapril,8
-414,Dove,45
-415,TCX Skincare,16
-416,Dramamine for Kids,4
-417,Pristiq,36
-418,equate childrens cold and cough,98
-419,Eszopiclone,30
-420,RHIZOPUS ARRHIZUS VAR ARRHIZUS,61
-421,Citalopram,7
-422,Zetia,72
-423,Aconitum Homaccord,80
-424,Diltiazem Hydrochloride,2
-425,ONDANSETRON,23
-426,Imiquimod,53
-427,edarbi,22
-428,Zolpidem Tartrate,90
-429,Cold and Allergy PE,16
-430,Bupropion hydrochloride,39
-431,Triazolam,15
-432,Amcinonide,92
-433,Terazosin Hydrochloride,33
-434,FIRST AID Plus More Quick n Clean Antiseptic Hand Wipe,85
-435,Premier Value Cavity Protection Mint,55
-436,Fluoxetine,31
-437,Conchae Argentum,85
-438,Loratadine,85
-439,"Pollens - Trees, Hackberry Celtis occidentalis",62
-440,Famotidine,53
-441,Sochlor,10
-442,Zephrex-D,74
-443,Divalproex Sodium,32
-444,METOPROLOL SUCCINATE,19
-445,Cetirizine Hydrochloride,2
-446,Parsley,21
-447,Metformin Hydrochloride,95
-448,Bupropion hydrochloride,11
-449,Cefazolin,50
-450,Risperidone,43
-451,"Nicotine Polacrilex, Coated Mint Flavor",48
-452,Ciprofloxacin Hydrochloride,87
-453,Flawless Finish Bare Perfection Makeup SPF 8 Bisque,72
-454,Sweet Pea Waterless Anti-Antibateria Hand Sanitizer,38
-455,Clindamycin Hydrochloride,2
-456,Oxazepam,6
-457,poly bacitracin,20
-458,IASO Triple Protection BB SPF 30 PA,1
-459,Nitrous Oxide,47
-460,HYDROCODONE BITARTRATE AND ACETAMINOPHEN,74
-461,Low Back Pain,64
-462,FAMCICLOVIR,48
-463,PARURE DE LUMIERE LIGHT-DIFFUSING FOUNDATION WITH SUNSCREEN MOISTURE INFUSION BROAD SPECTRUM SPF 25 05 BEIGE FONCE,97
-464,Bio Centaury,33
-465,Equate Nicotine,34
-466,Paroxetine,11
-467,Acetaminophen,70
-468,Hydrochlorothiazide,40
-469,Onopordon comp.,3
-470,Berry Hand Sanitizer with vitamin E and aloe,21
-471,GOONGSECRET DAILY FACE SUN,69
-472,Cyclobenzaprine Hydrochloride,57
-473,Simvastatin,80
-474,English Walnut,74
-475,Leader,69
-476,Perfect Sleep,59
-477,"Dextroamphetamine Saccharate, Amphetamine Aspartate, Dextroamphetamine Sulfate and Amphetamine Sulfate",51
-478,Sevoflurane,7
-479,Luminous Pure Aura CC,53
-480,Gelato Topical Anesthetic,25
-481,Ceftibuten,55
-482,cefuroxime axetil,82
-483,Soybean,2
-484,Allerpoll HP,59
-485,OXYGEN,49
-486,Aspirin,40
-487,Propranolol Hydrochloride,68
-488,Lice Treatment,54
-489,ACULAR LS,66
-490,GEOTRICHUM CANDIDUM,99
-491,Alcohol Free Antiseptic,23
-492,Aplicare Povidone Iodine Swabstick,87
-493,Triadine Scrub,86
-494,Chenodal,64
-495,Xyzal,5
-496,Elta MD UV Clear,28
-497,Oxygen-Nitrogen Mixture,4
-498,DURAGESIC,6
-499,Medique Alcalak,63
-500,Nutropin AQ NuSpin 5,51
-501,Terazosin hydrochloride,1
-502,Diclofenac Sodium,40
-503,Phoma glomerata,31
-504,Alprazolam,11
-505,Inapsine,27
-506,Oxycodone Hydrochloride,45
-507,Kalium aceticum comp. 6,61
-508,Hot Flashes,10
-509,Hydrocodone Bitartrate And Acetaminophen,78
-510,ASPIRIN,36
-511,Hydrocortisone,3
-512,Marcaine,97
-513,Natural Sunscreen Tan,60
-514,Primidone,17
-515,AMOXICILLIN,61
-516,Topcare ClearLax,27
-517,LEUPROLIDE ACETATE,18
-518,LISINOPRIL,84
-519,LANOXIN,2
-520,NIVEA A Kiss of Smoothness Hydrating Lip Care,78
-521,Levothyroxine Sodium,81
-522,Ampicillin and Sulbactam,58
-523,Cefoxitin,64
-524,ADVANCED HYDRO-LIQUID COMPACT (REFILL),88
-525,Banana Boat Ultra Defense Sheer Protect SPF 50,58
-526,Ibuprofen,45
-527,Personal Care Antibacterial Hand,18
-528,citroma,42
-529,TIZANIDINE,65
-530,napoleon PERDIS FOUNDATION STICK BROAD SPECTRUM SPF 15 Look 1,66
-531,Escitalopram,3
-532,Pink Grapefruit,39
-533,Maximum Strength Medicated Foot Powder,78
-534,ACETAMINOPHEN,24
-535,Beauty Without Cruelty - Broad Spectrum SPF 17,98
-536,Kmart Corporation,90
-537,Cimetidine,87
-538,Carisoprodol,38
-539,Levetiracetam,95
-540,Ceramide Lift And Firm Makeup Broad Spectrum Sunscreen SPF 15 Warm Honey,51
-541,ARANESP,88
-542,Medline Saline Laxative For Children,66
-543,BestHealth Honey Lemon,62
-544,Treatment Set TS348560,1
-545,SparkleFresh,16
-546,NO-AD SPF 8 Tanning,22
-547,ShopRite Childrens Allergy,27
-548,First Aid Antibiotic Bacitraycin Plus,6
-549,Pepper Tree Pollen,100
-550,topcare loperamide hydrochloride,49
-551,"Pollens - Trees, Hickory, Shagbark Carya ovata",77
-552,Metoprolol Succinate,29
-553,VANCOMYCIN HYDROCHLORIDE,1
-554,Dicyclomine Hydrochloride,12
-555,Herring,53
-556,Hydrochlorothiazide,80
-557,RAGWITEK,65
-558,Acetaminophen,71
-559,CORYLUS AMERICANA POLLEN,42
-560,Torsemide,8
-561,PUR-WASH,33
-562,Lyrica,69
-563,Queen Palm,24
-564,foundcealer 2-in-1 foundation and concealer Broad Spectrum SPF 15 Sunscreen,81
-565,Wal-Phed PE,4
-566,Sterile Alcohol Prep Pad,25
-567,Candesartan Cilexetil,8
-568,Glimepiride,10
-569,Lamotrigine,28
-570,Econazole Nitrate,49
-571,LEVOFLOXACIN,86
-572,Bio Gentian,62
-573,Ergocalciferol,64
-574,Cold and Cough DM,100
-575,Colgate,46
-576,SOLIDAGO CANADENSIS POLLEN,93
-577,Promolaxin,63
-578,7 Select Allergy Relief,23
-579,Ativan,74
-580,ropinirole,38
-581,Egg White,75
-582,AIM,29
-583,Felodipine,9
-584,Desipramine Hydrochloride,65
-585,Edometriosis,29
-586,Zidovudine,73
-587,Dilaudid,69
-588,Oxygen,29
-589,Omeprazole,36
-590,LETROZOLE,77
-591,Scrub Care,10
-592,OXYGEN,60
-593,Etodolac,65
-594,Glimepiride,41
-595,Amoxicillin,28
-596,propranolol hydrochloride,51
-597,Hydrocodone Bitartrate And Acetaminophen,82
-598,Neomycin and Polymyxin B Sulfates and Hydrocortisone,34
-599,Pacific Garden,28
-600,Marathon Pain Relief,73
-601,Amlodipine besylate and Atorvastatin calcium,36
-602,Quetiapine fumarate,49
-603,COTTONTAILS,68
-604,Theraplex,75
-605,BeneFIX,26
-606,Loperamide Hydrochloride,69
-607,pain relief,34
-608,Dots Apple Cinnamon Anti-Bacterial Hand Sanitizer,82
-609,Eszopiclone,61
-610,Lovastatin,24
-611,Lisinopril and Hydrochlorothiazide,83
-612,Diltiazem Hydrochloride,46
-613,harmon face values night time relief,57
-614,Bacitracin,52
-615,Animal Antigens,77
-616,Muscular Pain Relief,21
-617,Zmax,76
-618,Metoprolol Tartrate,65
-619,OXYGEN,12
-620,CLARUS Antifungal,2
-621,Sodium Polystyrene Sulfonate,93
-622,pain and fever,98
-623,OXYCONTIN,98
-624,HYDROCHLOROTHIAZIDE,35
-625,Potassium Chloride,21
-626,Losartan Potassium,84
-627,MAC,65
-628,Glimepiride,29
-629,Smith and Johnson Antibacterial,7
-630,MUCOSA DM,24
-631,"Standardized Grass Pollen, Fescue, Meadow",64
-632,Sunmark Aspirin,92
-633,Nitrous Oxide,69
-634,ANNA LOTAN Rejuvenating Day Broad Spectrum SPF 34,10
-635,Bodycology,1
-636,Methylphenidate Hydrochloride,8
-637,Miconazole Nitrate,86
-638,wal flu,16
-639,Unithroid,62
-640,Insomnia,100
-641,ANTIBACTERIAL FOAMING,92
-642,Carbamazepine,47
-643,PULMICORT,37
-644,Orajel,4
-645,Escitalopram,80
-646,Marcaine,22
-647,COLAZAL,43
-648,Head and Shoulders,97
-649,Dibenzyline,42
-650,Pain Relief,65
-651,Cepacol,68
-652,Leader Adult Tussin,16
-653,Gout Symptom Formula,96
-654,COLLAGEN HD COVER BB,4
-655,Western Family,85
-656,"Sodium Sulfacetamide, Sulfur",27
-657,Hand Sanitizer,60
-658,Furosemide,53
-659,Sore Throat and Laryngitis,90
-660,BETHANECHOL CHLORIDE,66
-661,Soothe,33
-662,Bumetanide,41
-663,Idarubicin Hydrochloride,21
-664,Enoxaparin Sodium,16
-665,APROFEN,98
-666,PROCORT,63
-667,sunmark,41
-668,Degree,25
-669,Short Ragweed Pollen,29
-670,Lithium Carbonate,16
-671,CD DIORSKIN STAR Studio Makeup Spectacular Brightening with sunscreen Broad Spectrum SPF30 050,82
-672,Hydrocodone Bitartrate and Acetaminophen,9
-673,PEXEVA,91
-674,Antiseptic,99
-675,GO TIME,79
-676,PRED-G,26
-677,amoxicillin and clavulanate potassium,18
-678,Cisplatin,33
-679,antiperspirant deodorant,95
-680,Hemorrhoidal,87
-681,Mucus Relief DM Max,77
-682,CAREALL Lubricating Eye Drops,8
-683,Docusate Calcium,52
-684,Earwax Removal Kit,66
-685,Naproxen,73
-686,Topcare All Day Pain Relief,99
-687,Childrens mucus relief,99
-688,Stratuscare Antacid and Antigas Regular Strength,34
-689,"Dextroamphetamine Saccharate, Amphetamine Aspartate, Dextroamphetamine Sulfate and Amphetamine Sulfate",14
-690,Omeprazole,96
-691,Pain Relief,76
-692,Methylprednisolone,92
-693,Rhizopus oryzae,37
-694,Hydromorphone HCl,19
-695,Melaleuca Pollen,56
-696,PERFECTION LUMIERE,25
-697,3 CONCEPT EYES SLIM FIT PACT SOFT BEIGE,55
-698,English Walnut,24
-699,American Sycamore,27
-700,Urelle,71
-701,Cough with 100% Natural Honey 4 Kids,38
-702,Phentermine Hydrochloride,17
-703,Cyclobenzaprine Hydrochloride,28
-704,VITALUMIERE,16
-705,Sei Bella Age-Defying Liquid Foundation,5
-706,careone suphedrine 12 hour relief,36
-707,GABAPENTIN,46
-708,California Mugwort,3
-709,TINTED LIP CONDITIONER,52
-710,Business Elite Amenity,41
-711,TRIPLE ANTIBIOTIC,18
-712,FEMCON Fe,80
-713,Fosinopril Sodium,23
-714,Dextrose,4
-715,Losortan Potassium,10
-716,MEDIAN New Marine fluoride,81
-717,Dukal Sterile Alcohol Prep Pad,39
-718,DebMed Antimicrobial,34
-719,Amoxicillin and Clavulanate Potassium,41
-720,Bentasil,13
-721,COUMADIN,30
-722,Loperamide Hydrochloride,41
-723,TheraDerm Pain Relieving Patch,45
-724,Hamster Epithelium,83
-725,Voriconazole,35
-726,Oxygen,62
-727,Carisoprodol,18
-728,NUCYNTA,65
-729,Quelicin,92
-730,Flores Formica,82
-731,No7 Protect and Perfect Day Cream SPF 15,61
-732,exchange select naproxen sodium,60
-733,Lumizyme,44
-734,La Roche-Posay Laboratoire Dermatologique Anthelios 60,80
-735,Wal-dryl,32
-736,Atropine Sulfate,30
-737,"Animal Allergens, Guinea Pig Hair and Dander",57
-738,Alcohol,27
-739,LIDOCAINE HYDROCHLORIDE,98
-740,HYDREA,53
-741,Up and Up nicotine,21
-742,Neutrogena MoistureShine Lip Soother,67
-743,BestHealth Cherry,14
-744,Quartz 60 Special Order,81
-745,Ultram ER,77
-746,Fosinopril Sodium,90
-747,Cefprozil,32
-748,Spironolactone,42
-749,Rapamune,63
-750,Nitrofurantoin (macrocrystals),67
-751,Glimepiride,47
-752,Permethrin,56
-753,PROVON Antibacterial Foam Handwash,99
-754,BETAMETHASONE VALERATE,9
-755,Thrombate III,38
-756,ck one 3-in-1 face makeup,54
-757,Paroxetine,18
-758,Clearskin,57
-759,Anti-Diarrheal,86
-760,Anti-Diarrheal,94
-761,BANANA BOAT,90
-762,Spironolactone,22
-763,Walgreens Anticavity and Antigingivitis Whitening,100
-764,"Dextroamphetamine saccharate, amphetamine aspartate, dextroamphetamine sulfate, and amphetamine sulfate",15
-765,60-Second Fluoride,46
-766,Upper Respiratory Staph Step Combination,98
-767,RISPERDAL,73
-768,equate childrens acetaminophen,30
-769,Ibuprofen,74
-770,Neutrogena Body Clear,13
-771,Lachesis Mutus Kit Refill,35
-772,Allergena,91
-773,ORENCIA,64
-774,Propranolol Hydrochloride and Hydrochlorothiazide,11
-775,Terconazole,12
-776,Western Family Sport Sunscreen,22
-777,Nisoldipine,63
-778,Mupirocin,4
-779,Doxycycline,46
-780,Diazepam,30
-781,SkinCeuticals Sheer Physical UV Defense Broad Spectrum SPF 50 Sunscreen,89
-782,Haloperidol,35
-783,Fluconazole,60
-784,mesna,20
-785,Warfarin Sodium,84
-786,Oxycodone Hydrochloride,93
-787,Labetalol Hydrochloride,66
-788,Clinical Emergency Zit Stick,87
-789,Dr. Jart Smart BB 02,2
-790,Quetiapine Fumarate,30
-791,Flu Care,42
-792,Arthri-Zen Relief,19
-793,gas relief,97
-794,OFFBite and Itch Rel,53
-795,Unithroid,11
-796,Oxycodone and Acetaminophen,95
-797,ARTEMIS Alcohol-Free Antiseptic Foam Hand Sanitizer,45
-798,RX Act Tussin,23
-799,SIMVASTATIN,85
-800,Mannitol,40
-801,Desloratadine,59
-802,Luxury Cell Performance Eye,62
-803,AHC Hydration Special Gen Serum,66
-804,Tamsulosin Hydrochloride,63
-805,Treatment Set TS349576,68
-806,Additive and Preservative Detox,5
-807,Iodine Bush,64
-808,Susan Lucci Youthful Essence,53
-809,montelukast sodium,45
-810,OCUMEND,8
-811,Azithromycin,34
-812,Montelukast Sodium,37
-813,BENZOCAINE and RESORCINOL,95
-814,Atovaquone and Proguanil Hydrochloride,73
-815,Olanzapine,68
-816,Ibuprofen,3
-817,Cymbalta,31
-818,Citroma,56
-819,Natural Vegetable Laxative,31
-820,Good Neighbor Pharmacy Acid Control 150,49
-821,Fungoid-D,82
-822,AZITHROMYCIN,18
-823,Metoprolol Tartrate,11
-824,Bupivacaine Hydrochloride,86
-825,Severe Oral Pain Reliever,28
-826,ibuprofen,75
-827,Infants Gas Relief,30
-828,Oxaliplatin,58
-829,BENZTROPINE MESYLATE,89
-830,Kuvan,12
-831,Metformin Hydrochloride,79
-832,Ranitidine Hydrochloride,48
-833,Ambien CR,72
-834,Divalproex Sodium Extended-Release,17
-835,Povidone-Iodine,66
-836,Diclofenac Sodium,65
-837,Hydrochlorothiazide,12
-838,Intervene Makeup SPF 15 Soft Shell,35
-839,Homeopathic Thyroid Formula,81
-840,Heart Ache,2
-841,Leader,43
-842,Sulfamethoxazole and Trimethoprim,91
-843,Liquid Oxygen,1
-844,Clonazepam,33
-845,Good Neighbor Pharmacy,96
-846,Alprazolam,81
-847,Indomethacin,41
-848,Cefoxitin,37
-849,Doxycycline,18
-850,Lyrica,20
-851,Oxybutynin Chloride,43
-852,CD DIORSKIN STAR Studio Makeup Spectacular Brightening with sunscreen Broad Spectrum SPF30 040,5
-853,Sinus and Cold D,82
-854,California Valley White Oak,54
-855,Enteric Aspirin,25
-856,Peter Island Ultimate Sheer Dry Touch Sunscreen,32
-857,Argentum Nitricum Kit Refill,74
-858,Sabal Populus,58
-859,FLULAVAL,17
-860,Poison Ivy,100
-861,TARCEVA,36
-862,Dandruff,49
-863,BOTANICAL VANILLA MAKEUP BASE,86
-864,FocalinXR,83
-865,Naproxen,71
-866,ZOLPIDEM TARTRATE,54
-867,Alcohol Prep Pad,63
-868,Ciprofloxacin,81
-869,La Roche Posay Laboratoire Dermatologique Pigmentclar Daily Dark Spot Correcting Moisturizer Broad Spectrum SPF 30 Sunscreen,46
-870,topiramate,62
-871,Escitalopram,7
-872,MORPHINE SULFATE,17
-873,go wipes,88
-874,Adenoscan,56
-875,Ibuprofen,98
-876,Live Better,96
-877,Asacol,10
-878,Aspirin,37
-879,Metoprolol Tartrate,2
-880,InstantFOAM alcohol hand sanitizer,20
-881,Escitalopram,68
-882,Excedrin,61
-883,Dental Plak,83
-884,OAT,21
-885,Sore Throat,47
-886,Imipramine Hydrochloride,41
-887,KOCHIA SCOPARIA POLLEN,61
-888,Comfort-Time,23
-889,Zep Commercial Antibacterial Pear,81
-890,ZITHROMAX,61
-891,Gabapentin,49
-892,Psoriasis,43
-893,Cardizem CD,58
-894,Sterile Water,7
-895,SMASH BOX STUDIO SKIN,45
-896,Medicated Pain Relief Hot,22
-897,Good Sense cold,93
-898,Amlodipine Besylate,38
-899,ROBITUSSIN LINGERING COLD LONG-ACTING COUGH,90
-900,DawnMist,21
-901,Type 11 Dizziness Max,71
-902,ANTIBACTERIAL,88
-903,Xylocaine,82
-904,Glyburide,19
-905,Peanut,49
-906,Enalapril Maleate,45
-907,Lucky Super Soft,49
-908,ShopRite Severe Cold,89
-909,Extra Strength PM Pain Relief,58
-910,Primidone,71
-911,Midodrine Hydrochloride,35
-912,Capture C-Brightening Ampoule,11
-913,STEMPHYLIUM SOLANI,20
-914,Trandolapril and Verapamil Hydrochloride,37
-915,Theophylline,9
-916,Dandelion,67
-917,Phenazopyridine Hydrochloride,58
-918,nasal spray,93
-919,Perphenazine and Amitriptyline Hydrochloride,39
-920,Motion Sickness,81
-921,Pain Relief,87
-922,Cortizone 10 Intensive Healing,52
-923,The New Parent First Aid,52
-924,FONDAPARINUX SODIUM,81
-925,TOPIRAMATE,100
-926,Venlafaxine Hydrochloride,49
-927,Terazosin Hydrochloride,3
-928,Finasteride,43
-929,NAPRELAN,64
-930,oxygen,91
-931,Glimepiride,7
-932,equaline childrens pain and fever,86
-933,Lysol,15
-934,CARTEOLOL HYDROCHLORIDE,20
-935,Equaline ibuprofen,7
-936,African Formula Skin Lightening,21
-937,flu and severe cold and cough,87
-938,napoleon PERDIS ADVANCED MINERAL MAKEUP BROAD SPECTRUM SPF 15 Look 1,82
-939,Elta Tar,92
-940,Orajel Instant Relief for Teething Pain,26
-941,Alyacen 1/35,96
-942,LEVAQUIN,29
-943,Colon Complex,21
-944,LITHIUM CARBONATE,84
-945,Methylprednisolone,72
-946,Prime of Life,68
-947,Freshorize,59
-948,Bupropion Hydrochloride,98
-949,Permethrin,47
-950,KETAMINE HYDROCHLORIDE,30
-951,Good Neighbor Pharmacy Night Time D,23
-952,Flu Relief Therapy Day Time,58
-953,dawnmist,59
-954,Atenolol,74
-955,Metoprolol Tartrate,99
-956,Allergy Relief,98
-957,Sorbet APF,43
-958,Phenylephrine,99
-959,CAREONE,64
-960,Ofloxacin,55
-961,ERASE IT KIT,91
-962,Raymond Waites Gerber Daisy Waterless Anti-bacterial Hand Sanitizer,76
-963,Isocaine,51
-964,Nitrogen,74
-965,OPANA,47
-966,Duloxetine hydrochloride,93
-967,Methylphenidate Hydrochloride,47
-968,Prometh with Codeine,44
-969,OralLine Secure,30
-970,Zonisamide,93
-971,RUMEX ACETOSELLA POLLEN,28
-972,Opcicon One-Step,54
-973,Duravent PE,69
-974,Paroxetine,80
-975,Haloperidol,44
-976,Cimetidine,90
-977,Ear Ringing,5
-978,Quinapril,21
-979,Dextromethorphan Hydrobromide and Promethazine Hydrochloride,11
-980,Isuprel,39
-981,GLIPIZIDE,11
-982,Poly Bacitracin,94
-983,OTEZLA,39
-984,Fluocinonide,54
-985,KIDNEY DRAINAGE,33
-986,Lymph Detox,14
-987,Hush Anesthetic,9
-988,Paroxetine,97
-989,Oxybutynin Chloride,72
-990,Hyoscyamine Sulfate,57
-991,Assured Instant Hand Sanitizer With Moisturizers Vitamin E and Aloe,2
-992,Ramipril,47
-993,Neutrogena Healthy Skin Anti Wrinkle,21
-994,Chlordiazepoxide Hydrochloride,95
-995,Cough and Chest Congestion DM,5
-996,Rouge Dior 470 Pearly Pink Serum,9
-997,Servo-Stat T Foam,8
-998,Temozolomide,67
-999,CLE DE PEAU BEAUTE SILKY FOUNDATION I,43
-1000,Felbatol,7
+hotelid,hotelname,location,totalrooms
+1,THE BAMBOO OF DAMYANG MOISTURE,83 Barnett Center,25
+2,LANEIGE Snow BB No.2 Natural BB,04 Barnett Plaza,66
+3,CIMETIDINE,1422 Pankratz Road,89
+4,BAC,6 Bultman Road,33
+5,Zolpidem tartrate,91 Old Shore Drive,23
+6,Primlev,737 Hermina Way,20
+7,benzonatate,52 Straubel Junction,60
+8,Multi-Symptom Relief,5 Trailsway Park,11
+9,999 ITCH RELIEF,73357 Basil Place,47
+10,Famciclovir,09 Northland Junction,8
+11,Pleo Lat,1618 Shoshone Junction,94
+12,Diclofenac Potassium,82999 Harbort Park,50
+13,Oxaliplatin,98 Banding Crossing,66
+14,Naproxen,3 Eliot Drive,16
+15,Carbidopa and Levodopa,14 Clove Hill,48
+16,Equate Ranitidine,9892 Swallow Court,2
+17,BAC,40 Golf Course Lane,8
+18,Theragesic Creme,7 Loeprich Center,97
+19,Ambien CR,10656 Sunnyside Way,27
+20,Geotrichum candidum,77682 Graedel Trail,27
+21,True Beige Always color stay-on Makeup Broad Spectrum SPF 15,6731 Bellgrove Circle,76
+22,DIVALPROEX SODIUM,71318 Northridge Drive,27
+23,Lisinopril and hydrochlorothiazide,89 Dahle Road,41
+24,Sodium Chloride,20 Dunning Alley,16
+25,Protonix,6904 Bartelt Lane,20
+26,Pamidronate Disodium,629 Eastwood Park,1
+27,SHISEIDO RADIANT LIFTING FOUNDATION,136 Tennyson Drive,63
+28,Thiothixene,762 Spohn Road,61
+29,Loperamide Hydrochloride,876 Jenifer Place,4
+30,Film Coated Ibuprofen,76785 Basil Plaza,41
+31,Naproxen,011 Brickson Park Avenue,29
+32,Sensodyne,3988 Grasskamp Point,65
+33,Codeine sulfate,2827 Welch Street,5
+34,Brimonidine Tartrate,73 Sugar Junction,37
+35,Lidoderm,04703 Redwing Park,60
+36,TOPOTECAN HYDROCHLORIDE,4352 Michigan Alley,88
+37,PCXX ONE MINTE GEL STRAWBERRY BLAST,4255 Porter Circle,7
+38,Wal-phed,0515 Marquette Center,98
+39,Q-Tapp DM Elixir,00 Crowley Terrace,100
+40,Antibacterial Foaming Hand Cleanser,76504 Butterfield Crossing,71
+41,Ammonia,7 Prairieview Avenue,19
+42,Levothroid,09 Vernon Hill,70
+43,Fresh Protect Skin Sanitizer,9896 Park Meadow Avenue,73
+44,Crab,5 Darwin Pass,47
+45,Aspergillus fumigatus,4 Pearson Court,35
+46,care one pain relief,17 Graceland Street,20
+47,VITALUMIERE AQUA,86 Ramsey Alley,85
+48,fluvoxamine maleate,7 Mayer Center,95
+49,EFFET PARFAIT,430 Kensington Pass,93
+50,Fairly Light Foundation SPF 15,78923 Carey Park,12
+51,Arcalyst,48432 Clarendon Point,43
+52,Bacitracin Zinc,35324 Delaware Crossing,38
+53,Cultivated Oat,80 New Castle Junction,62
+54,Clearly Confident,5 Monterey Way,45
+55,SHISEIDO SUN PROTECTION COMPACT FOUNDATION (REFILL),20328 Oak Valley Plaza,16
+56,SMART SENSE,50718 Surrey Lane,6
+57,Glipizide,16865 Fuller Pass,30
+58,PHENERGAN,4689 Fremont Court,4
+59,Zicam,09491 Parkside Trail,92
+60,EradiKate ACNE TREATMENT,870 Autumn Leaf Street,65
+61,fluocinonide,57 Gina Park,4
+62,Adenosine,148 Kensington Court,6
+63,Alprazolam,67171 Westridge Crossing,52
+64,OXYGEN,15799 Westport Center,95
+65,Glimepiride,291 La Follette Parkway,80
+66,Libera Tos,2496 Myrtle Court,80
+67,ziprasidone hydrochloride,434 International Place,86
+68,Bacitracin,216 Esch Lane,74
+69,Konsyl Overnight Relief Senna Prompt,72829 Kings Court,44
+70,PROAIRHFA,2 Troy Crossing,60
+71,Roccos Old School,4 Oneill Alley,53
+72,FORTAZ,6 Boyd Hill,3
+73,Geodon,8 Helena Circle,87
+74,Gabapentin,5331 Atwood Junction,42
+75,PULMICORT RESPULES,81 Russell Point,4
+76,Gabapentin,56032 Service Park,23
+77,Up and Up Nicotine,03706 Center Plaza,96
+78,DONEPEZIL HYDROCHLORIDE,6885 Reinke Way,25
+79,New Terocin,7 Sunfield Alley,32
+80,DEXEDRINE,4415 Vidon Drive,83
+81,OXY Purifying Face Scrub,7636 Sycamore Center,58
+82,Amar Vaporizing Chest Rub,19801 Division Place,55
+83,oxygen,0849 Lotheville Park,57
+84,Quetiapine fumarate,15709 Kenwood Lane,65
+85,Icy Hot Back,3 Fairview Lane,27
+86,Topiramate,67147 Rieder Court,28
+87,Venlafaxine Hydrochloride,97 Milwaukee Center,66
+88,Drainage,10 Springview Lane,81
+89,OXYCODONE HYDROCHLORIDE,67126 Di Loreto Pass,33
+90,Treatment Set TS346889,26417 Marquette Plaza,71
+91,Rohto Relief,39 Lake View Lane,91
+92,HYDRALAZINE HYDROCHLORIDE,659 Buena Vista Crossing,67
+93,ANTIBACTERIAL WET WIPES TRAVEL PACK,036 Ludington Place,48
+94,Divalproex Sodium,51257 Briar Crest Circle,91
+95,SHISEIDO FUTURE SOLUTION LX TOTAL PROTECTIVE,36 Fieldstone Point,6
+96,Metformin Hydrochloride,01030 Sutteridge Park,94
+97,Topiramate,27536 Mcguire Drive,24
+98,Warfarin Sodium,55 Express Street,95
+99,Valsartan,0169 Eagle Crest Court,73
+100,Levothyroxine Sodium,30104 Memorial Road,94
+101,Jerusalem Oak,0792 Park Meadow Point,34
+102,acetaminophen,5 Hauk Court,42
+103,acid control,6930 Becker Point,71
+104,Theraflu,531 Nova Crossing,65
+105,"Pollens - Trees, Ash, White Fraxinus americana",58 Crest Line Alley,24
+106,Dolce and Gabbana The Lift Foundation Golden Honey 170,46688 Butternut Pass,84
+107,Ceftriaxone sodium,4669 Arapahoe Plaza,23
+108,Hydrocodone Bitartrate and Acetaminophen,728 Farragut Hill,50
+109,"Standardized Grass Pollen, Timothy",5102 Badeau Drive,25
+110,Pain Stopper Extra,29 Ridge Oak Plaza,69
+111,MEGACE ES,9866 Judy Crossing,91
+112,DR. RECKEWEG R30 Atomare Beckeron,74669 Calypso Circle,78
+113,Glycopyrrolate,72391 Arkansas Lane,45
+114,temazepam,2 Hollow Ridge Plaza,97
+115,ZeroSweat,0 5th Plaza,56
+116,CVS,445 Melody Street,79
+117,AMITRIPTYLINE HYDROCHLORIDE,0589 Dexter Way,11
+118,Thyreoidea Ferrum,8 Sloan Avenue,29
+119,Cisatracurium Besylate,37952 Village Park,89
+120,Citalopram Hydrobromide,50 Oak Hill,59
+121,Anti-bacterial Hand,0343 Lyons Parkway,47
+122,Quetiapine Fumarate,42860 Northport Junction,97
+123,CLARINS Skin Illusion SPF 10 Natural Radiance Foundation Tint 112.5,41948 Cody Hill,49
+124,Dual Action Complete,7 Boyd Lane,15
+125,Cleviprex,3 Monterey Point,18
+126,Desmopressin Acetate,42 Hollow Ridge Hill,68
+127,Oracit,80 Hoffman Court,27
+128,Insomnia,0555 Boyd Place,54
+129,Potassium Phosphates,92523 Arizona Pass,11
+130,Glipizide,432 Northfield Terrace,67
+131,Promethazine Hydrochloride,411 Dawn Way,56
+132,eszopiclone,00 Scott Hill,26
+133,Your Logo Here Antiseptic First Aid,08058 Sherman Junction,74
+134,Hydrogen Peroxide,364 Daystar Trail,15
+135,Supernatural Superbeautiful Makeup SPF 15,95 Kropf Crossing,61
+136,Cetirizine Hydrochloride,9 Hazelcrest Trail,55
+137,CLARINS Skin Illusion SPF 10 Natural Radiance Foundation Tint 104,090 Mallard Circle,36
+138,Degree,9 Graceland Hill,46
+139,Lithium Carbonate,8 Clemons Pass,88
+140,Good Neighbor Pharmacy Sinus and Allergy PE,293 Fremont Circle,34
+141,Kadian,12 Trailsway Circle,34
+142,Glipizide,33794 Welch Drive,44
+143,Levothyroxine sodium,5412 Glacier Hill Park,34
+144,Strattera,2 Fieldstone Plaza,45
+145,Nighttime Allergy Relief,2697 Canary Terrace,48
+146,Antimicrobial Hand Sanitizer,8 Springs Alley,72
+147,Budesonide,1 Victoria Way,38
+148,Fungus Relief Swabs,92265 Summit Hill,43
+149,Sciatic Rescue,0105 La Follette Place,100
+150,Oxymorphone hydrochloride,9 Esker Trail,97
+151,Lisinopril,946 Nova Hill,69
+152,MEIJER,3823 Claremont Alley,10
+153,Super BB All-in-One Compact Cream,34090 Jackson Road,1
+154,Hand Sanitizer,067 Forster Trail,29
+155,Acetaminophen and Diphenhydramine HCl,8 Boyd Road,38
+156,Childrens Ibuprofen,9067 Crescent Oaks Center,8
+157,smart sense cold and allergy,37 Barnett Street,4
+158,Clearasil,42 Judy Alley,95
+159,risperidone,3 Arapahoe Terrace,20
+160,Sertraline Hydrochloride,689 Rusk Drive,66
+161,Terazosin Hydrochloride,6 Union Alley,17
+162,Pravastatin Sodium,76814 Manitowish Center,28
+163,3 Heart,60059 Stone Corner Circle,98
+164,Kleenex Clear Antibacterial Skin Cleanser,76 Novick Alley,57
+165,CVS Moisturizing Lubricating Eye,17 Northridge Crossing,93
+166,Diltiazem Hydrochloride,2743 Autumn Leaf Circle,76
+167,bareMinerals Daily Defense Broad Spectrum SPF 30,85296 North Center,42
+168,Fusarium compactum,2932 South Trail,49
+169,Cidofovir,00849 Tennessee Hill,46
+170,Tag Alder,137 Graceland Parkway,16
+171,Losartan Potassium and Hydrochlorothiazide,2358 Vidon Avenue,11
+172,LIPSTICK QUEEN ENDLESS SUMMER Broad Spectrum SPF 15 Sunscreen,33 Boyd Hill,91
+173,Lidocaine Hydrochloride,74 Reinke Way,28
+174,Sulfamethoxazole and Trimethoprim,9097 Magdeline Alley,64
+175,Chick Pea,75677 Fremont Road,60
+176,Putto Secret UV Face,6932 Brentwood Drive,62
+177,ARTHROTEC,6401 Jenna Place,75
+178,LANEIGE Snow BB No.1 Brightening BB,9 Park Meadow Lane,42
+179,Mineral Oil,67 Stoughton Road,39
+180,Extra Strength Pain Reliever PM,85 Sugar Road,89
+181,Perfect Choice,1 Shoshone Terrace,99
+182,Olanzapine,416 Randy Avenue,12
+183,Tramadol Hydrochloride,408 Waxwing Circle,50
+184,Apis Bryonia,229 Ilene Plaza,54
+185,Fulton Street Market Anti itch,90 Stoughton Avenue,68
+186,Cellisys EX Wrinkle Solution Eye Contour,236 Warner Street,76
+187,Dexamethasone,7961 Comanche Drive,88
+188,Cephalexin,92 Village Junction,26
+189,Modafinil,39073 Orin Park,17
+190,Walgreens Oil-Free Acne Wash,51 Killdeer Road,92
+191,Cold-EEZE,89697 Mallard Drive,52
+192,Cough Relief,8 Cascade Parkway,41
+193,HYDROXYZINE PAMOATE,1 Thackeray Trail,28
+194,NITROGEN,6 Lakeland Court,80
+195,Oxygen,33 Di Loreto Circle,92
+196,Exchange Select Calcium Antacid,0 Amoth Trail,42
+197,Valacyclovir Hydrochloride,89585 Warrior Park,4
+198,ATACAND,921 Starling Court,23
+199,ARNICA MONTANA,1 Florence Crossing,12
+200,Lisinopril,671 Thompson Way,22
+201,Levothyroxine Sodium,8152 Roth Hill,25
+202,Fenofibrate,3 Corben Terrace,32
+203,New Hawaiian Tropic Sensitive Skin Lotion Sunscreen,36466 Meadow Valley Point,55
+204,Regular Strength Enteric Aspirin,83559 Annamark Hill,89
+205,Otis Clapp Ultraprin,434 Bowman Road,54
+206,Cold Multi-Symptom Daytime Rapid Release,897 Thierer Junction,50
+207,Dicyclomine Hydrochloride,47 Scofield Street,77
+208,Droperidol,66 Village Park,78
+209,Tygacil,325 Waxwing Plaza,51
+210,Amoxicillin and Clavulanate Potassium,688 Milwaukee Point,96
+211,Soothix Acne Treatment and Blemish Prevention Formula,91 Anniversary Street,98
+212,Olanzapine,4 Drewry Circle,99
+213,Depakote,00 Moulton Way,45
+214,Magnesium Sulfate in Dextrose,7438 Briar Crest Place,16
+215,Lyrica,21 Debs Place,40
+216,Ceftriaxone,65 Mifflin Point,77
+217,Mucinex DM,0 Oriole Park,42
+218,AMBROSIA TRIFIDA POLLEN,2 Vidon Hill,45
+219,Stool Softener,1068 Thierer Point,50
+220,Phenytoin Sodium,68223 Oneill Parkway,12
+221,WINTER BLEND,5 Sauthoff Parkway,68
+222,Temazepam,643 Eggendart Crossing,81
+223,Oxacillin,43383 Iowa Crossing,35
+224,Parlodel,64260 Old Gate Court,69
+225,Crayola,9835 Swallow Hill,80
+226,CHENOPODIUM AMBROSIOIDES POLLEN,122 Jenna Pass,82
+227,IBS Irritable Bowel Syndrome Relief,994 Gale Parkway,27
+228,HAVRIX,43 Grover Alley,40
+229,Stimulant Laxative,63 Goodland Park,54
+230,Groundsel Tree,069 Nancy Trail,22
+231,Nimbex,60 Reinke Lane,91
+232,DIFFERIN,627 Ronald Regan Crossing,66
+233,Allergy Relief,535 Corry Alley,14
+234,Calcium Acetate,980 Old Shore Road,30
+235,ibuprofen,72 Schmedeman Point,78
+236,VITALUMIERE,8628 Monument Circle,42
+237,Acnezzol Base,2 Birchwood Alley,23
+238,Ting,946 Blackbird Circle,64
+239,Smooth texture Orange flavor,537 Anhalt Hill,30
+240,Aspirin,3 Chinook Plaza,90
+241,"Dextroamphetamine saccharate, amphetamine aspartate, dextroamphetamine sulfate, and amphetamine sulfate",804 Eggendart Street,26
+242,Nighttime Sleep Aid,06 Tennyson Avenue,63
+243,SunZone Sunscreen Sport SPF 45,72682 Walton Street,5
+244,Citalopram Hydrobromide,002 Jackson Avenue,12
+245,Botanics Triple Age Renewal Day All Bright Sunscreen Broad Spectrum SPF 15,85 Memorial Place,87
+246,Lyrica,776 Eliot Way,26
+247,Ipratropium Bromide and Albuterol Sulfate,20390 Clove Crossing,100
+248,Allergenic Extracts Standardized Mite,4330 Badeau Pass,17
+249,Amantadine Hydrochloride,564 Dixon Terrace,46
+250,Levofloxacin,44593 Algoma Alley,53
+251,ATORVASTATIN CALCIUM,121 Atwood Road,32
+252,risedronate sodium,945 Mallard Drive,92
+253,muscle rub,00 Forest Dale Place,68
+254,"Standardized Grass Pollen, Bermuda Grass",51409 Dixon Junction,53
+255,AXERT,55435 Butterfield Alley,40
+256,Tusnel DM,045 Meadow Vale Road,67
+257,VANCOMYCIN HYDROCHLORIDE,6217 Carey Street,20
+258,Lidocaine Hydrochloride and Epinephrine,76 Cambridge Place,93
+259,Akne-mycin,7617 Bartillon Circle,85
+260,Furosemide,66632 Banding Hill,37
+261,"Pollens - Trees, Olive Olea europaea",02522 Fairfield Lane,29
+262,CLE DE PEAU BEAUTE REFRESHING PROTECTIVE I,31 Dakota Junction,82
+263,BabyGanics Sunscreen,7556 Stuart Plaza,7
+264,meloxicam,0 Sunfield Court,18
+265,Aspir Low,7056 Stang Park,95
+266,DawnMist Barrier,2 Sunnyside Avenue,39
+267,REVIA,85 Sommers Park,41
+268,Strophanthus Aurum,97 Ryan Plaza,21
+269,Mycophenolic Acid,161 Sheridan Crossing,99
+270,Premier Value Adult Glycerin,88859 Monterey Park,10
+271,Crest Sensitivity,56 Meadow Vale Plaza,87
+272,Glynase,72707 Hansons Pass,14
+273,Extra Strength Back and Body,19 Spohn Crossing,66
+274,Quinapril,986 Bonner Terrace,14
+275,Adenosine,625 Talmadge Junction,34
+276,fluvoxamine maleate,4 Vermont Park,30
+277,TENA Protective Cream,75430 Alpine Alley,44
+278,Atorvastatin Calcium,2 Pond Park,100
+279,Zolpidem Tartrate,014 Helena Way,16
+280,Pier 1 Imports Lily blossom Anti-Bacterial Hand Sanitizer,954 Schiller Drive,58
+281,Methocarbamol,79 Milwaukee Drive,49
+282,NITRO-DUR,7363 Bowman Point,1
+283,2 in 1,18 Ridgeview Crossing,78
+284,CAPTOPRIL,1504 Service Crossing,48
+285,Amazonian Clay 12-Hour Full Coverage Foundation Broad Spectrum SPF 15 Sunscreen,161 Cardinal Park,34
+286,Lisinopril,4 Maple Wood Trail,87
+287,Sunmark Nasal,62 Commercial Road,71
+288,1 Bladder,9 Florence Trail,52
+289,Stool Softener,12212 Springs Terrace,73
+290,Naproxen Sodium,60219 Randy Circle,77
+291,CVS PHARMACY,8 Oneill Circle,37
+292,POLYETHYLENE GLYCOL 3350,5640 Eagle Crest Circle,73
+293,Lamotrigine,1092 Stoughton Trail,90
+294,Essential Fade Complex,560 Mifflin Plaza,17
+295,Lisinopril,2328 Miller Park,66
+296,Carisoprodol,0787 Daystar Road,89
+297,LAMICTAL,20031 American Ash Way,23
+298,amlodipine besylate,973 4th Street,20
+299,7 Select Allergy Relief,8816 Valley Edge Plaza,92
+300,Purminerals 4-in-1 14-Hour Wear Foundation Broad Spectrum SPF 15 (LIGHT),619 Mosinee Alley,37
+301,4 Kids Cold n Cough Day and Night Value Pack,6 Mockingbird Drive,3
+302,Tolnaftate,067 Michigan Way,24
+303,GLUCOVANCE,68132 American Ash Parkway,66
+304,White Hickory,75550 West Drive,86
+305,Phentermine Hydrochloride,2 Mosinee Road,31
+306,Meperidine HCl,7 Kipling Trail,36
+307,Flawless Finish Dual Perfection Makeup SPF 8 Ivory,551 Saint Paul Hill,16
+308,New Lip Protector Sunscreen SPF15,91 Stone Corner Terrace,9
+309,Badger SPF 34 Anti-Bug Sunscreen,99105 Shelley Drive,2
+310,Anchin 40 (Number 528),9 Graceland Court,28
+311,BACLOFEN,847 Hudson Junction,47
+312,Quinapril,21924 Sunfield Plaza,64
+313,Poverty Weed,06607 Saint Paul Court,17
+314,Ephedrine,62 Bellgrove Center,39
+315,fluvoxamine maleate,5917 Bluejay Circle,64
+316,TRIP-PSE,5 Ronald Regan Pass,2
+317,Clearasil,29048 Scoville Alley,5
+318,Pravastatin Sodium,8 Thompson Crossing,51
+319,HydrALAZINE Hydrochloride,61194 Annamark Point,16
+320,Arnica Plus,453 Merrick Junction,46
+321,Gildess 1.5/30,862 Twin Pines Terrace,37
+322,DawnMist Alcohol Hand Sanitizer,4127 Anthes Place,98
+323,CETAFEN,0 6th Place,21
+324,HYDROCODONE BITARTRATE AND ACETAMINOPHEN,43050 Dixon Street,25
+325,URIBEL,8222 Browning Hill,19
+326,Veripred 20,3352 Rieder Avenue,54
+327,Good Sense Nicotine,7303 Union Junction,80
+328,KETOROLAC TROMETHAMINE,8163 Valley Edge Way,18
+329,SENSORCAINE,25560 Express Avenue,25
+330,Fluvoxamine Maleate,28 Lakewood Drive,44
+331,Childrens Plus Flu,1275 Walton Crossing,96
+332,Sulfamethoxazole and Trimethoprim,8 La Follette Crossing,44
+333,8 hour pain relief,112 Redwing Alley,72
+334,3LAB PERFECT BB SPF 40 Broad Spectrum 03,49 Farragut Plaza,32
+335,equaline nicotine,6868 Loomis Drive,77
+336,Stila illuminating tinted moisturizer broad spectrum SPF 20,814 Graedel Way,47
+337,Metoprolol Tartrate,99070 Doe Crossing Way,99
+338,Suphedrine,014 Melvin Place,4
+339,Dextroamphetamine Sulfate,27679 Loeprich Road,93
+340,Foot Works Healthy,811 Petterle Alley,44
+341,Voltaren,27 Rieder Trail,82
+342,"Dextroamphetamine Saccharate, Amphetamine Aspartate, Dextroamphetamine Sulfate and Amphetamine Sulfate",8105 Pond Road,54
+343,Meperidine Hydrochloride,63 Commercial Terrace,48
+344,Benoxyl-CR Advanced Acne Wash,951 Dryden Way,71
+345,Demeclocycline Hydrochloride,420 Havey Park,7
+346,Virustat,445 Colorado Place,50
+347,"Sprains, Strains and Fractures",64 Debs Crossing,32
+348,MedPride,37347 Roth Alley,78
+349,Famotidine,28181 Petterle Circle,8
+350,Alprazolam,8466 Schlimgen Hill,89
+351,Pomalyst,950 Armistice Pass,50
+352,Bupropion Hydrochloride,155 Browning Crossing,46
+353,Digoxin,8 Summerview Lane,39
+354,Ilaris,3620 Scott Place,38
+355,amlodipine besylate and atorvastatin calcium,28596 Lighthouse Bay Parkway,31
+356,Dove Ultimate Go Fresh,657 Bowman Pass,54
+357,AHC Complex Choice EGF Booster,1819 Wayridge Terrace,20
+358,Coppertone Clearly Sheer For Beach and Pool,5834 Starling Way,99
+359,MaxFe,81790 Comanche Avenue,86
+360,Family Dollar,56 Jackson Alley,16
+361,"Food - Fish and Shellfish, Tuna Thunnus sp.",53055 Sommers Junction,63
+362,White Poplar,4 Briar Crest Junction,68
+363,Somatuline Depot,34 Old Gate Pass,12
+364,Effer-K,693 Loftsgordon Terrace,98
+365,Atenolol,927 Glendale Street,98
+366,NESTABS,769 Oak Valley Point,9
+367,Glyburide and Metformin,5 Sachtjen Alley,85
+368,Atgam,859 Merchant Way,89
+369,Leader Childrens Ibuprofen,40468 Valley Edge Point,57
+370,Thuja e summ. 6 Special Order,699 Golf Course Court,27
+371,Dextrose,1 Mitchell Terrace,11
+372,ORFADIN,398 Shelley Plaza,58
+373,Metformin Hydrochloride,04 Anzinger Terrace,78
+374,Ferrum sidereum Pancreas 10/4,418 Butterfield Place,90
+375,Cultivated Oat,438 Westport Road,57
+376,Treatment Set TS347336,1 Lillian Park,58
+377,ERY-TAB,10330 Mosinee Hill,94
+378,Suphedrine PE,2 Oneill Lane,88
+379,Sodium Sulfacetamide 10 Sulfur 2 Cleanser,1826 Clarendon Court,27
+380,Aspirin,715 Gina Alley,42
+381,TrophAmine,72 Rieder Alley,76
+382,Diphenoxylate Hydrochloride and Atropine Sulfate,81006 Londonderry Junction,46
+383,Testosterone Cypionate,29 Hermina Crossing,1
+384,Neutrogena Clear Face Break-Out Free Sunscreen,29 Warner Center,94
+385,BZK,71 Duke Crossing,47
+386,Metoprolol tartrate,6 Atwood Street,14
+387,Advanced Healing,0872 Susan Drive,75
+388,"",5248 Fairview Parkway,97
+389,Apanol,82015 Anzinger Court,88
+390,Telmisartan,14750 Talisman Street,90
+391,Day Time Cold Head Congestion Severe,3 Ronald Regan Crossing,97
+392,Good Neighbor Pharmacy Sleep Time,2147 Granby Street,54
+393,Hand Sanitizing wipes,432 Buhler Circle,68
+394,Lancome Paris BB Bienfait Teinte Beauty Balm Broad Spectrum SPF 30 Sunscreen,6494 Ludington Place,100
+395,Solutions,12914 Leroy Court,44
+396,Metasol,4 Kenwood Point,39
+397,Gentamicin,1477 Mcbride Lane,88
+398,Scott Antibacterial Foam,058 2nd Way,62
+399,Famotidine,418 Loomis Avenue,60
+400,Acid Reducer,5439 Fremont Pass,29

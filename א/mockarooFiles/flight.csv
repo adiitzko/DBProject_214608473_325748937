@@ -1,1001 +1,401 @@
-flightID,airline,departureDate,returnDate
-TG8579,Thai Airways,19:30,15:00
-AI3110,Air India,08:30,14:00
-TG7965,Thai Airways,19:15,16:30
-KE9265,Korean Air,19:30,11:45
-AM6158,Aeroméxico,14:00,11:30
-AV1895,Avianca,14:30,09:30
-UA5483,United Airlines,21:30,15:45
-AF8349,Air France,13:45,09:30
-SK7036,SAS Scandinavian,10:00,08:30
-LH4336,Lufthansa,17:45,06:00
-KL4070,KLM Royal Dutch Airlines,12:45,06:30
-TG4099,Thai Airways,17:15,15:30
-NH8075,All Nippon Airways,11:00,13:45
-AC9242,Air Canada,18:45,14:45
-BA7332,British Airways,07:00,11:30
-IB7381,Iberia,10:15,19:45
-DL8764,Delta Air Lines,16:45,20:15
-AV9554,Avianca,09:15,08:15
-KE1111,Korean Air,20:15,12:45
-SA3890,South African Airways,08:45,09:30
-AC9578,Air Canada,10:45,11:45
-AZ7072,Alitalia,19:15,14:45
-EK7596,Emirates,12:45,07:15
-KE6728,Korean Air,09:30,13:30
-WN7250,Southwest Airlines,16:45,15:15
-SK7017,SAS Scandinavian,16:30,11:00
-SK5257,SAS Scandinavian,21:45,16:15
-LH1675,Lufthansa,20:45,15:00
-SK7366,SAS Scandinavian,18:30,19:15
-AZ3341,Alitalia,10:30,12:15
-AZ7115,Alitalia,10:30,09:30
-AI1710,Air India,18:30,17:00
-DL9974,Delta Air Lines,06:30,21:30
-AZ5181,Alitalia,12:00,17:15
-SK7367,SAS Scandinavian,19:00,12:45
-AA1385,American Airlines,14:30,20:15
-CX2774,Cathay Pacific,12:15,09:30
-KE1458,Korean Air,09:45,21:00
-AM5578,Aeroméxico,16:00,21:30
-SK9370,SAS Scandinavian,14:00,06:45
-LH2767,Lufthansa,13:45,19:30
-CX7797,Cathay Pacific,12:15,07:45
-CX8594,Cathay Pacific,09:00,13:00
-IB1247,Iberia,13:15,16:00
-IB8156,Iberia,08:30,09:15
-ET8204,Ethiopian Airlines,13:30,10:45
-TG9561,Thai Airways,21:30,12:45
-SK9152,SAS Scandinavian,15:15,19:45
-AA4128,American Airlines,18:45,16:00
-NZ8672,Air New Zealand,18:15,13:00
-BA8735,British Airways,08:15,09:30
-AA2833,American Airlines,18:00,06:00
-BA7629,British Airways,10:15,19:45
-QR6609,Qatar Airways,11:45,21:00
-CX4570,Cathay Pacific,11:15,10:45
-AF3915,Air France,11:15,10:00
-NH1262,All Nippon Airways,16:00,14:00
-LA3329,LATAM Airlines,11:15,18:15
-DL8669,Delta Air Lines,12:30,12:00
-LA8240,LATAM Airlines,06:45,13:30
-AA4417,American Airlines,19:00,16:00
-AV4396,Avianca,21:00,16:15
-ET2047,Ethiopian Airlines,13:45,17:45
-KE8507,Korean Air,16:45,10:45
-KE3686,Korean Air,14:15,10:45
-SA6503,South African Airways,06:15,20:00
-SA4414,South African Airways,19:00,08:30
-IB5036,Iberia,17:00,08:15
-SA1355,South African Airways,10:00,07:30
-AI7743,Air India,18:15,21:00
-SQ4039,Singapore Airlines,06:45,10:45
-QR1102,Qatar Airways,18:30,21:00
-NH6392,All Nippon Airways,06:00,08:15
-AZ5214,Alitalia,18:45,13:15
-AC5567,Air Canada,08:00,12:15
-LA7466,LATAM Airlines,21:00,09:00
-AC3744,Air Canada,18:30,12:30
-WN8327,Southwest Airlines,09:00,10:00
-QF3711,Qantas,18:00,06:00
-AM5280,Aeroméxico,21:30,11:45
-WN9021,Southwest Airlines,06:15,20:30
-SA1147,South African Airways,08:30,11:30
-QF2863,Qantas,10:15,20:00
-AV9554,Avianca,09:15,09:15
-AZ7649,Alitalia,21:30,15:00
-AC8181,Air Canada,15:30,07:45
-EK5772,Emirates,09:30,12:15
-DL5999,Delta Air Lines,14:45,09:00
-AZ5112,Alitalia,06:15,19:30
-QR5213,Qatar Airways,17:00,07:00
-SK9731,SAS Scandinavian,12:45,13:15
-AV3548,Avianca,07:30,12:30
-AI8540,Air India,16:00,18:45
-AZ7009,Alitalia,07:15,17:30
-WN6914,Southwest Airlines,20:45,17:45
-UA1324,United Airlines,10:15,13:00
-LA8551,LATAM Airlines,11:15,19:30
-BA1044,British Airways,19:30,16:30
-QF2150,Qantas,15:00,08:15
-AF7087,Air France,20:30,15:15
-TG3344,Thai Airways,07:15,10:15
-EK3612,Emirates,17:15,19:00
-AA4882,American Airlines,10:45,15:45
-UA3447,United Airlines,13:15,20:30
-LA1166,LATAM Airlines,13:30,17:30
-SK3399,SAS Scandinavian,19:45,17:15
-ET6237,Ethiopian Airlines,10:15,19:45
-SA8053,South African Airways,21:15,16:30
-AC1444,Air Canada,12:15,17:45
-KL6164,KLM Royal Dutch Airlines,09:45,17:00
-AF2026,Air France,16:45,16:45
-CX8226,Cathay Pacific,18:45,15:00
-TG9654,Thai Airways,12:15,12:45
-AA7774,American Airlines,18:15,18:30
-TG3677,Thai Airways,11:45,17:30
-AZ7903,Alitalia,15:30,19:15
-DL4188,Delta Air Lines,07:15,17:15
-AI8120,Air India,21:15,18:00
-NZ7733,Air New Zealand,19:45,21:45
-TG3624,Thai Airways,16:15,20:45
-SK9879,SAS Scandinavian,07:00,14:30
-DL3314,Delta Air Lines,11:30,08:15
-SQ4591,Singapore Airlines,08:15,18:45
-AM2437,Aeroméxico,20:45,21:15
-QR4142,Qatar Airways,15:30,14:30
-QR9225,Qatar Airways,15:00,17:15
-SA7036,South African Airways,16:30,20:15
-SA6084,South African Airways,15:00,19:45
-TG3656,Thai Airways,12:45,16:30
-QF7612,Qantas,14:00,16:15
-WN7860,Southwest Airlines,13:45,18:45
-QR4230,Qatar Airways,12:15,19:30
-QR5811,Qatar Airways,12:00,09:45
-QF7187,Qantas,08:30,08:45
-DL9006,Delta Air Lines,09:30,19:15
-AZ4838,Alitalia,21:30,14:15
-QF6795,Qantas,12:45,07:30
-LA8551,LATAM Airlines,11:15,11:45
-NH4271,All Nippon Airways,09:15,09:15
-WN2805,Southwest Airlines,17:15,19:00
-AI6015,Air India,12:15,21:45
-CX9953,Cathay Pacific,18:15,15:45
-SQ3948,Singapore Airlines,17:30,18:00
-QF5738,Qantas,16:30,09:00
-LA7114,LATAM Airlines,20:30,19:45
-AV2514,Avianca,14:30,07:00
-AF2465,Air France,06:30,21:30
-CX5129,Cathay Pacific,17:30,21:30
-AC6229,Air Canada,14:15,09:30
-BA3676,British Airways,15:15,20:15
-DL6507,Delta Air Lines,06:30,16:30
-UA4214,United Airlines,15:15,19:15
-AA8666,American Airlines,13:45,10:45
-UA7792,United Airlines,16:45,13:45
-EK8320,Emirates,06:45,13:45
-AM9222,Aeroméxico,13:00,14:00
-ET8279,Ethiopian Airlines,20:15,10:30
-AI8395,Air India,16:30,19:00
-AM8764,Aeroméxico,16:15,15:15
-AM6221,Aeroméxico,14:45,06:30
-AC3652,Air Canada,15:00,09:00
-AI6535,Air India,08:15,19:15
-KL3616,KLM Royal Dutch Airlines,10:30,20:30
-UA5107,United Airlines,09:00,20:30
-SA7753,South African Airways,09:00,10:45
-NZ6454,Air New Zealand,19:45,14:15
-UA7542,United Airlines,16:00,12:15
-SK8675,SAS Scandinavian,09:00,19:45
-SQ4686,Singapore Airlines,15:45,18:45
-SQ8501,Singapore Airlines,07:30,14:15
-SA4861,South African Airways,13:15,20:30
-TG9872,Thai Airways,19:45,18:45
-SK4970,SAS Scandinavian,11:30,19:30
-SA1768,South African Airways,16:30,07:30
-AF5870,Air France,14:15,10:15
-SK9534,SAS Scandinavian,09:45,13:45
-AM3850,Aeroméxico,10:00,13:15
-IB1590,Iberia,21:45,09:45
-LA5082,LATAM Airlines,12:00,06:30
-SQ5883,Singapore Airlines,16:00,17:30
-TG2523,Thai Airways,11:30,12:45
-NZ2060,Air New Zealand,14:00,14:15
-BA8137,British Airways,20:30,11:45
-IB7668,Iberia,10:00,20:15
-AZ8524,Alitalia,15:15,07:45
-LA1461,LATAM Airlines,15:30,14:00
-LH6336,Lufthansa,21:00,20:45
-AA9409,American Airlines,21:15,17:15
-UA6626,United Airlines,06:15,20:45
-UA9423,United Airlines,17:45,13:45
-AF3915,Air France,11:15,08:15
-AA9403,American Airlines,21:15,20:00
-QR9195,Qatar Airways,12:00,17:15
-AF2617,Air France,08:30,21:30
-UA9759,United Airlines,12:45,19:45
-AF9202,Air France,06:30,15:45
-KL2204,KLM Royal Dutch Airlines,16:00,11:45
-DL6523,Delta Air Lines,12:15,20:45
-AM8660,Aeroméxico,21:00,20:15
-AV3679,Avianca,19:15,06:00
-KE8696,Korean Air,08:15,07:30
-AI3675,Air India,14:30,12:45
-LH1276,Lufthansa,09:15,16:45
-QF5189,Qantas,19:30,17:45
-AF6795,Air France,07:45,07:00
-LA3944,LATAM Airlines,15:00,07:45
-BA5814,British Airways,20:15,20:00
-QR5279,Qatar Airways,06:30,13:00
-AF9216,Air France,14:30,21:30
-NH8558,All Nippon Airways,08:00,13:00
-TG7268,Thai Airways,14:30,09:45
-SK9514,SAS Scandinavian,19:45,08:15
-TG4618,Thai Airways,18:15,07:00
-WN7692,Southwest Airlines,13:30,20:15
-LA1118,LATAM Airlines,09:45,09:45
-NZ9950,Air New Zealand,06:30,11:15
-NZ9286,Air New Zealand,15:00,13:45
-LH6753,Lufthansa,18:00,11:15
-AV5545,Avianca,16:15,20:30
-UA5154,United Airlines,12:30,12:15
-AV9484,Avianca,20:30,09:30
-AI8807,Air India,09:45,16:30
-AC8669,Air Canada,20:45,16:00
-BA4260,British Airways,14:45,06:30
-NZ1172,Air New Zealand,13:00,15:00
-AM4620,Aeroméxico,20:15,18:30
-AM9862,Aeroméxico,11:00,18:00
-QF4930,Qantas,11:15,07:45
-AA7069,American Airlines,08:30,15:00
-ET5120,Ethiopian Airlines,21:30,12:00
-SA8513,South African Airways,11:45,17:45
-AM6788,Aeroméxico,15:15,08:45
-KL7515,KLM Royal Dutch Airlines,07:15,19:45
-AV9245,Avianca,17:30,17:30
-TG9224,Thai Airways,09:45,19:15
-AC1219,Air Canada,08:15,12:15
-EK1896,Emirates,12:45,13:30
-ET1504,Ethiopian Airlines,18:15,17:00
-AZ7112,Alitalia,19:15,09:00
-SA3736,South African Airways,21:00,16:45
-AM6493,Aeroméxico,15:45,11:30
-UA8934,United Airlines,08:15,06:00
-QF2863,Qantas,10:15,14:15
-BA7617,British Airways,15:00,19:30
-UA5552,United Airlines,11:00,07:45
-SA9580,South African Airways,06:00,08:00
-NZ8951,Air New Zealand,12:15,20:45
-AI1813,Air India,08:45,14:00
-EK2864,Emirates,06:00,21:30
-BA1206,British Airways,11:45,14:15
-WN2998,Southwest Airlines,15:45,08:30
-UA1028,United Airlines,09:00,08:45
-BA4860,British Airways,17:30,17:00
-EK4642,Emirates,12:45,17:15
-QR4841,Qatar Airways,20:00,20:30
-KE6046,Korean Air,07:15,20:30
-QR7324,Qatar Airways,17:15,06:30
-AI4844,Air India,09:00,14:30
-AF8392,Air France,15:15,14:45
-LA2475,LATAM Airlines,07:45,17:30
-IB7358,Iberia,08:30,16:30
-TG9997,Thai Airways,12:30,20:15
-KL1093,KLM Royal Dutch Airlines,15:30,19:00
-AC8533,Air Canada,21:30,14:00
-AC5689,Air Canada,09:45,06:00
-SQ4687,Singapore Airlines,09:15,07:45
-IB2730,Iberia,19:00,12:30
-SA4087,South African Airways,20:00,14:45
-KL6096,KLM Royal Dutch Airlines,19:45,14:00
-SQ8449,Singapore Airlines,14:15,18:30
-SK5087,SAS Scandinavian,06:15,21:15
-QF3711,Qantas,18:00,21:45
-NH9539,All Nippon Airways,07:30,09:00
-IB2298,Iberia,20:45,21:00
-CX9679,Cathay Pacific,13:00,21:30
-WN4492,Southwest Airlines,19:30,20:00
-SA7408,South African Airways,10:30,10:30
-SA8401,South African Airways,21:15,20:00
-AZ9026,Alitalia,07:15,08:30
-NH4125,All Nippon Airways,10:45,21:45
-EK7739,Emirates,17:30,14:45
-DL3070,Delta Air Lines,08:00,14:30
-KE1926,Korean Air,06:30,21:45
-IB8895,Iberia,19:45,19:00
-LH5129,Lufthansa,10:30,20:45
-UA4871,United Airlines,19:15,14:45
-BA9697,British Airways,11:30,16:00
-WN1044,Southwest Airlines,09:00,16:45
-KL2810,KLM Royal Dutch Airlines,12:15,19:00
-AA9409,American Airlines,21:15,19:45
-NZ1813,Air New Zealand,20:15,17:45
-LA4953,LATAM Airlines,13:45,10:00
-KE7383,Korean Air,10:15,12:00
-NZ1988,Air New Zealand,13:30,08:00
-EK1519,Emirates,08:30,17:15
-KE9981,Korean Air,12:00,20:30
-ET9188,Ethiopian Airlines,11:15,18:30
-AM7137,Aeroméxico,21:45,13:15
-AZ2754,Alitalia,16:15,12:45
-DL8642,Delta Air Lines,13:15,20:15
-SK2136,SAS Scandinavian,06:30,15:00
-ET7394,Ethiopian Airlines,08:00,11:15
-DL6077,Delta Air Lines,09:45,21:45
-SQ1109,Singapore Airlines,08:15,12:45
-UA1453,United Airlines,19:00,16:45
-AC7816,Air Canada,14:45,16:15
-TG4285,Thai Airways,19:30,13:30
-CX4520,Cathay Pacific,17:30,16:15
-TG3952,Thai Airways,17:30,10:30
-AA1923,American Airlines,13:45,06:45
-NZ1218,Air New Zealand,20:30,14:45
-IB4194,Iberia,07:00,19:45
-IB4766,Iberia,16:15,13:00
-KL3949,KLM Royal Dutch Airlines,09:15,13:15
-CX7552,Cathay Pacific,10:15,08:15
-UA9032,United Airlines,16:00,06:00
-AV1149,Avianca,06:30,07:15
-LH6904,Lufthansa,10:30,14:45
-TG6065,Thai Airways,15:30,12:15
-LH6753,Lufthansa,18:00,18:15
-TG8096,Thai Airways,12:30,06:00
-BA7041,British Airways,06:45,09:15
-SQ4474,Singapore Airlines,09:15,13:00
-SA6283,South African Airways,07:00,11:45
-AV4742,Avianca,19:15,13:00
-SK3956,SAS Scandinavian,18:00,12:45
-AV7144,Avianca,16:00,08:45
-SQ8993,Singapore Airlines,10:15,17:15
-TG3173,Thai Airways,09:45,15:30
-SA5940,South African Airways,16:00,10:30
-LA3204,LATAM Airlines,19:00,18:15
-NZ9915,Air New Zealand,17:45,13:45
-QF2814,Qantas,09:30,21:00
-SQ1881,Singapore Airlines,08:45,19:15
-SA5810,South African Airways,16:45,20:15
-ET6237,Ethiopian Airlines,10:15,20:15
-AZ3832,Alitalia,18:00,13:30
-TG3782,Thai Airways,14:30,07:00
-QF5776,Qantas,11:15,14:45
-CX3703,Cathay Pacific,13:30,11:45
-SA1965,South African Airways,16:00,21:00
-QR4970,Qatar Airways,12:00,08:00
-DL1126,Delta Air Lines,11:30,14:45
-AF7177,Air France,17:30,17:00
-QR4841,Qatar Airways,20:00,13:15
-ET1908,Ethiopian Airlines,20:00,12:15
-CX1598,Cathay Pacific,18:45,15:00
-AM5243,Aeroméxico,08:15,10:15
-LH6645,Lufthansa,20:30,11:30
-KL8773,KLM Royal Dutch Airlines,10:45,08:30
-SQ9432,Singapore Airlines,21:30,06:15
-AM9801,Aeroméxico,15:00,17:45
-AZ4289,Alitalia,12:15,19:15
-LH6786,Lufthansa,21:45,08:00
-WN8141,Southwest Airlines,19:15,06:30
-TG2442,Thai Airways,11:30,17:00
-NH6916,All Nippon Airways,16:45,16:00
-WN7250,Southwest Airlines,16:45,16:15
-EK2648,Emirates,18:15,08:30
-KL4070,KLM Royal Dutch Airlines,12:45,19:45
-ET1504,Ethiopian Airlines,18:15,18:30
-WN6320,Southwest Airlines,15:15,19:45
-LA7268,LATAM Airlines,08:15,08:30
-AM3278,Aeroméxico,12:15,12:15
-BA3159,British Airways,06:00,08:15
-IB1460,Iberia,12:30,09:45
-SA7375,South African Airways,21:45,08:30
-SQ2715,Singapore Airlines,19:15,06:45
-AF1042,Air France,16:30,06:15
-SA7753,South African Airways,09:00,15:45
-SK1258,SAS Scandinavian,17:30,14:15
-AC4052,Air Canada,17:15,11:30
-AI1813,Air India,08:45,10:45
-BA2913,British Airways,06:45,09:00
-AV2851,Avianca,13:30,12:00
-AZ7278,Alitalia,21:15,11:45
-CX6670,Cathay Pacific,17:45,11:00
-NH1262,All Nippon Airways,16:00,14:30
-BA2574,British Airways,19:00,08:30
-IB9207,Iberia,21:45,14:15
-DL9915,Delta Air Lines,18:45,19:15
-SK3956,SAS Scandinavian,18:00,09:00
-SQ4020,Singapore Airlines,15:30,10:15
-AI2869,Air India,13:45,17:45
-WN1914,Southwest Airlines,18:45,10:00
-EK5119,Emirates,17:15,14:30
-UA8748,United Airlines,12:30,13:45
-AM8708,Aeroméxico,20:30,08:00
-KE6746,Korean Air,17:00,07:15
-WN9889,Southwest Airlines,07:00,07:15
-TG8579,Thai Airways,19:30,08:15
-SK4438,SAS Scandinavian,09:45,13:30
-LH5458,Lufthansa,10:00,19:15
-ET5903,Ethiopian Airlines,17:00,18:45
-AI4858,Air India,11:15,13:45
-AV7509,Avianca,12:45,13:30
-TG3060,Thai Airways,21:00,10:00
-IB9562,Iberia,16:30,12:15
-DL6420,Delta Air Lines,11:00,15:45
-LA3448,LATAM Airlines,07:45,18:30
-IB9934,Iberia,18:30,16:30
-SK4886,SAS Scandinavian,10:15,21:45
-BA7461,British Airways,06:45,09:30
-TG5067,Thai Airways,13:45,09:00
-AA7975,American Airlines,08:45,16:00
-TG3333,Thai Airways,11:00,17:45
-SK4059,SAS Scandinavian,07:15,06:45
-EK9711,Emirates,15:15,08:00
-NZ9438,Air New Zealand,17:15,14:30
-TG6824,Thai Airways,07:00,19:30
-AA8700,American Airlines,09:15,18:30
-QF4801,Qantas,18:15,09:15
-DL7930,Delta Air Lines,08:30,10:15
-SK9879,SAS Scandinavian,07:00,21:15
-IB2418,Iberia,09:30,17:15
-EK7931,Emirates,21:45,10:00
-KL6129,KLM Royal Dutch Airlines,11:00,18:00
-BA5073,British Airways,11:45,21:45
-NH5344,All Nippon Airways,21:30,15:00
-LA9647,LATAM Airlines,21:45,14:30
-UA9619,United Airlines,17:15,09:45
-EK2269,Emirates,16:15,10:00
-CX8594,Cathay Pacific,09:00,12:00
-DL8502,Delta Air Lines,16:00,06:30
-QR7416,Qatar Airways,09:30,14:00
-NZ1348,Air New Zealand,21:45,08:30
-AV2507,Avianca,18:15,15:45
-SK8444,SAS Scandinavian,10:00,19:15
-LH1697,Lufthansa,16:45,18:30
-AZ2669,Alitalia,11:00,14:15
-NZ2252,Air New Zealand,19:45,13:15
-AZ5754,Alitalia,10:45,12:30
-SK2088,SAS Scandinavian,08:30,09:00
-AF5997,Air France,18:00,19:45
-KL9281,KLM Royal Dutch Airlines,10:45,09:45
-ET1457,Ethiopian Airlines,20:15,19:15
-WN6141,Southwest Airlines,17:30,10:15
-AF1364,Air France,15:00,21:45
-AM2984,Aeroméxico,06:30,11:15
-SA4783,South African Airways,14:00,17:15
-EK5040,Emirates,12:45,21:00
-SA8416,South African Airways,18:15,15:15
-SK2402,SAS Scandinavian,19:00,18:30
-AA5224,American Airlines,19:30,21:00
-ET3547,Ethiopian Airlines,12:00,13:15
-KL5768,KLM Royal Dutch Airlines,14:45,15:00
-IB6654,Iberia,13:30,12:15
-AC2998,Air Canada,20:00,06:30
-ET9491,Ethiopian Airlines,07:15,21:45
-IB9934,Iberia,18:30,19:30
-NZ8860,Air New Zealand,13:00,06:15
-AM3244,Aeroméxico,17:30,08:45
-AZ3137,Alitalia,07:15,07:00
-AV6156,Avianca,14:30,12:15
-CX3169,Cathay Pacific,17:45,13:00
-QF5533,Qantas,17:45,18:00
-EK5144,Emirates,06:15,19:15
-LH3163,Lufthansa,11:30,18:15
-LH3949,Lufthansa,10:45,20:45
-NZ5050,Air New Zealand,07:30,10:30
-SK8133,SAS Scandinavian,12:45,13:15
-NZ9726,Air New Zealand,12:15,11:15
-AZ7649,Alitalia,21:30,21:30
-SK1074,SAS Scandinavian,13:00,08:15
-BA7341,British Airways,06:30,14:15
-SK8258,SAS Scandinavian,10:15,06:00
-AI2923,Air India,08:30,21:30
-IB9593,Iberia,18:15,20:30
-KL3967,KLM Royal Dutch Airlines,16:30,06:30
-KE7320,Korean Air,19:30,10:00
-TG8205,Thai Airways,07:30,13:30
-NZ3445,Air New Zealand,18:00,21:45
-TG9997,Thai Airways,12:30,12:45
-SA1444,South African Airways,07:15,07:15
-DL6351,Delta Air Lines,17:45,17:15
-TG7596,Thai Airways,07:15,16:45
-AZ8524,Alitalia,15:15,21:45
-NZ4282,Air New Zealand,10:30,09:45
-DL7893,Delta Air Lines,20:30,07:15
-SK1081,SAS Scandinavian,17:45,20:45
-IB1482,Iberia,15:30,06:30
-KL8568,KLM Royal Dutch Airlines,21:00,21:30
-LA7114,LATAM Airlines,20:30,06:30
-AV9472,Avianca,21:30,06:15
-QF9447,Qantas,10:45,08:45
-SK7017,SAS Scandinavian,16:30,07:00
-QR4803,Qatar Airways,07:45,13:45
-ET6380,Ethiopian Airlines,12:00,13:45
-AC6343,Air Canada,14:15,07:45
-TG7094,Thai Airways,16:15,20:45
-AI9969,Air India,06:45,16:00
-CX9836,Cathay Pacific,14:45,17:00
-DL3554,Delta Air Lines,11:30,20:15
-QF8539,Qantas,15:30,20:15
-AV5027,Avianca,20:00,06:45
-BA6203,British Airways,10:45,10:45
-UA6879,United Airlines,08:30,16:15
-LH7008,Lufthansa,13:00,20:15
-AF5955,Air France,10:30,07:00
-CX3624,Cathay Pacific,09:00,08:15
-WN9725,Southwest Airlines,14:00,16:45
-CX3660,Cathay Pacific,21:45,18:45
-TG8956,Thai Airways,10:30,09:45
-ET2424,Ethiopian Airlines,19:30,16:00
-SA4548,South African Airways,10:00,18:00
-LH1604,Lufthansa,07:30,08:00
-LH3401,Lufthansa,11:00,19:45
-CX5044,Cathay Pacific,17:15,21:15
-AZ6961,Alitalia,09:00,06:30
-CX6791,Cathay Pacific,15:30,07:15
-SK5076,SAS Scandinavian,21:15,07:30
-WN4945,Southwest Airlines,20:30,14:30
-AM6970,Aeroméxico,15:45,08:15
-AM2109,Aeroméxico,11:45,15:45
-ET5032,Ethiopian Airlines,17:30,21:00
-KL3414,KLM Royal Dutch Airlines,19:45,09:45
-UA4214,United Airlines,15:15,14:00
-EK1351,Emirates,14:00,10:30
-AF1967,Air France,16:30,09:45
-AA8316,American Airlines,21:00,11:45
-SK3316,SAS Scandinavian,13:30,10:15
-AC9723,Air Canada,13:45,16:30
-KE8449,Korean Air,17:45,08:45
-TG4861,Thai Airways,12:45,09:45
-KL2768,KLM Royal Dutch Airlines,13:00,06:00
-UA1667,United Airlines,17:45,19:15
-IB5036,Iberia,17:00,06:30
-EK1649,Emirates,21:15,08:15
-NH4302,All Nippon Airways,18:15,20:00
-QR3056,Qatar Airways,11:30,19:30
-AF1510,Air France,11:30,08:30
-AM4416,Aeroméxico,21:15,12:45
-NH8558,All Nippon Airways,08:00,06:45
-AI5164,Air India,20:30,17:30
-KL5305,KLM Royal Dutch Airlines,14:15,09:45
-IB4367,Iberia,18:00,10:45
-AA2636,American Airlines,20:30,08:00
-AA6821,American Airlines,17:00,20:30
-AI9950,Air India,19:15,17:15
-SA6231,South African Airways,12:00,08:45
-AC2262,Air Canada,14:15,11:15
-WN1798,Southwest Airlines,19:15,06:45
-AM7841,Aeroméxico,10:30,08:30
-KL6524,KLM Royal Dutch Airlines,06:30,19:00
-SQ4044,Singapore Airlines,13:30,15:45
-WN8491,Southwest Airlines,06:45,16:45
-SA2979,South African Airways,11:45,09:00
-LA2012,LATAM Airlines,16:00,11:45
-KL7867,KLM Royal Dutch Airlines,13:30,15:30
-IB5628,Iberia,11:15,11:30
-LH5385,Lufthansa,09:30,11:00
-SK8675,SAS Scandinavian,09:00,16:15
-DL9163,Delta Air Lines,16:45,09:00
-QF1539,Qantas,16:15,20:45
-SK2122,SAS Scandinavian,07:45,19:30
-NZ5573,Air New Zealand,18:15,16:15
-AM4822,Aeroméxico,06:00,18:00
-LA3329,LATAM Airlines,11:15,20:30
-CX8869,Cathay Pacific,13:15,15:15
-AF8075,Air France,19:30,15:15
-SA5420,South African Airways,08:15,19:45
-EK2123,Emirates,10:00,18:30
-EK6770,Emirates,08:30,18:30
-SK5934,SAS Scandinavian,08:00,19:45
-BA9018,British Airways,11:15,10:45
-BA9450,British Airways,08:45,20:15
-NH7775,All Nippon Airways,15:00,12:45
-NH6901,All Nippon Airways,18:45,21:30
-NH1126,All Nippon Airways,11:45,06:00
-AI7743,Air India,18:15,10:30
-AC4172,Air Canada,06:00,11:00
-AC6946,Air Canada,07:45,11:30
-IB8590,Iberia,10:15,10:00
-AF9202,Air France,06:30,10:30
-SK7694,SAS Scandinavian,17:45,19:45
-IB2418,Iberia,09:30,18:30
-AC2998,Air Canada,20:00,06:00
-KL6659,KLM Royal Dutch Airlines,15:00,21:15
-AC3023,Air Canada,19:30,10:45
-QF2881,Qantas,10:30,20:45
-EK5658,Emirates,14:30,08:45
-AM3262,Aeroméxico,17:00,17:00
-WN5349,Southwest Airlines,09:00,15:15
-LA5365,LATAM Airlines,09:15,16:30
-SA4862,South African Airways,17:30,18:15
-WN2160,Southwest Airlines,11:45,09:15
-QR3303,Qatar Airways,17:15,08:00
-SQ7311,Singapore Airlines,06:00,13:30
-QR1607,Qatar Airways,09:45,19:00
-AM9697,Aeroméxico,12:30,07:30
-QF5892,Qantas,12:00,08:30
-AF2705,Air France,07:45,10:30
-WN2778,Southwest Airlines,16:45,08:45
-AF2239,Air France,06:15,06:15
-EK5772,Emirates,09:30,07:15
-NH8896,All Nippon Airways,12:15,09:45
-ET8782,Ethiopian Airlines,16:30,17:30
-TG7204,Thai Airways,07:15,18:15
-AZ6718,Alitalia,19:30,10:00
-TG6824,Thai Airways,07:00,11:15
-WN3613,Southwest Airlines,17:15,20:45
-AA8683,American Airlines,14:00,21:45
-LA4963,LATAM Airlines,06:00,11:30
-SQ9539,Singapore Airlines,07:00,21:30
-NH7298,All Nippon Airways,19:30,08:30
-SA4782,South African Airways,19:00,08:30
-NZ6571,Air New Zealand,16:15,18:30
-BA3369,British Airways,20:45,09:45
-NH8129,All Nippon Airways,08:45,21:30
-AI4251,Air India,11:45,12:30
-AC5097,Air Canada,19:30,08:45
-UA5069,United Airlines,10:00,18:45
-QR1576,Qatar Airways,19:15,16:30
-QR2087,Qatar Airways,18:15,10:15
-SK4848,SAS Scandinavian,21:30,20:15
-BA4570,British Airways,11:30,18:00
-AV6517,Avianca,09:15,11:15
-DL1887,Delta Air Lines,16:00,09:45
-DL1375,Delta Air Lines,07:15,20:00
-LA1025,LATAM Airlines,09:00,19:15
-AI6387,Air India,21:15,19:45
-AI5832,Air India,18:30,09:00
-UA9619,United Airlines,17:15,11:45
-WN2179,Southwest Airlines,07:45,09:15
-SA8401,South African Airways,21:15,16:30
-QF3040,Qantas,06:45,06:30
-AF9449,Air France,18:30,08:15
-WN9021,Southwest Airlines,06:15,20:45
-SQ1726,Singapore Airlines,15:45,14:15
-DL8353,Delta Air Lines,19:45,17:00
-ET2517,Ethiopian Airlines,14:30,17:45
-AA9114,American Airlines,20:15,10:00
-AF3413,Air France,07:45,17:45
-KL3748,KLM Royal Dutch Airlines,16:15,18:15
-AA6826,American Airlines,06:30,20:45
-NZ4615,Air New Zealand,17:15,12:00
-SA3890,South African Airways,08:45,15:00
-CX9990,Cathay Pacific,19:45,07:30
-LH3554,Lufthansa,19:45,21:30
-NZ7721,Air New Zealand,15:00,14:15
-IB3405,Iberia,21:30,13:30
-LH2739,Lufthansa,18:00,08:00
-SK6503,SAS Scandinavian,10:15,12:00
-AF5655,Air France,16:00,12:30
-DL5331,Delta Air Lines,06:30,10:30
-AI2719,Air India,20:00,21:30
-KE5284,Korean Air,18:30,10:30
-SK1975,SAS Scandinavian,10:15,19:45
-AF7132,Air France,15:00,13:30
-ET7222,Ethiopian Airlines,20:30,15:30
-NZ1680,Air New Zealand,19:30,13:15
-LA9565,LATAM Airlines,11:15,19:45
-AA7291,American Airlines,16:30,06:45
-AA2173,American Airlines,14:45,10:00
-IB7558,Iberia,13:00,10:30
-AV4922,Avianca,18:00,08:30
-NZ7696,Air New Zealand,12:15,06:30
-TG5854,Thai Airways,12:30,19:45
-AC8696,Air Canada,21:30,09:30
-LA4664,LATAM Airlines,18:30,17:00
-AF9229,Air France,17:45,20:30
-SK6941,SAS Scandinavian,21:00,16:30
-KL5073,KLM Royal Dutch Airlines,08:45,19:30
-AA7865,American Airlines,12:30,13:30
-DL4692,Delta Air Lines,12:00,16:00
-LA6600,LATAM Airlines,11:45,19:15
-LH5462,Lufthansa,15:45,07:00
-SA9206,South African Airways,19:30,09:00
-AF9068,Air France,19:45,15:45
-LA7059,LATAM Airlines,09:45,08:45
-AZ5740,Alitalia,21:30,08:15
-EK5658,Emirates,14:30,10:15
-QF2015,Qantas,17:00,21:45
-ET2023,Ethiopian Airlines,07:45,11:00
-QR6265,Qatar Airways,20:30,11:00
-AI8506,Air India,19:15,07:15
-SK5933,SAS Scandinavian,21:30,17:15
-AA1107,American Airlines,13:00,10:15
-SA4830,South African Airways,21:00,18:45
-TG3656,Thai Airways,12:45,15:30
-QR9328,Qatar Airways,13:15,18:15
-KE9516,Korean Air,16:00,12:15
-LA3958,LATAM Airlines,09:45,16:00
-BA7089,British Airways,14:00,20:30
-AV6390,Avianca,09:00,13:00
-EK7539,Emirates,07:30,14:30
-UA8275,United Airlines,14:45,10:45
-LH7411,Lufthansa,08:00,12:45
-KL6524,KLM Royal Dutch Airlines,06:30,17:45
-UA1633,United Airlines,13:30,12:15
-UA3235,United Airlines,12:45,18:00
-TG8482,Thai Airways,07:30,06:30
-LA8837,LATAM Airlines,12:15,12:15
-IB6826,Iberia,07:45,15:30
-IB1849,Iberia,18:30,09:45
-ET7187,Ethiopian Airlines,09:45,19:15
-TG3895,Thai Airways,17:15,11:00
-AF4644,Air France,21:00,18:45
-BA4656,British Airways,15:30,20:30
-SA2695,South African Airways,17:15,17:30
-AA4152,American Airlines,11:30,16:15
-KE6728,Korean Air,09:30,21:30
-QF1241,Qantas,19:15,18:30
-AC9162,Air Canada,07:00,08:45
-SA4087,South African Airways,20:00,15:30
-QR1102,Qatar Airways,18:30,11:30
-SK7701,SAS Scandinavian,21:15,18:45
-CX4309,Cathay Pacific,18:15,18:15
-KE3916,Korean Air,19:45,07:15
-KL9931,KLM Royal Dutch Airlines,10:45,13:45
-DL1762,Delta Air Lines,18:45,17:45
-AA4284,American Airlines,16:15,19:45
-AF4902,Air France,14:15,06:30
-NH6916,All Nippon Airways,16:45,11:45
-EK2645,Emirates,11:00,09:00
-KE7584,Korean Air,06:00,07:00
-LA4744,LATAM Airlines,18:15,20:45
-LA2012,LATAM Airlines,16:00,06:45
-IB5771,Iberia,07:45,17:15
-AI2527,Air India,08:15,12:00
-KL7515,KLM Royal Dutch Airlines,07:15,09:45
-WN2160,Southwest Airlines,11:45,13:15
-BA7461,British Airways,06:45,08:00
-CX5974,Cathay Pacific,14:30,16:15
-QR1805,Qatar Airways,12:15,07:15
-AI5382,Air India,15:15,17:45
-EK7539,Emirates,07:30,08:15
-AM2718,Aeroméxico,13:30,20:45
-NH9722,All Nippon Airways,11:45,20:15
-AA1144,American Airlines,08:15,21:30
-LH6336,Lufthansa,21:00,09:15
-TG3333,Thai Airways,11:00,06:15
-TG9905,Thai Airways,17:30,15:15
-CX4224,Cathay Pacific,20:00,20:30
-ET2308,Ethiopian Airlines,18:30,16:00
-AV2802,Avianca,21:30,10:00
-DL1887,Delta Air Lines,16:00,21:30
-NH2978,All Nippon Airways,13:45,19:15
-AA8769,American Airlines,10:00,17:30
-SA2287,South African Airways,16:00,21:15
-AF3957,Air France,07:15,21:30
-EK5205,Emirates,19:45,07:30
-EK4332,Emirates,18:30,18:45
-BA4592,British Airways,13:00,16:00
-AI7579,Air India,09:15,17:00
-QR8922,Qatar Airways,16:30,18:45
-QF3711,Qantas,18:00,06:15
-ET4570,Ethiopian Airlines,17:30,19:45
-AA2860,American Airlines,10:30,21:45
-SA5492,South African Airways,14:15,12:30
-TG1711,Thai Airways,14:45,18:30
-SK9534,SAS Scandinavian,09:45,14:45
-NZ9504,Air New Zealand,11:45,18:30
-AF9068,Air France,19:45,19:30
-WN9691,Southwest Airlines,12:15,11:45
-WN7674,Southwest Airlines,11:45,15:45
-SK9628,SAS Scandinavian,18:30,10:00
-KE1593,Korean Air,20:15,20:45
-AC2767,Air Canada,14:15,20:00
-KL6392,KLM Royal Dutch Airlines,13:00,13:45
-IB8524,Iberia,13:00,07:00
-SQ1939,Singapore Airlines,18:45,16:15
-AM8507,Aeroméxico,16:30,06:15
-AI9127,Air India,10:00,15:15
-BA8735,British Airways,08:15,20:45
-KE1458,Korean Air,09:45,13:30
-NH6392,All Nippon Airways,06:00,12:00
-AZ5154,Alitalia,20:30,09:00
-SA2287,South African Airways,16:00,14:45
-AC9211,Air Canada,21:30,16:15
-LH7516,Lufthansa,07:15,19:45
-AV3665,Avianca,17:45,19:00
-AI2522,Air India,08:00,21:00
-ET4833,Ethiopian Airlines,16:15,06:45
-AI2188,Air India,17:15,10:00
-SQ5883,Singapore Airlines,16:00,20:00
-AV3749,Avianca,11:15,20:15
-UA3391,United Airlines,12:30,09:00
-EK7996,Emirates,14:15,08:00
-QF4469,Qantas,19:45,19:30
-LH5385,Lufthansa,09:30,13:15
-AI1813,Air India,08:45,08:30
-QF1391,Qantas,09:15,10:45
-BA1442,British Airways,19:45,09:30
-KE1960,Korean Air,10:45,13:45
-BA4142,British Airways,21:15,12:45
-AF5997,Air France,18:00,11:30
-NZ9626,Air New Zealand,21:15,07:45
-LA6061,LATAM Airlines,08:15,16:15
-AA6494,American Airlines,15:00,09:15
-AM6221,Aeroméxico,14:45,15:30
-AI3081,Air India,13:00,17:30
-AV2514,Avianca,14:30,20:30
-AM3107,Aeroméxico,10:30,21:30
-SK5121,SAS Scandinavian,15:45,19:45
-EK6878,Emirates,19:00,21:30
-SQ6690,Singapore Airlines,17:45,11:00
-CX9928,Cathay Pacific,20:30,19:15
-QR9299,Qatar Airways,17:15,20:45
-TG5312,Thai Airways,15:45,17:15
-LH4335,Lufthansa,09:45,16:00
-QR1607,Qatar Airways,09:45,09:45
-AA8928,American Airlines,06:45,14:30
-BA5574,British Airways,21:00,19:45
-QF2703,Qantas,17:15,10:00
-KL1948,KLM Royal Dutch Airlines,06:00,13:15
-NZ9286,Air New Zealand,15:00,09:45
-AV4715,Avianca,10:30,12:30
-AV3171,Avianca,19:15,15:45
-UA7283,United Airlines,12:00,15:30
-NH7606,All Nippon Airways,21:45,19:15
-LH3993,Lufthansa,20:30,10:30
-BA2135,British Airways,06:00,11:15
-WN4451,Southwest Airlines,13:30,19:15
-TG2523,Thai Airways,11:30,20:30
-LA8222,LATAM Airlines,21:45,08:45
-QF7905,Qantas,19:45,21:45
-SK4476,SAS Scandinavian,17:45,17:45
-KE8393,Korean Air,13:15,13:45
-QR9377,Qatar Airways,06:00,17:15
-SQ2818,Singapore Airlines,08:15,16:15
-UA6725,United Airlines,20:15,18:30
-AM8332,Aeroméxico,06:45,12:00
-QR8829,Qatar Airways,09:30,09:45
-NH9393,All Nippon Airways,06:00,20:15
-ET5125,Ethiopian Airlines,17:45,10:15
-NH4534,All Nippon Airways,17:45,08:15
-QR3285,Qatar Airways,20:15,17:15
-IB3853,Iberia,10:15,11:15
-KE3649,Korean Air,19:00,20:30
-AI8609,Air India,17:00,15:30
-BA7831,British Airways,10:45,16:00
-SQ9432,Singapore Airlines,21:30,08:45
-CX5046,Cathay Pacific,18:45,06:15
-QR4498,Qatar Airways,10:45,18:30
-LA1090,LATAM Airlines,16:15,10:30
-NH1069,All Nippon Airways,09:45,15:00
-TG5312,Thai Airways,15:45,14:45
-QR3629,Qatar Airways,19:30,07:45
-NZ1572,Air New Zealand,11:45,14:45
-NZ7374,Air New Zealand,06:00,20:00
-UA1667,United Airlines,17:45,17:00
-CX3838,Cathay Pacific,17:00,08:00
-IB2849,Iberia,21:30,20:00
-UA1033,United Airlines,06:00,19:15
-UA1609,United Airlines,08:15,17:15
-AM2515,Aeroméxico,11:00,10:15
-BA4649,British Airways,10:45,07:45
-SK3905,SAS Scandinavian,17:15,09:45
-EK7982,Emirates,20:15,10:45
-AZ8524,Alitalia,15:15,13:15
-AI4218,Air India,08:30,17:45
-EK9530,Emirates,10:00,18:15
-UA1914,United Airlines,10:00,19:30
-AA8953,American Airlines,15:30,21:00
-AI8841,Air India,11:00,09:30
-UA8466,United Airlines,14:30,20:15
-QF3525,Qantas,18:45,12:15
-AM3096,Aeroméxico,12:15,21:00
-AZ4140,Alitalia,21:45,20:15
-AF9171,Air France,18:00,21:45
-BA3470,British Airways,12:15,09:00
-LH1832,Lufthansa,08:15,15:45
-BA7616,British Airways,12:00,14:30
-LA7613,LATAM Airlines,19:30,12:30
-AI4546,Air India,15:30,11:15
-AF1519,Air France,19:45,11:00
-KL4658,KLM Royal Dutch Airlines,08:15,21:30
-NH9186,All Nippon Airways,08:30,17:45
-NZ5489,Air New Zealand,17:15,12:30
-TG4861,Thai Airways,12:45,21:30
-IB6717,Iberia,10:00,18:15
-SA1444,South African Airways,07:15,10:00
-QR3556,Qatar Airways,21:30,14:00
-LH9851,Lufthansa,12:15,13:45
-QR2909,Qatar Airways,18:30,16:45
-KE5316,Korean Air,08:45,17:45
-NH2177,All Nippon Airways,06:00,20:15
-ET2811,Ethiopian Airlines,15:15,14:30
-AA7550,American Airlines,20:00,18:30
-QR2087,Qatar Airways,18:15,19:00
-DL8764,Delta Air Lines,16:45,16:00
-AZ7631,Alitalia,07:30,07:30
-AF3915,Air France,11:15,18:15
-NH2293,All Nippon Airways,11:30,07:30
-SK4970,SAS Scandinavian,11:30,17:45
-AM6970,Aeroméxico,15:45,14:30
-LH3115,Lufthansa,17:45,06:15
-WN3779,Southwest Airlines,21:15,13:00
-TG3547,Thai Airways,16:15,10:00
-AI7280,Air India,15:30,14:00
-AF7295,Air France,10:30,15:00
-KL5155,KLM Royal Dutch Airlines,18:45,17:45
-AM9465,Aeroméxico,20:30,11:15
-SQ4431,Singapore Airlines,13:30,13:00
-UA3447,United Airlines,13:15,16:45
-AF1424,Air France,16:15,17:30
-NH5700,All Nippon Airways,21:45,14:45
-AZ7072,Alitalia,19:15,14:30
-WN9851,Southwest Airlines,07:30,16:30
-AF1670,Air France,20:15,21:45
-QF5176,Qantas,12:00,13:00
-AV3870,Avianca,10:15,16:15
-AF4678,Air France,21:15,08:45
-AI8078,Air India,11:45,10:00
-TG3796,Thai Airways,12:00,19:15
-AC2119,Air Canada,16:30,16:00
-AF9054,Air France,13:00,07:45
-UA6826,United Airlines,20:00,21:45
-SA2968,South African Airways,20:00,21:30
-WN8822,Southwest Airlines,17:15,13:00
-SQ2511,Singapore Airlines,07:00,09:15
-KE3828,Korean Air,19:15,20:00
-QR4927,Qatar Airways,19:30,10:15
-KE5026,Korean Air,12:00,14:45
-QF6834,Qantas,09:30,18:30
-EK4042,Emirates,06:15,12:30
-NH4005,All Nippon Airways,14:15,13:15
-DL4260,Delta Air Lines,13:30,09:15
-AV7276,Avianca,19:30,14:00
-KE5891,Korean Air,13:15,11:30
-SQ6592,Singapore Airlines,21:45,21:30
-AM6970,Aeroméxico,15:45,20:45
-AI4651,Air India,09:30,06:00
-NZ4960,Air New Zealand,20:30,11:30
-SA5186,South African Airways,15:15,07:00
-TG4368,Thai Airways,18:30,20:30
-SA4674,South African Airways,17:45,14:15
-LH5462,Lufthansa,15:45,16:45
-AI4973,Air India,09:45,07:00
-AF3915,Air France,11:15,16:15
-LA1124,LATAM Airlines,20:15,10:30
-LH9851,Lufthansa,12:15,09:30
-NH6177,All Nippon Airways,21:45,14:45
-LA9236,LATAM Airlines,16:15,14:45
-DL9098,Delta Air Lines,18:15,12:45
-NZ8208,Air New Zealand,07:15,21:45
-CX3624,Cathay Pacific,09:00,16:00
-AV2514,Avianca,14:30,21:30
-EK2700,Emirates,21:45,06:00
-KE5316,Korean Air,08:45,06:00
-NZ8312,Air New Zealand,06:00,20:00
-AV2580,Avianca,14:45,09:30
-AV9472,Avianca,21:30,14:00
-NZ8876,Air New Zealand,08:30,14:30
-KL4070,KLM Royal Dutch Airlines,12:45,19:15
-SQ1888,Singapore Airlines,21:30,17:45
-NZ2165,Air New Zealand,13:30,10:45
-NH7897,All Nippon Airways,06:00,19:45
-ET8603,Ethiopian Airlines,19:15,21:30
-KE4109,Korean Air,18:45,12:45
-IB9376,Iberia,19:30,20:00
-KE8210,Korean Air,15:00,18:00
-KE2501,Korean Air,16:30,18:30
-LA1346,LATAM Airlines,17:00,16:00
-QF8392,Qantas,06:45,21:00
-LH5850,Lufthansa,21:30,10:15
-SQ2511,Singapore Airlines,07:00,21:30
-LA2393,LATAM Airlines,09:00,17:00
-AF2263,Air France,20:15,11:30
-KE7093,Korean Air,16:30,08:30
-EK7453,Emirates,08:45,14:30
-QR7511,Qatar Airways,16:15,12:30
-UA7982,United Airlines,11:45,06:00
-QF9225,Qantas,09:30,12:30
-UA5552,United Airlines,11:00,09:00
-SQ3769,Singapore Airlines,06:15,20:30
-AF1326,Air France,09:45,09:00
-BA2360,British Airways,17:15,09:00
-IB8384,Iberia,15:15,09:00
-DL1787,Delta Air Lines,18:15,11:00
-AA4031,American Airlines,07:30,17:30
-AF8339,Air France,14:00,15:15
-SK2916,SAS Scandinavian,12:30,16:30
-ET7859,Ethiopian Airlines,10:00,17:00
-KE8796,Korean Air,13:45,12:30
-CX4721,Cathay Pacific,07:15,17:45
-QF5643,Qantas,07:15,20:00
-IB9305,Iberia,20:30,14:15
-TG6514,Thai Airways,20:30,13:30
-QR8684,Qatar Airways,20:30,12:45
-AC5204,Air Canada,17:00,13:15
-AC1726,Air Canada,16:30,10:45
-UA5586,United Airlines,14:45,07:15
-NZ4558,Air New Zealand,16:30,19:45
-KE6224,Korean Air,10:00,18:00
-NZ2102,Air New Zealand,18:15,20:30
-AC5785,Air Canada,09:30,10:00
-CX8163,Cathay Pacific,15:15,16:30
-AF6606,Air France,09:00,11:45
-BA2913,British Airways,06:45,20:30
-SA5698,South African Airways,07:30,16:45
-AC4609,Air Canada,19:45,20:15
-CX9953,Cathay Pacific,18:15,17:30
-AM5261,Aeroméxico,15:15,10:15
-AZ4746,Alitalia,09:45,10:30
-QR3784,Qatar Airways,20:45,19:00
-AM3278,Aeroméxico,12:15,19:00
-WN8701,Southwest Airlines,09:30,13:45
-AF9449,Air France,18:30,08:45
+flightid,airline, departuredate,returndate
+1,SAS Scandinavian,10/24/2024,5/22/2024
+2,LATAM Airlines,6/21/2024,2/27/2025
+3,SAS Scandinavian,4/18/2024,8/2/2024
+4,All Nippon Airways,1/5/2025,2/24/2025
+5,Singapore Airlines,12/14/2024,4/15/2024
+6,Cathay Pacific,1/7/2025,6/11/2024
+7,Air India,4/4/2024,10/24/2024
+8,British Airways,5/20/2024,4/27/2024
+9,Qantas,8/21/2024,1/6/2025
+10,Singapore Airlines,10/16/2024,3/30/2025
+11,Qantas,6/11/2024,11/23/2024
+12,All Nippon Airways,11/6/2024,4/16/2024
+13,Delta Air Lines,7/7/2024,6/18/2024
+14,Thai Airways,10/19/2024,5/10/2024
+15,Delta Air Lines,5/9/2024,12/27/2024
+16,Korean Air,11/4/2024,3/26/2025
+17,Cathay Pacific,6/14/2024,4/1/2024
+18,American Airlines,6/11/2024,4/11/2024
+19,Air New Zealand,10/25/2024,8/5/2024
+20,Air India,8/2/2024,5/20/2024
+21,Alitalia,5/7/2024,7/7/2024
+22,South African Airways,5/11/2024,8/13/2024
+23,British Airways,5/6/2024,9/2/2024
+24,Lufthansa,8/5/2024,10/19/2024
+25,United Airlines,8/3/2024,8/27/2024
+26,All Nippon Airways,8/5/2024,3/29/2025
+27,Alitalia,4/22/2024,2/26/2025
+28,Aeroméxico,11/23/2024,11/10/2024
+29,Thai Airways,2/4/2025,6/18/2024
+30,All Nippon Airways,11/22/2024,2/18/2025
+31,Korean Air,4/24/2024,4/12/2024
+32,SAS Scandinavian,8/20/2024,6/13/2024
+33,South African Airways,12/7/2024,4/5/2024
+34,Air New Zealand,2/20/2025,6/6/2024
+35,Lufthansa,6/20/2024,10/17/2024
+36,SAS Scandinavian,4/29/2024,6/10/2024
+37,Iberia,11/24/2024,8/27/2024
+38,Air Canada,5/21/2024,10/29/2024
+39,LATAM Airlines,6/15/2024,4/16/2024
+40,Southwest Airlines,3/28/2025,7/21/2024
+41,Korean Air,4/3/2024,7/23/2024
+42,Ethiopian Airlines,7/14/2024,6/12/2024
+43,South African Airways,2/21/2025,11/5/2024
+44,British Airways,6/10/2024,10/15/2024
+45,Thai Airways,7/14/2024,1/28/2025
+46,Qantas,10/14/2024,8/15/2024
+47,Qantas,3/5/2025,1/15/2025
+48,Southwest Airlines,6/13/2024,7/20/2024
+49,Air France,10/25/2024,5/14/2024
+50,Qantas,12/12/2024,11/30/2024
+51,Qatar Airways,8/11/2024,12/4/2024
+52,Air France,5/11/2024,10/9/2024
+53,United Airlines,10/16/2024,8/10/2024
+54,South African Airways,7/2/2024,12/24/2024
+55,Southwest Airlines,9/24/2024,7/24/2024
+56,Cathay Pacific,4/30/2024,5/12/2024
+57,British Airways,8/4/2024,5/3/2024
+58,United Airlines,9/2/2024,4/26/2024
+59,Ethiopian Airlines,11/25/2024,10/28/2024
+60,British Airways,3/7/2025,7/11/2024
+61,Ethiopian Airlines,9/4/2024,8/19/2024
+62,South African Airways,3/24/2025,7/14/2024
+63,United Airlines,2/19/2025,11/9/2024
+64,Delta Air Lines,6/22/2024,7/13/2024
+65,Air New Zealand,8/26/2024,11/9/2024
+66,Air Canada,2/16/2025,10/31/2024
+67,Air India,10/28/2024,4/22/2024
+68,Korean Air,5/14/2024,7/31/2024
+69,Avianca,12/19/2024,1/15/2025
+70,United Airlines,7/8/2024,6/17/2024
+71,British Airways,6/12/2024,10/28/2024
+72,Air India,12/30/2024,8/14/2024
+73,United Airlines,8/21/2024,5/17/2024
+74,LATAM Airlines,8/15/2024,8/8/2024
+75,Qantas,9/26/2024,11/16/2024
+76,Qatar Airways,9/14/2024,5/22/2024
+77,Avianca,3/11/2025,7/20/2024
+78,South African Airways,3/11/2025,3/4/2025
+79,Lufthansa,4/30/2024,4/13/2024
+80,Korean Air,10/13/2024,9/26/2024
+81,Korean Air,11/23/2024,1/13/2025
+82,Alitalia,1/26/2025,6/21/2024
+83,Air Canada,10/4/2024,3/31/2024
+84,Air New Zealand,9/8/2024,10/14/2024
+85,LATAM Airlines,3/10/2025,1/15/2025
+86,Southwest Airlines,12/10/2024,2/27/2025
+87,Lufthansa,6/18/2024,2/21/2025
+88,KLM Royal Dutch Airlines,11/22/2024,5/8/2024
+89,Aeroméxico,8/16/2024,8/22/2024
+90,Iberia,6/24/2024,7/27/2024
+91,Emirates,1/19/2025,11/22/2024
+92,British Airways,2/16/2025,2/8/2025
+93,Cathay Pacific,1/27/2025,9/5/2024
+94,LATAM Airlines,5/19/2024,4/17/2024
+95,Ethiopian Airlines,5/21/2024,8/4/2024
+96,Qantas,2/19/2025,1/5/2025
+97,Aeroméxico,2/15/2025,7/26/2024
+98,Iberia,10/8/2024,3/24/2025
+99,United Airlines,8/25/2024,5/8/2024
+100,Thai Airways,11/18/2024,10/31/2024
+101,Ethiopian Airlines,11/8/2024,2/17/2025
+102,South African Airways,5/30/2024,11/10/2024
+103,KLM Royal Dutch Airlines,1/31/2025,10/29/2024
+104,Aeroméxico,10/21/2024,1/28/2025
+105,United Airlines,11/13/2024,7/29/2024
+106,South African Airways,2/26/2025,10/12/2024
+107,LATAM Airlines,11/14/2024,7/6/2024
+108,Southwest Airlines,6/30/2024,6/30/2024
+109,Iberia,11/19/2024,12/26/2024
+110,Emirates,4/11/2024,6/11/2024
+111,Air France,1/27/2025,3/20/2025
+112,Cathay Pacific,6/11/2024,4/24/2024
+113,Qantas,7/9/2024,7/11/2024
+114,Qatar Airways,10/4/2024,2/12/2025
+115,Air France,8/15/2024,11/6/2024
+116,Delta Air Lines,9/8/2024,11/19/2024
+117,Qatar Airways,4/16/2024,4/15/2024
+118,LATAM Airlines,10/5/2024,12/27/2024
+119,Delta Air Lines,9/7/2024,5/20/2024
+120,Air France,9/26/2024,5/10/2024
+121,Alitalia,11/1/2024,6/9/2024
+122,Qatar Airways,11/11/2024,6/15/2024
+123,Lufthansa,6/22/2024,12/14/2024
+124,Delta Air Lines,6/17/2024,9/21/2024
+125,Avianca,4/28/2024,5/6/2024
+126,Thai Airways,11/22/2024,5/25/2024
+127,Air France,1/12/2025,10/8/2024
+128,Air Canada,4/30/2024,11/10/2024
+129,Southwest Airlines,4/7/2024,12/28/2024
+130,Aeroméxico,7/29/2024,1/19/2025
+131,Lufthansa,1/11/2025,4/13/2024
+132,Korean Air,5/30/2024,7/22/2024
+133,Air Canada,4/9/2024,11/16/2024
+134,Lufthansa,5/19/2024,3/15/2025
+135,Emirates,1/30/2025,2/26/2025
+136,United Airlines,5/26/2024,12/14/2024
+137,Emirates,9/27/2024,5/30/2024
+138,Alitalia,1/25/2025,4/13/2024
+139,Ethiopian Airlines,12/5/2024,7/11/2024
+140,Korean Air,12/17/2024,4/5/2024
+141,Alitalia,8/30/2024,6/3/2024
+142,Southwest Airlines,9/18/2024,7/28/2024
+143,South African Airways,10/9/2024,5/4/2024
+144,British Airways,9/16/2024,12/25/2024
+145,Emirates,11/16/2024,12/2/2024
+146,Alitalia,2/23/2025,2/7/2025
+147,South African Airways,12/7/2024,5/1/2024
+148,Ethiopian Airlines,8/24/2024,7/29/2024
+149,All Nippon Airways,10/20/2024,6/18/2024
+150,Thai Airways,8/8/2024,9/9/2024
+151,Singapore Airlines,5/10/2024,8/20/2024
+152,Southwest Airlines,5/22/2024,1/1/2025
+153,Qantas,1/1/2025,10/24/2024
+154,Aeroméxico,7/2/2024,12/24/2024
+155,South African Airways,1/9/2025,4/18/2024
+156,KLM Royal Dutch Airlines,2/15/2025,1/6/2025
+157,Avianca,8/9/2024,5/7/2024
+158,Korean Air,12/23/2024,3/27/2025
+159,LATAM Airlines,3/28/2025,5/29/2024
+160,Cathay Pacific,7/14/2024,7/1/2024
+161,American Airlines,2/27/2025,5/28/2024
+162,Avianca,3/14/2025,5/23/2024
+163,Cathay Pacific,2/21/2025,7/18/2024
+164,Air France,10/1/2024,2/8/2025
+165,Korean Air,6/29/2024,9/10/2024
+166,LATAM Airlines,12/7/2024,9/4/2024
+167,Alitalia,9/22/2024,6/2/2024
+168,Iberia,11/3/2024,3/30/2025
+169,Qatar Airways,10/4/2024,9/7/2024
+170,All Nippon Airways,2/28/2025,11/15/2024
+171,Lufthansa,11/11/2024,12/4/2024
+172,Qatar Airways,3/11/2025,3/27/2025
+173,Korean Air,9/26/2024,2/22/2025
+174,Air Canada,9/25/2024,12/17/2024
+175,Iberia,12/14/2024,1/3/2025
+176,Aeroméxico,2/15/2025,12/7/2024
+177,Cathay Pacific,1/5/2025,12/10/2024
+178,American Airlines,6/29/2024,2/16/2025
+179,Ethiopian Airlines,6/7/2024,12/28/2024
+180,Aeroméxico,3/26/2025,9/7/2024
+181,Delta Air Lines,10/21/2024,3/24/2025
+182,Thai Airways,3/22/2025,11/2/2024
+183,Southwest Airlines,5/24/2024,2/18/2025
+184,SAS Scandinavian,6/5/2024,3/17/2025
+185,Air India,6/28/2024,10/6/2024
+186,Southwest Airlines,6/23/2024,9/20/2024
+187,Qatar Airways,3/8/2025,8/17/2024
+188,Iberia,12/31/2024,2/11/2025
+189,United Airlines,1/27/2025,3/17/2025
+190,Lufthansa,1/30/2025,2/25/2025
+191,Emirates,5/13/2024,11/2/2024
+192,British Airways,12/14/2024,3/7/2025
+193,British Airways,9/14/2024,10/31/2024
+194,Korean Air,7/25/2024,5/3/2024
+195,Lufthansa,9/20/2024,9/24/2024
+196,South African Airways,8/26/2024,5/13/2024
+197,Delta Air Lines,3/6/2025,6/25/2024
+198,Aeroméxico,4/13/2024,7/2/2024
+199,Avianca,7/11/2024,5/23/2024
+200,Lufthansa,11/30/2024,1/2/2025
+201,Emirates,8/28/2024,2/28/2025
+202,Air Canada,6/21/2024,7/19/2024
+203,Delta Air Lines,10/3/2024,7/26/2024
+204,Korean Air,2/20/2025,1/4/2025
+205,Delta Air Lines,9/30/2024,6/14/2024
+206,Avianca,1/12/2025,11/13/2024
+207,Korean Air,11/30/2024,3/7/2025
+208,SAS Scandinavian,7/12/2024,3/7/2025
+209,British Airways,5/18/2024,8/10/2024
+210,British Airways,5/3/2024,11/24/2024
+211,Delta Air Lines,3/21/2025,7/20/2024
+212,KLM Royal Dutch Airlines,11/24/2024,5/30/2024
+213,Singapore Airlines,6/13/2024,7/11/2024
+214,Korean Air,10/19/2024,7/14/2024
+215,Air New Zealand,2/11/2025,5/2/2024
+216,Air New Zealand,4/13/2024,11/19/2024
+217,Singapore Airlines,3/18/2025,12/13/2024
+218,Alitalia,4/27/2024,3/9/2025
+219,Aeroméxico,11/8/2024,1/7/2025
+220,Cathay Pacific,2/10/2025,7/12/2024
+221,Cathay Pacific,5/12/2024,6/15/2024
+222,Qantas,4/25/2024,11/11/2024
+223,Ethiopian Airlines,5/17/2024,2/27/2025
+224,Alitalia,1/31/2025,4/24/2024
+225,Air New Zealand,7/5/2024,6/7/2024
+226,Air Canada,11/19/2024,11/16/2024
+227,Ethiopian Airlines,9/26/2024,7/2/2024
+228,Qatar Airways,11/10/2024,3/22/2025
+229,Emirates,10/21/2024,11/25/2024
+230,Avianca,9/20/2024,12/2/2024
+231,SAS Scandinavian,10/26/2024,10/16/2024
+232,Korean Air,2/14/2025,5/29/2024
+233,Air Canada,10/6/2024,1/24/2025
+234,Qantas,3/13/2025,3/5/2025
+235,Air India,5/1/2024,11/8/2024
+236,Southwest Airlines,3/21/2025,3/29/2025
+237,Air France,9/29/2024,6/8/2024
+238,United Airlines,2/26/2025,9/21/2024
+239,Air India,11/30/2024,6/14/2024
+240,SAS Scandinavian,5/17/2024,8/7/2024
+241,British Airways,11/30/2024,3/21/2025
+242,LATAM Airlines,1/30/2025,3/11/2025
+243,Ethiopian Airlines,9/21/2024,8/8/2024
+244,Emirates,1/26/2025,10/6/2024
+245,American Airlines,5/21/2024,3/17/2025
+246,British Airways,3/22/2025,9/8/2024
+247,United Airlines,5/19/2024,10/11/2024
+248,Delta Air Lines,2/21/2025,2/13/2025
+249,Emirates,3/23/2025,1/17/2025
+250,SAS Scandinavian,12/6/2024,1/26/2025
+251,Air France,1/10/2025,1/24/2025
+252,Qantas,11/29/2024,11/7/2024
+253,Iberia,7/8/2024,12/21/2024
+254,Iberia,6/11/2024,7/13/2024
+255,Thai Airways,4/9/2024,10/1/2024
+256,Aeroméxico,10/1/2024,8/23/2024
+257,South African Airways,5/12/2024,2/7/2025
+258,Southwest Airlines,10/4/2024,9/13/2024
+259,South African Airways,9/1/2024,5/17/2024
+260,Qantas,7/18/2024,6/10/2024
+261,Aeroméxico,5/12/2024,9/20/2024
+262,American Airlines,10/24/2024,8/26/2024
+263,Singapore Airlines,10/4/2024,3/6/2025
+264,Southwest Airlines,2/16/2025,7/10/2024
+265,Aeroméxico,5/24/2024,5/8/2024
+266,United Airlines,7/21/2024,6/22/2024
+267,Alitalia,9/17/2024,8/30/2024
+268,Ethiopian Airlines,3/21/2025,7/28/2024
+269,Emirates,9/12/2024,6/6/2024
+270,South African Airways,1/20/2025,10/28/2024
+271,Thai Airways,9/9/2024,1/17/2025
+272,Iberia,9/7/2024,3/4/2025
+273,British Airways,12/1/2024,5/3/2024
+274,United Airlines,5/11/2024,8/6/2024
+275,American Airlines,5/15/2024,8/12/2024
+276,Iberia,6/7/2024,7/21/2024
+277,American Airlines,5/2/2024,2/20/2025
+278,Singapore Airlines,6/17/2024,9/4/2024
+279,Southwest Airlines,9/24/2024,3/20/2025
+280,South African Airways,6/6/2024,6/4/2024
+281,LATAM Airlines,10/16/2024,12/16/2024
+282,Southwest Airlines,1/8/2025,6/29/2024
+283,Korean Air,1/12/2025,6/8/2024
+284,Lufthansa,9/27/2024,5/16/2024
+285,Singapore Airlines,9/15/2024,8/17/2024
+286,Qantas,10/25/2024,2/7/2025
+287,LATAM Airlines,5/13/2024,8/10/2024
+288,British Airways,1/9/2025,8/29/2024
+289,Lufthansa,4/16/2024,4/25/2024
+290,All Nippon Airways,4/27/2024,7/24/2024
+291,Air Canada,2/6/2025,10/3/2024
+292,Delta Air Lines,10/2/2024,6/26/2024
+293,Air New Zealand,11/3/2024,3/16/2025
+294,South African Airways,11/11/2024,12/26/2024
+295,British Airways,1/19/2025,1/4/2025
+296,Air New Zealand,6/20/2024,4/11/2024
+297,Emirates,1/3/2025,4/29/2024
+298,Korean Air,4/12/2024,7/20/2024
+299,SAS Scandinavian,12/30/2024,1/31/2025
+300,Air India,8/9/2024,10/27/2024
+301,British Airways,7/3/2024,6/6/2024
+302,American Airlines,11/7/2024,5/18/2024
+303,Aeroméxico,7/13/2024,10/24/2024
+304,Iberia,4/27/2024,11/25/2024
+305,Air New Zealand,2/10/2025,12/11/2024
+306,Emirates,1/14/2025,8/4/2024
+307,Alitalia,4/6/2024,8/18/2024
+308,Iberia,4/17/2024,12/19/2024
+309,Emirates,3/30/2025,7/10/2024
+310,United Airlines,10/24/2024,3/5/2025
+311,Singapore Airlines,1/3/2025,12/12/2024
+312,Southwest Airlines,3/29/2025,4/30/2024
+313,SAS Scandinavian,12/12/2024,11/6/2024
+314,Alitalia,10/18/2024,6/12/2024
+315,American Airlines,8/2/2024,5/25/2024
+316,Korean Air,8/18/2024,12/5/2024
+317,Korean Air,2/22/2025,7/25/2024
+318,Cathay Pacific,7/17/2024,11/10/2024
+319,South African Airways,2/19/2025,11/28/2024
+320,KLM Royal Dutch Airlines,8/8/2024,4/9/2024
+321,KLM Royal Dutch Airlines,9/16/2024,4/5/2024
+322,SAS Scandinavian,6/15/2024,10/21/2024
+323,Lufthansa,7/17/2024,4/6/2024
+324,Emirates,6/8/2024,3/9/2025
+325,Ethiopian Airlines,8/13/2024,12/2/2024
+326,Singapore Airlines,12/28/2024,1/31/2025
+327,Air France,8/7/2024,10/30/2024
+328,American Airlines,5/21/2024,11/30/2024
+329,United Airlines,7/30/2024,5/16/2024
+330,South African Airways,11/1/2024,4/11/2024
+331,Delta Air Lines,11/18/2024,3/16/2025
+332,Cathay Pacific,5/18/2024,12/23/2024
+333,Emirates,1/16/2025,11/8/2024
+334,Thai Airways,1/20/2025,6/23/2024
+335,Iberia,1/10/2025,6/25/2024
+336,Air France,3/19/2025,12/25/2024
+337,KLM Royal Dutch Airlines,5/17/2024,6/10/2024
+338,Qantas,4/30/2024,6/10/2024
+339,Qantas,5/17/2024,9/4/2024
+340,Singapore Airlines,8/6/2024,12/21/2024
+341,Southwest Airlines,6/30/2024,6/5/2024
+342,Emirates,2/20/2025,1/23/2025
+343,Iberia,3/1/2025,2/20/2025
+344,Air France,12/29/2024,7/4/2024
+345,Emirates,12/9/2024,6/13/2024
+346,Avianca,8/3/2024,5/9/2024
+347,All Nippon Airways,1/3/2025,5/2/2024
+348,Air India,10/16/2024,1/1/2025
+349,Air New Zealand,3/8/2025,2/5/2025
+350,Cathay Pacific,5/31/2024,12/22/2024
+351,Southwest Airlines,8/10/2024,8/5/2024
+352,Thai Airways,8/8/2024,11/1/2024
+353,Air New Zealand,8/31/2024,8/30/2024
+354,KLM Royal Dutch Airlines,4/3/2024,7/9/2024
+355,Air Canada,5/17/2024,6/3/2024
+356,Singapore Airlines,6/26/2024,9/17/2024
+357,Delta Air Lines,7/3/2024,3/4/2025
+358,Alitalia,8/7/2024,5/16/2024
+359,SAS Scandinavian,12/4/2024,10/31/2024
+360,Korean Air,12/28/2024,6/15/2024
+361,Qantas,3/20/2025,7/25/2024
+362,Delta Air Lines,9/18/2024,3/24/2025
+363,Qantas,3/2/2025,8/8/2024
+364,British Airways,10/12/2024,3/2/2025
+365,Aeroméxico,6/28/2024,4/2/2024
+366,All Nippon Airways,5/23/2024,6/14/2024
+367,Ethiopian Airlines,11/11/2024,2/14/2025
+368,LATAM Airlines,5/14/2024,11/25/2024
+369,American Airlines,11/3/2024,9/8/2024
+370,Air Canada,4/23/2024,11/18/2024
+371,KLM Royal Dutch Airlines,7/18/2024,1/21/2025
+372,United Airlines,4/13/2024,6/17/2024
+373,South African Airways,12/17/2024,6/6/2024
+374,Singapore Airlines,8/7/2024,12/21/2024
+375,Thai Airways,10/21/2024,5/9/2024
+376,All Nippon Airways,10/20/2024,6/3/2024
+377,Thai Airways,2/6/2025,3/15/2025
+378,American Airlines,4/17/2024,1/26/2025
+379,United Airlines,8/12/2024,6/29/2024
+380,Aeroméxico,4/1/2024,9/4/2024
+381,Alitalia,11/24/2024,2/20/2025
+382,Thai Airways,10/31/2024,3/1/2025
+383,United Airlines,8/30/2024,10/24/2024
+384,Singapore Airlines,5/11/2024,3/9/2025
+385,LATAM Airlines,1/17/2025,7/14/2024
+386,Qatar Airways,11/16/2024,3/13/2025
+387,Ethiopian Airlines,5/24/2024,6/8/2024
+388,Lufthansa,3/13/2025,11/23/2024
+389,Thai Airways,9/17/2024,11/15/2024
+390,Qatar Airways,3/17/2025,11/29/2024
+391,Thai Airways,12/22/2024,6/26/2024
+392,Southwest Airlines,12/13/2024,9/8/2024
+393,SAS Scandinavian,12/8/2024,10/31/2024
+394,Singapore Airlines,11/9/2024,4/27/2024
+395,Qatar Airways,5/28/2024,10/9/2024
+396,Air Canada,11/27/2024,6/17/2024
+397,Southwest Airlines,12/22/2024,9/18/2024
+398,Alitalia,2/13/2025,2/11/2025
+399,Qatar Airways,8/10/2024,5/2/2024
+400,LATAM Airlines,7/23/2024,1/18/2025
