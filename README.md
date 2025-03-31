@@ -77,39 +77,39 @@ Provide the following SQL scripts:
 ###  Data  
 ####  First tool: using [mockaro](א/mockarooFiles) to create csv file
 #####  Entering a data to costumer table
--  person id scope 1-800// בכל אלה אתיודעת מה הנתונים??
-📜[View `personMock_data.csv`](א/mockarooFiles/customer.csv)
+-  customer id scope 1-1000
+📜[View `customerMock_data.csv`](א/mockarooFiles/customer.csv)
 #####  Entering a data to destination table
--  person id scope 1-400
-📜[View `nannyMock_data.csv`](א/mockarooFiles/destination.csv)
+-  destination zipcode scope 1-1000
+📜[View `destinationMock_data.csv`](א/mockarooFiles/destination.csv)
 #####  Entering a data to flight table
--  person id scope 1-400
-📜[View `nannyMock_data.csv`](א/mockarooFiles/flight.csv)
+-  flight flightid scope 1-1000
+📜[View `flightMock_data.csv`](א/mockarooFiles/flight.csv)
 #####  Entering a data to guide table
--  person id scope 1-400
-📜[View `nannyMock_data.csv`](א/mockarooFiles/guide.csv)
+-  guide guideid scope 1-1000
+📜[View `guideMock_data.csv`](א/mockarooFiles/guide.csv)
 #####  Entering a data to hotel table
--  person id scope 1-400
-📜[View `nannyMock_data.csv`](א/mockarooFiles/hotel.csv)
+-  hotel hotelid scope 1-1000
+📜[View `hotelMock_data.csv`](א/mockarooFiles/hotel.csv)
 #####  Entering a data to include table
--  person id scope 1-400
-📜[View `nannyMock_data.csv`](א/mockarooFiles/include.csv)
+-  include
+📜[View `includeMock_data.csv`](א/mockarooFiles/include.csv)
 #####  Entering a data to invite table
--  person id scope 1-400
-📜[View `nannyMock_data.csv`](א/mockarooFiles/invite.csv)
+-  invite
+📜[View `inviteMock_data.csv`](א/mockarooFiles/invite.csv)
 #####  Entering a data to trip table
--  person id scope 1-400
-📜[View `nannyMock_data.csv`](א/mockarooFiles/trip.csv)
+-  trip tripid scope 1-1000
+📜[View `tripMock_data.csv`](א/mockarooFiles/trip.csv)
 
 
 #####   Entering a data to guide table
--  person id scope 401-800\\ גם כאן אותו בעיה
--  Formula of Person ID: `this + 400`\\וכאן
+-  guide guideid scope 1-1000
+-  Formula of guide
 ![image](א/picture/guideImage.jpg)
 
-📜 **[View `costumerMock_data.csv`](Phase1/mockData/apotropusMOCK_DATA.csv)**\\ פה את יודעת מה צריך?
+📜 **[View `costumerMock_data.csv`](א/mockarooFiles/customer.csv)
 ![image](א/picture/customerCsvImage.png)
-![image](https://github.com/user-attachments/assets/6833ecf1-90e6-454d-8396-9dddf415e323)
+![image]()
 results for  the command `SELECT COUNT(*) FROM guide;`:
 <br>
 ![image](א/picture/guideCsvImage.png)
