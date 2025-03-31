@@ -117,7 +117,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](א/picture/guideCsvImage.png)
 
 ####  Second tool: using [python](א/Programing). 
-#####  Entering a data to 5555
+#####  Entering a data to customer
 -  Group Number  scope 700-1200
 📜[View `insertDat.py`](א/Programing/insert.py)
 -  Data
