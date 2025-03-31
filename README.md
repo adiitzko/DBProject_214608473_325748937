@@ -80,16 +80,16 @@ Provide the following SQL scripts:
 -  customer id scope 1-1000
 📜[View `customerMock_data.csv`](א/mockarooFiles/customer.csv)
 #####  Entering a data to destination table
--  destination zipcode scope 1-1000
+-  destination zipcode scope 1-400
 📜[View `destinationMock_data.csv`](א/mockarooFiles/destination.csv)
 #####  Entering a data to flight table
--  flight flightid scope 1-1000
+-  flight flightid scope 1-400
 📜[View `flightMock_data.csv`](א/mockarooFiles/flight.csv)
 #####  Entering a data to guide table
--  guide guideid scope 1-1000
+-  guide guideid scope 1-400
 📜[View `guideMock_data.csv`](א/mockarooFiles/guide.csv)
 #####  Entering a data to hotel table
--  hotel hotelid scope 1-1000
+-  hotel hotelid scope 1-400
 📜[View `hotelMock_data.csv`](א/mockarooFiles/hotel.csv)
 #####  Entering a data to include table
 -  include
@@ -98,30 +98,33 @@ Provide the following SQL scripts:
 -  invite
 📜[View `inviteMock_data.csv`](א/mockarooFiles/invite.csv)
 #####  Entering a data to trip table
--  trip tripid scope 1-1000
+-  trip tripid scope 1-400
 📜[View `tripMock_data.csv`](א/mockarooFiles/trip.csv)
 
 
 #####   Entering a data to guide table
--  guide guideid scope 1-1000
+-  guide guideid scope 1-400
 -  Formula of guide
 ![image](א/picture/guideImage.jpg)
 
-📜 **[View `costumerMock_data.csv`](א/mockarooFiles/customer.csv)
+📜 [View `costumerMock_data.csv`](א/mockarooFiles/customer.csv)
 ![image](א/picture/customerCsvImage.png)
 ![image](א/picture/success.png)
+
 results for  the command `SELECT COUNT(*) FROM guide;`:
 <br>
+
 ![image](א/picture/guideCsvImage.png)
 
 ####  Second tool: using [python](א/Programing). 
 #####  Entering a data to 
 -  Group Number  scope 700-1200
-📜[View `insertDat.csv`](א/Programing/insert.py)
+📜[View `insertDat.py`](א/Programing/insert.py)
+-  Group Number  scope 700-1200
+📜[View `insertDat.sal`](א/insertTables.sql)
 
 
-
-![image](https://github.com/user-attachments/assets/046ee01c-599b-4858-886f-7c9809c60bfa)// תמונה של הקובץ שנוצר 
+![image](א/picture/pyImage.png)
 
 
 
