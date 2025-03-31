@@ -1,11 +1,11 @@
 
 
-# Nursery School 
+# Organized Trips Management System
 
 Sufiev Hadasa Hadar Example
 
 ## Table of Contents  
-- [Phase 1: Design and Build the Database](#phase-1-design-and-build-the-database)  
+- [Phase 1: Design and Build the Database](#phase-1-design-an+6d-build-the-database)  
   - [Introduction](#introduction)  
   - [ERD (Entity-Relationship Diagram)](#erd-entity-relationship-diagram)  
   - [DSD (Data Structure Diagram)](#dsd-data-structure-diagram)  
@@ -74,7 +74,7 @@ Provide the following SQL scripts:
 📜 **[View `selectAll_tables.sql`](א/selectAll.sql)**  
   
 ###  Data  
-####  First tool: using [mockaro](https://www.mockaroo.com/) to create csv file
+####  First tool: using [mockaro](א/mockarooFiles) to create csv file
 #####  Entering a data to person table
 -  person id scope 1-800
 📜[View `personMock_data.csv`](א/mockarooFiles/customer.csv)
@@ -113,32 +113,15 @@ results for  the command `SELECT COUNT(*) FROM Apotropus;`:
 <br>
 ![image](א/picture/guideCsvImage.png)
 
-####  Second tool: using [generatedata](https://generatedata.com/generator). to create csv file 
+####  Second tool: using [python](א/Programing). to create csv file 
 #####  Entering a data to babyGroup table
 -  Group Number  scope 1-400 
-📜[View `babyGroupGenerateDat.csv`](Phase1/generateData/babyGroupGenerateData.csv)
+📜[View `babyGroupGenerateDat.csv`](א/Programing/insert.py)
 
-![image](https://github.com/user-attachments/assets/9cf296ca-5ccf-46a2-a484-18bd5a5bef4d)
+![image](א/Programing/insert_data2.sql)\\קישור לא תמונה
 
-![image](https://github.com/user-attachments/assets/046ee01c-599b-4858-886f-7c9809c60bfa)
+![image](https://github.com/user-attachments/assets/046ee01c-599b-4858-886f-7c9809c60bfa)// תמונה של הקובץ שנוצר 
 
-![image](https://github.com/user-attachments/assets/b2045ef2-ca93-4829-af5f-843e792afdfd)
-
-results for  the command `SELECT COUNT(*) FROM BabyGroup;`:
-<br>
-![image](https://github.com/user-attachments/assets/3572a931-0f33-4e31-aced-371117e109db)
-
-#####  Entering a data to baby table
--  Bayby id scope 801-1200
--  Group Number  range 1-400
-
-📜[View `babyGenerateDat.csv`](Phase1/generateData/babyGenerateData.csv)
-![image](https://github.com/user-attachments/assets/f9395c30-c300-4f11-9f22-9397bf6e02bf)
-
-![image](https://github.com/user-attachments/assets/a0073b25-4b9c-43ce-a6c1-e0d961ae70d8)
-results for  the command `SELECT COUNT(*) FROM Baby;`:
-<br>
-![image](https://github.com/user-attachments/assets/3572a931-0f33-4e31-aced-371117e109db)
 
 
 ####  Third tool: using python to create csv file
@@ -146,7 +129,7 @@ results for  the command `SELECT COUNT(*) FROM Baby;`:
 ### Backup 
 -   backups files are kept with the date and hour of the backup:  
 
-[עבור לתיקיית הגיבויים](Phase1/Backup)
+[עבור לתיקיית הגיבויים](א/backup 3.29.25.backup)
 
 
 
