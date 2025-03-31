@@ -129,9 +129,12 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 ####  Third tool:[excel File](א/excel)
--excel file customer table 200 record
+- Excel file customer table 200 record
 📜[View `insertDat.py`](א/excel/travel_database.xlsx)
--convert to csv file
+
+- Convert to csv file
+📜[View `insertDat.py`](א/excel/customer1.csv)
+
 
 
 
