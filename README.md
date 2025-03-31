@@ -2,7 +2,8 @@
 
 # Organized Trips Management System
 
-Sufiev Hadasa Hadar Example
+Adi Itzkovich
+Gili Shechter
 
 ## Table of Contents  
 - [Phase 1: Design and Build the Database](#phase-1-design-an+6d-build-the-database)  
@@ -16,37 +17,37 @@ Sufiev Hadasa Hadar Example
 
 ## Phase 1: Design and Build the Database  
 
-Introduction
+### Introduction
 
-The Organized Trips Management System is designed to efficiently manage all aspects of organized trips, including participants, tour guides, hotels, destinations, flights, and schedules. This system ensures seamless organization and tracking of essential trip details, such as participant information, travel logistics, accommodations, and assigned guides.
+The **Organized Trips Managemen**t System is designed to efficiently manage all aspects of organized trips, including participants, tour guides, hotels, destinations, flights, and schedules. This system ensures seamless organization and tracking of essential trip details, such as participant information, travel logistics, accommodations, and assigned guides.
 
-Purpose of the Database
+#### Purpose of the Database
 
 This database serves as a structured and reliable solution for organizing trips by:
 
-Managing trip participants, including registration, contact information, and trip history.
+- **Managing trip participants**, including registration, contact information, and trip history.
 
-Tracking tour guides, assigning them to specific trips.
+- **Tracking tour guides**, assigning them to specific trips.
 
-Storing hotel details, including availability and trip allocations.
+- **Storing hotel details**, including availability and trip allocations.
 
-Recording flight information, linking flights to trips and participants.
+- **Recording flight information**, linking flights to trips and participants.
 
-Managing trip destinations, tracking locations visited per trip.
+- **Managing trip destinations**, tracking locations visited per trip.
 
-Ensuring smooth coordination, with an integrated system for all travel elements.
+- **Ensuring smooth coordination**, with an integrated system for all travel elements.
 
-Potential Use Cases
+#### Potential Use Cases
 
-Trip Administrators can use this database to organize trip schedules, manage participant lists, and assign guides.
+- **Trip Administrators** can use this database to organize trip schedules, manage participant lists, and assign guides.
 
-Participants can register for trips, track their itinerary, and receive notifications.
+- **Participants** can register for trips, track their itinerary, and receive notifications.
 
-Tour Guides can view their assigned trips and access participant details.
+- **Tour Guides** can view their assigned trips and access participant details.
 
-Hotels & Airlines can coordinate with the system for room reservations and flight schedules.
+- **Hotels & Airlines** can coordinate with the system for room reservations and flight schedules.
 
-Management & Staff can use the database for planning, record-keeping, and customer support.
+- **Management & Staff** can use the database for planning, record-keeping, and customer support.
 
 This structured database helps improve organization, communication, and efficiency in managing organized trips.
 ###  ERD (Entity-Relationship Diagram)    
@@ -75,48 +76,48 @@ Provide the following SQL scripts:
   
 ###  Data  
 ####  First tool: using [mockaro](א/mockarooFiles) to create csv file
-#####  Entering a data to person table
--  person id scope 1-800
+#####  Entering a data to costumer table
+-  person id scope 1-800// בכל אלה אתיודעת מה הנתונים??
 📜[View `personMock_data.csv`](א/mockarooFiles/customer.csv)
-#####  Entering a data to nanny table
+#####  Entering a data to destination table
 -  person id scope 1-400
 📜[View `nannyMock_data.csv`](א/mockarooFiles/destination.csv)
-#####  Entering a data to nanny table
+#####  Entering a data to flight table
 -  person id scope 1-400
 📜[View `nannyMock_data.csv`](א/mockarooFiles/flight.csv)
-#####  Entering a data to nanny table
+#####  Entering a data to guide table
 -  person id scope 1-400
 📜[View `nannyMock_data.csv`](א/mockarooFiles/guide.csv)
-#####  Entering a data to nanny table
+#####  Entering a data to hotel table
 -  person id scope 1-400
 📜[View `nannyMock_data.csv`](א/mockarooFiles/hotel.csv)
-#####  Entering a data to nanny table
+#####  Entering a data to include table
 -  person id scope 1-400
 📜[View `nannyMock_data.csv`](א/mockarooFiles/include.csv)
-#####  Entering a data to nanny table
+#####  Entering a data to invite table
 -  person id scope 1-400
 📜[View `nannyMock_data.csv`](א/mockarooFiles/invite.csv)
-#####  Entering a data to nanny table
+#####  Entering a data to trip table
 -  person id scope 1-400
 📜[View `nannyMock_data.csv`](א/mockarooFiles/trip.csv)
 
 
-#####   Entering a data to apotropus table
--  person id scope 401-800
--  Formula of Person ID: `this + 400`
+#####   Entering a data to guide table
+-  person id scope 401-800\\ גם כאן אותו בעיה
+-  Formula of Person ID: `this + 400`\\וכאן
 ![image](א/picture/guideImage.jpg)
 
-📜 **[View `apotropusMock_data.csv`](Phase1/mockData/apotropusMOCK_DATA.csv)**
+📜 **[View `costumerMock_data.csv`](Phase1/mockData/apotropusMOCK_DATA.csv)**\\ פה את יודעת מה צריך?
 ![image](א/picture/customerCsvImage.png)
 ![image](https://github.com/user-attachments/assets/6833ecf1-90e6-454d-8396-9dddf415e323)
-results for  the command `SELECT COUNT(*) FROM Apotropus;`:
+results for  the command `SELECT COUNT(*) FROM guide;`:
 <br>
 ![image](א/picture/guideCsvImage.png)
 
-####  Second tool: using [python](א/Programing). to create csv file 
+####  Second tool: using [python](א/Programing). t 
 #####  Entering a data to babyGroup table
--  Group Number  scope 1-400 
-📜[View `babyGroupGenerateDat.csv`](א/Programing/insert.py)
+-  Group Number  scope 1-400 \\כאן
+📜[View `insertDat.csv`](א/Programing/insert.py)
 
 ![image](א/Programing/insert_data2.sql)\\קישור לא תמונה
 
