@@ -25,7 +25,7 @@ invites = []
 includes = []
 
 
-for i in range(1, 400):
+for i in range(700, 1100):
 
     full_name = random.choice(names) + f"_{i}"
     email = f"{full_name.lower()}@{random.choice(domains)}"
@@ -46,7 +46,7 @@ for i in range(1, 400):
     
     hotel_name = f"Hotel_{i}"
     location = random.choice(addresses)
-    total_rooms = random.randint(20, 200)
+    total_rooms = random.randint(20, 300)
     hotels.append((i, hotel_name, location, total_rooms))
 
     # טיסות
@@ -58,22 +58,22 @@ for i in range(1, 400):
 
     trip_start = random_date()
     trip_end = random_date()
-    guide_id = random.randint(4, 203)
-    hotel_id = random.randint(4, 203)
+    guide_id = random.randint(1, 400)
+    hotel_id = random.randint(1, 400)
     destination_zip = random.choice(destinations)[0]
     trips.append((i, trip_start, trip_end, destination_zip, hotel_id, guide_id))
 
     
-    customer_id = random.randint(4, 203)
-    total_customer = random.randint(1, 5)
+    customer_id = random.randint(1, 400)
+    total_customer = random.randint(1, 40)
     invites.append((i, customer_id, total_customer))
 
     
-    flight_id = random.randint(4, 203)
+    flight_id = random.randint(1, 400)
     includes.append((i, flight_id))
 
 
-with open("insert_data2.sql", "w", encoding="utf-8") as f:
+with open("insertData.sql", "w", encoding="utf-8") as f:
     f.write("-- Inserting data into customer\n")
     for row in customers:
         f.write(f"INSERT INTO customer (ID, fullName, phoneNumber, email) VALUES {row};\n")
