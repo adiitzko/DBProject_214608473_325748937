@@ -120,7 +120,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 #####  Entering a data to 
 -  Group Number  scope 700-1200
 📜[View `insertDat.py`](א/Programing/insert.py)
--  
+-  Data
 📜[View `insertDat.sal`](א/insertTables.sql)
 
 
@@ -128,7 +128,8 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 
-####  Third tool:
+####  Third tool:Xml File
+
 
 ### Backup 
 -   backups files are kept with the date and hour of the backup:  
