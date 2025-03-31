@@ -76,8 +76,8 @@ Provide the following SQL scripts:
   
 ###  Data  
 ####  First tool: using [mockaro](א/mockarooFiles) to create csv file
-#####  Entering a data to costumer table
--  customer id scope 1-1000
+#####  Entering a data to customer table
+-  customer id scope 1-400
 📜[View `customerMock_data.csv`](א/mockarooFiles/customer.csv)
 #####  Entering a data to destination table
 -  destination zipcode scope 1-400
