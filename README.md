@@ -132,6 +132,8 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 -excel file customer table 200 record
 📜[View `insertDat.py`](א/excel/travel_database.xlsx)
 -convert to csv file
+📜[View `insertDat.py`](א/excel/customer1.csv)
+
 
 
 
