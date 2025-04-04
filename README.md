@@ -182,6 +182,14 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 
+#### Update quries:
+-1.השאילתא מחפשת טיולים שבהם המלון שלהם מלא מדי ומבצע עדכון כך שכל טיול כזה יקבל מלון אחר, שיש לו מספיק חדרים עבור כל הלקוחות שהוזמנו.📜[View `Update1.sql`](ב/Quries.sql/Quries12Update.sql)
+
+
+-2.הפונקציה update_flight_prices מעדכנת את מחירי הטיסות בטבלה flight על ידי העלאת המחיר ב-10%.📜[View `Update2.sql`](ב/Quries.sql/Quries13Update.sql)
+
+
+-3.השאילתא מעדכנת את שמות המדריכים שלא היו פעילים בשנה האחרונה על ידי הוספת המילים " (Inactive)" לשם המדריך.📜[View `Update3.sql`](ב/Quries.sql/Quries14Update.sql)
 
 
 
