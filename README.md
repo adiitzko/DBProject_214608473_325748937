@@ -278,7 +278,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 ### Backupfile
 
-📜[View `Backup.sql`](ב/backup2.backup)
+📜[View `Backup2.sql`](ב/backup2.backup)
 
 
 
