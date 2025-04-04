@@ -194,12 +194,20 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 #### Delete quries:
 -1.השאילתא מוחקת את כל הטיולים שהחלו לפני יותר מ-5 שנים ולא הוזמנו על ידי אף לקוח. היא עושה זאת על ידי בחירת טיולים שהיו לא פעילים במשך זמן ארוך ולא היו להם הזמנות📜[View `Delete1.sql`](ב/Quries.sql/Quries9Delete.sql)
 
+![image](ב/QuriesPicture/Select7Quries.png)
+![image](ב/QuriesPicture/Select7Quries.png)
+
 
 -2. השאילתא מוחקת את כל המדריכים שלא הנחו טיול בשלוש השנים האחרונות. היא עושה זאת על ידי חיפוש המדריכים שהיו קשורים לטיול בתקופה הזו, ומחיקת כל שאר המדריכים 📜[View `Delete2.sql`](ב/Quries.sql/Quries10Delete.sql)
+![image](ב/QuriesPicture/Select7Quries.png)
+![image](ב/QuriesPicture/Select7Quries.png)
+
 
 
 -3.השאילתא מוחקת את כל הטיולים שלא התקבלו בהם הזמנות, כלומר טיולים שאין להם לקוחות שהוזמנו אליהם📜[View `Delete3.sql`](ב/Quries.sql/Quries11Delete.sql)
 
+![image](ב/QuriesPicture/Select7Quries.png)
+![image](ב/QuriesPicture/Select7Quries.png)
 
 
 #### Update quries:
