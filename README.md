@@ -155,7 +155,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 #### Select quries:
 -1. השאילתא מחזירה את רשימת הטיולים שהמדריך היה מעורב בהם, יחד עם שם המדריך ומספר הטיולים שהוא הוביל (רק עבור מדריכים שהיו מעורבים בשלושה טיולים ומעלה). התוצאות ממוין לפי מספר הטיולים שהמדריך הוביל, מהכי הרבה לפחות📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
 
--2.
+-2.השאילתא מציגה את כל המלונות ואת היעד שבו כל אחד מהם נמצא, כולל פרטי היעד כמו המדינה והכתובת 📜[View `select2.sql`](ב/Quries.sql/Quries2.sql)
 
 
 
