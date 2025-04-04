@@ -151,7 +151,8 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 ## Phase 2: Integration 
-
+#### Quries
+📜[View `AllQuries.sql`](ב/Quries.sql)
 #### Select quries:
 -1. השאילתא מחזירה את רשימת הטיולים שהמדריך היה מעורב בהם, יחד עם שם המדריך ומספר הטיולים שהוא הוביל (רק עבור מדריכים שהיו מעורבים בשלושה טיולים ומעלה). התוצאות ממוין לפי מספר הטיולים שהמדריך הוביל, מהכי הרבה לפחות📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
 
@@ -170,6 +171,11 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 -7. השאילתא מציגה את רשימת המלונות שבהם מספר הלקוחות המשתתפים בטיולים הוא לפחות כפול ממספר החדרים במלון, כלומר מלונות עם תפוסה מלאה או גבוהה יותר(החדרים במלון זוגיים)📜[View `select7.sql`](ב/Quries.sql/Quries7.sql)
 
 -8. השאילתא מציגה את השנה והחודש שבהם היו הכי הרבה טיולים, יחד עם מספר הטיולים שהתרחשו בחודש זה📜[View `select8.sql`](ב/Quries.sql/Quries8.sql)
+#### Delete quries:
+-1.השאילתא מוחקת את כל הטיולים שהחלו לפני יותר מ-5 שנים ולא הוזמנו על ידי אף לקוח. היא עושה זאת על ידי בחירת טיולים שהיו לא פעילים במשך זמן ארוך ולא היו להם הזמנות📜[View `Delete1.sql`](ב/Quries.sql/Quries9Delete.sql)
+-2. השאילתא מוחקת את כל המדריכים שלא הנחו טיול בשלוש השנים האחרונות. היא עושה זאת על ידי חיפוש המדריכים שהיו קשורים לטיול בתקופה הזו, ומחיקת כל שאר המדריכים 📜[View `Delete2.sql`](ב/Quries.sql/Quries10Delete.sql)
+-3.השאילתא מוחקת את כל הטיולים שלא התקבלו בהם הזמנות, כלומר טיולים שאין להם לקוחות שהוזמנו אליהם📜[View `Delete3.sql`](ב/Quries.sql/Quries11Delete.sql)
+
 
 
 
