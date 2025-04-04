@@ -153,23 +153,23 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ## Phase 2: Integration 
 
 #### Select quries:
--1. השאילתא מחזירה את רשימת הטיולים שהמדריך היה מעורב בהם, יחד עם שם המדריך ומספר הטיולים שהוא הוביל (רק עבור מדריכים שהיו מעורבים בשלושה טיולים ומעלה). התוצאות ממוין לפי מספר הטיולים שהמדריך הוביל, מהכי הרבה לפחות.
-
-📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
+-1. השאילתא מחזירה את רשימת הטיולים שהמדריך היה מעורב בהם, יחד עם שם המדריך ומספר הטיולים שהוא הוביל (רק עבור מדריכים שהיו מעורבים בשלושה טיולים ומעלה). התוצאות ממוין לפי מספר הטיולים שהמדריך הוביל, מהכי הרבה לפחות📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
 
 
--3.השאילתא מציגה את פרטי כל הלקוחות (שם, טלפון, ודוא"ל) יחד עם פרטי הטיול שבו הם השתתפו, כולל היעד, המלון והמדריך, ותאריכי התחלה וסיום של כל טיול.
-📜[View `select3.sql`](ב/Quries.sql/Quries3.sql)
--4.השאילתא מציגה את כל הטיסות, כולל חברת התעופה, תאריכי היציאה והחזרה, לצד המידע על היעד שבו מתרחש הטיול, שם המלון שבו שהו הנוסעים, ותאריכי תחילת וסיום הטיול.
-📜[View `select4.sql`](ב/Quries.sql/Quries4.sql)
--5.השאילתא מציגה את רשימת המדריכים עם מספר הטיולים שהם הובילו, תאריך תחילת הטיול הראשון שהם הובילו ותאריך סיום הטיול האחרון.
-📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
--6.השאילתא מציגה את כל הלקוחות שהשתתפו בטיולים בעונת הקיץ (יוני, יולי, אוגוסט), כולל פרטי הלקוח, תאריכים של הטיול שבו הם השתתפו, ומזהה הטיול.
-📜[View `select6.sql`](ב/Quries.sql/Quries6.sql)
--7.השאילתא מציגה את רשימת המלונות שבהם מספר הלקוחות המשתתפים בטיולים הוא לפחות כפול ממספר החדרים במלון, כלומר מלונות עם תפוסה מלאה או גבוהה יותר(החדרים במלון זוגיים).
-📜[View `select7.sql`](ב/Quries.sql/Quries7.sql)
--8.השאילתא מציגה את השנה והחודש שבהם היו הכי הרבה טיולים, יחד עם מספר הטיולים שהתרחשו בחודש זה.
-📜[View `select8.sql`](ב/Quries.sql/Quries8.sql)
+
+
+-השאילתא מציגה את פרטי כל הלקוחות (שם, טלפון, ודוא"ל) יחד עם פרטי הטיול שבו הם השתתפו, כולל היעד, המלון והמדריך, ותאריכי התחלה וסיום של כל טיול📜[View `select3.sql`](ב/Quries.sql/Quries3.sql)
+
+-השאילתא מציגה את כל הטיסות, כולל חברת התעופה, תאריכי היציאה והחזרה, לצד המידע על היעד שבו מתרחש הטיול, שם המלון שבו שהו הנוסעים, ותאריכי תחילת וסיום הטיול📜[View `select4.sql`](ב/Quries.sql/Quries4.sql)
+
+-השאילתא מציגה את רשימת המדריכים עם מספר הטיולים שהם הובילו, תאריך תחילת הטיול הראשון שהם הובילו ותאריך סיום הטיול האחרון📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
+
+-השאילתא מציגה את כל הלקוחות שהשתתפו בטיולים בעונת הקיץ (יוני, יולי, אוגוסט), כולל פרטי הלקוח, תאריכים של הטיול שבו הם השתתפו, ומזהה הטיול📜[View `select6.sql`](ב/Quries.sql/Quries6.sql)
+
+-השאילתא מציגה את רשימת המלונות שבהם מספר הלקוחות המשתתפים בטיולים הוא לפחות כפול ממספר החדרים במלון, כלומר מלונות עם תפוסה מלאה או גבוהה יותר(החדרים במלון זוגיים)📜[View `select7.sql`](ב/Quries.sql/Quries7.sql)
+
+-השאילתא מציגה את השנה והחודש שבהם היו הכי הרבה טיולים, יחד עם מספר הטיולים שהתרחשו בחודש זה📜[View `select8.sql`](ב/Quries.sql/Quries8.sql)
+
 
 
 
