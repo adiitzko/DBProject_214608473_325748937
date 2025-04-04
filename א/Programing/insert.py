@@ -25,7 +25,7 @@ invites = []
 includes = []
 
 
-for i in range(700, 1100):
+for i in range(1, 401):
 
     full_name = random.choice(names) + f"_{i}"
     email = f"{full_name.lower()}@{random.choice(domains)}"
@@ -38,7 +38,7 @@ for i in range(700, 1100):
     guides.append((i, guide_name, guide_phone))
 
     
-    zip_code = 1000 + i  # מוודאים zip ייחודי
+    zip_code = 1000 + i
     country = random.choice(countries)
     address = random.choice(addresses)
     destinations.append((zip_code, country, address))
@@ -49,7 +49,7 @@ for i in range(700, 1100):
     total_rooms = random.randint(20, 300)
     hotels.append((i, hotel_name, location, total_rooms))
 
-    # טיסות
+
     airline = f"Airline_{i}"
     departure_date = random_date()
     return_date = random_date()
