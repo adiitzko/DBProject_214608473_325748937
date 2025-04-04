@@ -156,21 +156,41 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 #### Select quries:
 -1. השאילתא מחזירה את רשימת הטיולים שהמדריך היה מעורב בהם, יחד עם שם המדריך ומספר הטיולים שהוא הוביל (רק עבור מדריכים שהיו מעורבים בשלושה טיולים ומעלה). התוצאות ממוין לפי מספר הטיולים שהמדריך הוביל, מהכי הרבה לפחות📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
 
--2.השאילתא מציגה את כל המלונות ואת היעד שבו כל אחד מהם נמצא, כולל פרטי היעד כמו המדינה והכתובת 📜[View `select2.sql`](ב/Quries.sql/Quries2.sql)
+![image](ב/QuriesPicture/Select1Quries.png)
+
+-2.השאילתא מציגה את כל המלונות ואת היעד שבו כל אחד מהם נמצא, כולל פרטי היעד כמו המדינה והכתובת 📜[View `select2.sql`](ב/Quries.sql/Quries2.sql) 
+![image](ב/QuriesPicture/Select2Quries.png) 
+
 
 
 
 -3. השאילתא מציגה את פרטי כל הלקוחות (שם, טלפון, ודוא"ל) יחד עם פרטי הטיול שבו הם השתתפו, כולל היעד, המלון והמדריך, ותאריכי התחלה וסיום של כל טיול📜[View `select3.sql`](ב/Quries.sql/Quries3.sql)
 
+![image](ב/QuriesPicture/Select3Quries.png)
+
 -4. השאילתא מציגה את כל הטיסות, כולל חברת התעופה, תאריכי היציאה והחזרה, לצד המידע על היעד שבו מתרחש הטיול, שם המלון שבו שהו הנוסעים, ותאריכי תחילת וסיום הטיול📜[View `select4.sql`](ב/Quries.sql/Quries4.sql)
+
+![image](ב/QuriesPicture/Select4Quries.png)
+
 
 -5. השאילתא מציגה את רשימת המדריכים עם מספר הטיולים שהם הובילו, תאריך תחילת הטיול הראשון שהם הובילו ותאריך סיום הטיול האחרון📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
 
+![image](ב/QuriesPicture/Select5Image.png)
+
 -6. השאילתא מציגה את כל הלקוחות שהשתתפו בטיולים בעונת הקיץ (יוני, יולי, אוגוסט), כולל פרטי הלקוח, תאריכים של הטיול שבו הם השתתפו, ומזהה הטיול📜[View `select6.sql`](ב/Quries.sql/Quries6.sql)
+
+![image](ב/QuriesPicture/Select6Quries.png)
+
 
 -7. השאילתא מציגה את רשימת המלונות שבהם מספר הלקוחות המשתתפים בטיולים הוא לפחות כפול ממספר החדרים במלון, כלומר מלונות עם תפוסה מלאה או גבוהה יותר(החדרים במלון זוגיים)📜[View `select7.sql`](ב/Quries.sql/Quries7.sql)
 
+![image](ב/QuriesPicture/Select7Quries.png)
+
+
 -8. השאילתא מציגה את השנה והחודש שבהם היו הכי הרבה טיולים, יחד עם מספר הטיולים שהתרחשו בחודש זה📜[View `select8.sql`](ב/Quries.sql/Quries8.sql)
+
+![image](ב/QuriesPicture/Select8Quries.png)
+
 #### Delete quries:
 -1.השאילתא מוחקת את כל הטיולים שהחלו לפני יותר מ-5 שנים ולא הוזמנו על ידי אף לקוח. היא עושה זאת על ידי בחירת טיולים שהיו לא פעילים במשך זמן ארוך ולא היו להם הזמנות📜[View `Delete1.sql`](ב/Quries.sql/Quries9Delete.sql)
 
