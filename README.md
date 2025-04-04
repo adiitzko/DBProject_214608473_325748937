@@ -13,7 +13,10 @@ Gili Shechter
   - [SQL Scripts](#sql-scripts)  
   - [Data](#data)
   - [Backup](#backup)  
-- [Phase 2: Integration](#phase-2-integration)  
+- [Phase 2: Integration](#phase-2-integration)
+  - [Quries](#Quries)  
+  - [Constraint](#Constraints)  
+  - [Backup](#Backupfile)  
 
 ## Phase 1: Design and Build the Database  
 
@@ -151,7 +154,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 ## Phase 2: Integration 
-#### Quries
+### Quries
 📜[View `AllQuries.sql`](ב/Quries.sql)
 #### Select quries:
 -1. השאילתא מחזירה את רשימת הטיולים שהמדריך היה מעורב בהם, יחד עם שם המדריך ומספר הטיולים שהוא הוביל (רק עבור מדריכים שהיו מעורבים בשלושה טיולים ומעלה). התוצאות ממוין לפי מספר הטיולים שהמדריך הוביל, מהכי הרבה לפחות📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
@@ -259,18 +262,24 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](ב/QuriesPicture/before3Up.png)
 
 
-###אילוצים 
+### Constraints 
 -1.תיאור השינוי: נוסיף אילוץ CHECK עבור שדה totalRooms בטבלת hotel, כך ששטח החדרים יהיה תמיד ערך חיובי (גדול מ-0).
-![image](ב/QuriesPicture/Before3Del.png)
+![image](ב/QuriesPicture/אילוץ1.png)
 
 
 -2.תיאור השינוי: נוסיף אילוץ NOT NULL עבור העמודות destinationZip, hotelID, ו-guideID בטבלת trip. זה מוודא שהמפתחות הזרים הללו לא יהיו ריקים
 
-![image](ב/QuriesPicture/Before3Del.png)
+![image](ב/QuriesPicture/אילוץ2.png)
 
 -3.תיאור השינוי: נוסיף אילוץ UNIQUE עבור העמודה email בטבלת customer כדי לוודא שכל כתובת דוא"ל בטבלה תהיה ייחודית.
 
-![image](ב/QuriesPicture/Before3Del.png)
+![image](ב/QuriesPicture/אילוץ3.png)
+
+
+### Backupfile
+
+📜[View `Backup.sql`](ב/backup2.backup)
+
 
 
 
