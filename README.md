@@ -212,6 +212,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 -3.השאילתא מוחקת את כל הטיולים שלא התקבלו בהם הזמנות, כלומר טיולים שאין להם לקוחות שהוזמנו אליהם📜[View `Delete3.sql`](ב/Quries.sql/Quries11Delete.sql)
 
+
 #### Before
 
 ![image](ב/QuriesPicture/Before3Del.png)
@@ -224,10 +225,38 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 -1.השאילתא מחפשת טיולים שבהם המלון שלהם מלא מדי ומבצע עדכון כך שכל טיול כזה יקבל מלון אחר, שיש לו מספיק חדרים עבור כל הלקוחות שהוזמנו.📜[View `Update1.sql`](ב/Quries.sql/Quries12Update.sql)
 
 
+![image](ב/QuriesPicture/Sucsses1Up.png)
+
+#### Before
+![image](ב/QuriesPicture/Before1Up.png)
+
+#### After
+![image](ב/QuriesPicture/After1Up.png)
+
+
 -2.הפונקציה update_flight_prices מעדכנת את מחירי הטיסות בטבלה flight על ידי העלאת המחיר ב-10%.📜[View `Update2.sql`](ב/Quries.sql/Quries13Update.sql)
 
 
+![image](ב/QuriesPicture/Sucsses2Up.png)
+
+#### Before
+![image](ב/QuriesPicture/Before2Up.png)
+
+#### After
+![image](ב/QuriesPicture/After2Up.png)
+
+
 -3.השאילתא מעדכנת את שמות המדריכים שלא היו פעילים בשנה האחרונה על ידי הוספת המילים " (Inactive)" לשם המדריך.📜[View `Update3.sql`](ב/Quries.sql/Quries14Update.sql)
+
+
+![image](ב/QuriesPicture/Sucsses3Up.png)
+
+
+#### Before
+![image](ב/QuriesPicture/Before3Del.png)
+
+#### After
+![image](ב/QuriesPicture/before3Up.png)
 
 
 
