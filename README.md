@@ -234,7 +234,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](ב/QuriesPicture/After1Up.png)
 
 
--2.הפונקציה update_flight_prices מעדכנת את מחירי הטיסות בטבלה flight על ידי העלאת המחיר ב-10%.📜[View `Update2.sql`](ב/Quries.sql/Quries13Update.sql)
+-2.השאילתא מעדכנת מבצעי קיץ -אם טיסה מתרחשת בין יוני לאוגוסט, נוסיף לשם חברת התעופה את התוספת " - Summer Promo" כדי לסמן מבצע קיץ.0%.📜[View `Update2.sql`](ב/Quries.sql/Quries13Update.sql)
 
 
 ![image](ב/QuriesPicture/Sucsses2Up.png)
