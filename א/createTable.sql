@@ -1,18 +1,18 @@
 CREATE TABLE customer (
-    ID SERIAL PRIMARY KEY,
+    ID VARCHAR(10) PRIMARY KEY,
     fullName VARCHAR(100),
     phoneNumber VARCHAR(20),
     email VARCHAR(100)
 );
 
 CREATE TABLE guide (
-    guideID SERIAL PRIMARY KEY,
+    guideID VARCHAR(10) PRIMARY KEY,
     guideName VARCHAR(100),
     phoneNumber VARCHAR(20)
 );
 
 CREATE TABLE flight (
-    flightID SERIAL PRIMARY KEY,
+    flightID VARCHAR(100) PRIMARY KEY,
     airline VARCHAR(100),
     departureDate DATE,
     returnDate DATE
@@ -25,14 +25,14 @@ CREATE TABLE destination (
 );
 
 CREATE TABLE hotel (
-    hotelID SERIAL PRIMARY KEY,
+    hotelID VARCHAR(100) PRIMARY KEY,
     hotelName VARCHAR(100),
     location VARCHAR(255),
     totalRooms INT
 );
 
 CREATE TABLE trip (
-    tripID SERIAL PRIMARY KEY,
+    tripID VARCHAR(100) PRIMARY KEY,
     startDate DATE,
     endDate DATE,
     destinationZip INT,
