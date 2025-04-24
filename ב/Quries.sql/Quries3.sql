@@ -1,3 +1,4 @@
+#check
 //רשימת כל הלקוחות ופרטי הטיול שלהם 
 SELECT c.fullName, c.phoneNumber, c.email, d.country, h.hotelName, g.guideName, t.startDate, t.endDate
 FROM customer c
