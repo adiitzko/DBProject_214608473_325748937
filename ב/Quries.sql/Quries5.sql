@@ -1,6 +1,14 @@
-//רשימה של המדריכים ומספר הטיולים שהם מנחים לפי תאריכים
-
-SELECT g.guideName, COUNT(t.tripID) AS totalTrips, MIN(t.startDate) AS firstTripDate, MAX(t.endDate) AS lastTripDate
-FROM guide g
-JOIN trip t ON g.guideID = t.guideID
-GROUP BY g.guideName;
+#image
+//טיסות בין ראשון לחמישי ליעדים שביקרו בהם לפחות 100 לקוחות
+SELECT f.flightID, t.tripID, f.airline, f.departureDate, f.returnDate
+FROM flight f
+JOIN trip t ON f.departureDate = t.startDate AND f.returnDate = t.endDate
+WHERE EXTRACT(DOW FROM f.departureDate) BETWEEN 0 AND 4
+  AND EXTRACT(DOW FROM f.returnDate) BETWEEN 0 AND 4
+  AND t.destinationZip IN (
+      SELECT destinationZip
+      FROM trip
+      JOIN invite USING(tripID)
+      GROUP BY destinationZip
+      HAVING SUM(totalCustomer) > 100
+  );
