@@ -157,40 +157,40 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ### Quries
 📜[View `AllQuries.sql`](ב/Quries.sql)
 #### Select quries:
--1. השאילתא מחזירה את רשימת הטיולים שהמדריך היה מעורב בהם, יחד עם שם המדריך ומספר הטיולים שהוא הוביל (רק עבור מדריכים שהיו מעורבים בשלושה טיולים ומעלה). התוצאות ממוין לפי מספר הטיולים שהמדריך הוביל, מהכי הרבה לפחות📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
+-1. קיימים לקוחות שדורשים מדריך עם ניסיון. השאילתה מחזירה את רשימת המדריכים שליוו לפחות 5 טיולים שונים ולפחות שניים מהם ליעדים שונים. התוצאה כוללת את מזהה המדריך, שם המדריך, מספר הטיולים שהדריך ומספר היעדים השונים, ממוינת לפי כמות הטיולים שהדריך, מהגבוה לנמוך.📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
 
 ![image](ב/QuriesPicture/Select1Quries.png)
 
--2.השאילתא מציגה את כל המלונות ואת היעד שבו כל אחד מהם נמצא, כולל פרטי היעד כמו המדינה והכתובת 📜[View `select2.sql`](ב/Quries.sql/Quries2.sql) 
+-2.חברת הטיולים רוצה לארגן טיולים למדינות שבהם כמות הלקוחות שהגיעו היתה גבוהה. השאילתה מחזירה את היעדים שבהם סך הלקוחות היה מעל 130, כולל את מזהה היעד, המדינה, כתובת היעד וסך כל הלקוחות, ממוינת לפי סך הלקוחות, מהגבוה לנמוך. 📜[View `select2.sql`](ב/Quries.sql/Quries2.sql) 
 ![image](ב/QuriesPicture/Select2Quries.png) 
 
 
 
 
--3. השאילתא מציגה את פרטי כל הלקוחות (שם, טלפון, ודוא"ל) יחד עם פרטי הטיול שבו הם השתתפו, כולל היעד, המלון והמדריך, ותאריכי התחלה וסיום של כל טיול📜[View `select3.sql`](ב/Quries.sql/Quries3.sql)
+-3.חברת הטיולים רוצה למיין את התאריכים של החודשים שהיו בהם הכי הרבה טיולים ולקוחות- זאת אומרת הכי הרבה הכנסות כדי לנסות לשחזר את ההצלחה.השאילתה מחזירה את החודשים שבהם היו גם הכי הרבה טיולים וגם הכי הרבה לקוחות בסדר יורד. השאילתה מחזירה את החודש, השנה, כמות הלקוחות וכמות הטיולים.📜[View `select3.sql`](ב/Quries.sql/Quries3.sql)
 
 ![image](ב/QuriesPicture/Select3Quries.png)
 
--4. השאילתא מציגה את כל הטיסות, כולל חברת התעופה, תאריכי היציאה והחזרה, לצד המידע על היעד שבו מתרחש הטיול, שם המלון שבו שהו הנוסעים, ותאריכי תחילת וסיום הטיול📜[View `select4.sql`](ב/Quries.sql/Quries4.sql)
+-4.חברת הטיולים רוצה למצוא לקוחות חוזרים שהביאו איתם מספר גבוה של אנשים כדי להתקשר אליהם לגבי עוד טיולים.השאילתה מחזירה את שמות הלקוחות, מזהי הלקוחות, מספר הטיולים שהם השתתפו בהם, ואת מספר הלקוחות שהם הביאו, עבור לקוחות שהשתתפו ביותר מ-3 טיולים שונים והביאו יותר מ-5 לקוחות בכל טיול.📜[View `select4.sql`](ב/Quries.sql/Quries4.sql)
 
 ![image](ב/QuriesPicture/Select4Quries.png)
 
 
--5. השאילתא מציגה את רשימת המדריכים עם מספר הטיולים שהם הובילו, תאריך תחילת הטיול הראשון שהם הובילו ותאריך סיום הטיול האחרון📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
+-5.חברת הטיולים רוצה להציע טיולים לשומרי שבת ולכן תמצא יעדים פופולרים שהטיסות שלהם בין ראשון לחמישי. השאילתה מחזירה מזהה טיסה, מזהה טיול, תאריך המראה, תאריך נחיתה, חברת תעופה.📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
 
 ![image](ב/QuriesPicture/Select5Image.png)
 
--6. השאילתא מציגה את כל הלקוחות שהשתתפו בטיולים בעונת הקיץ (יוני, יולי, אוגוסט), כולל פרטי הלקוח, תאריכים של הטיול שבו הם השתתפו, ומזהה הטיול📜[View `select6.sql`](ב/Quries.sql/Quries6.sql)
+-6. חברת הטיולים רוצה לבדוק איזה מדריך פנוי באוגוסט ובאיזה מדינות הוא כבר הדריך כדי לשבץ אותו לטיולים במדינות האלה באוגוסט. השאילתה מחזירה רשימה של מדריכים שלא הובילו טיולים באוגוסט, כולל מזהה, שם ומספר טלפון שלהם, וכן את רשימת המדינות בהן הם כן הובילו טיולים בחודשים אחרים.📜[View `select6.sql`](ב/Quries.sql/Quries6.sql)
 
 ![image](ב/QuriesPicture/Select6Quries.png)
 
 
--7. השאילתא מציגה את רשימת המלונות שבהם מספר הלקוחות המשתתפים בטיולים הוא לפחות כפול ממספר החדרים במלון, כלומר מלונות עם תפוסה מלאה או גבוהה יותר(החדרים במלון זוגיים)📜[View `select7.sql`](ב/Quries.sql/Quries7.sql)
+-7. חברת הטיולים רוצה את רשימת המלונות שלא היתה בהתם תפוסה מלאה ברבעון הראשון של 2024.השאילתה מחזירה שמות ומספר חדרים של בתי מלון שהיו פעילים ברבעון הראשון של 2024. היא מסננת רק את אותם בתי מלון שלא היתה בהם תפוסה מלאה כאשר בכל חדר יש 2 לקוחות.📜[View `select7.sql`](ב/Quries.sql/Quries7.sql)
 
 ![image](ב/QuriesPicture/Select7Quries.png)
 
 
--8. השאילתא מציגה את השנה והחודש שבהם היו הכי הרבה טיולים, יחד עם מספר הטיולים שהתרחשו בחודש זה📜[View `select8.sql`](ב/Quries.sql/Quries8.sql)
+-8. חברת הטיולים רוצה לזהות יעדים אהובים אצל לקוחות מסוימים כדי להציע להם הצעות טיול ליעדים אלו. השאילתא  מחזירה רשימה של לקוחות והמדינות אליהן הם טסו לפחות פעמיים📜[View `select8.sql`](ב/Quries.sql/Quries8.sql)
 
 ![image](ב/QuriesPicture/Select8Quries.png)
 
