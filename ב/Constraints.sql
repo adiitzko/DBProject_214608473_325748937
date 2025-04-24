@@ -3,7 +3,7 @@
 ALTER TABLE hotel
 ADD CONSTRAINT check_totalRooms CHECK (totalRooms > 0);
 
-
+#To Do
 //אילוץ NOT NULL למפתח זר בטבלת trip
 ALTER TABLE trip
 ALTER COLUMN destinationZip SET NOT NULL,
