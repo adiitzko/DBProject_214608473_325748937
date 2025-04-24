@@ -1,3 +1,4 @@
+#TO DO
 //רשימת הטיולים שהמדריך שלהם ליווה שלוש טיולים ומעלה
 SELECT t.tripID, g.guideName, COUNT(t.tripID) OVER (PARTITION BY t.guideID) AS guideTripCount
 FROM trip t
