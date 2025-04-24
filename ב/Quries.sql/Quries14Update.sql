@@ -1,4 +1,5 @@
-// עדכון מדריכים שלא היו פעילים בשנה האחרונה
+#TO DO
+    // עדכון מדריכים שלא היו פעילים בשנה האחרונה
 UPDATE guide g
 SET guideName = CONCAT(guideName, ' (Inactive)')
 WHERE g.guideID NOT IN (
