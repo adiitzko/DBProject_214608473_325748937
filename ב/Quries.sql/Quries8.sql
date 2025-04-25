@@ -1,4 +1,3 @@
-#image
 //  רשימה של לקוחות והמדינות אליהן הם טסו לפחות פעמיים
 WITH
   CustomerCountries AS (
