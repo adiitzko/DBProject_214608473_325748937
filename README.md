@@ -268,8 +268,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](ב/QuriesPicture/אילוץ1.png)
 
 
--2.תיאור השינוי: נוסיף אילוץ NOT NULL עבור העמודות destinationZip, hotelID, ו-guideID בטבלת trip. זה מוודא שהמפתחות הזרים הללו לא יהיו ריקים
-
+-2.תיאור השינוי: נוסיף אילוץ CHECK עבור העמודות startDate ו-endDate בטבלת trip. אילוץ זה מוודא שתאריך ההתחלה של הטיול תמיד יהיה מוקדם או שווה לתאריך הסיום שלו. זה מבטיח שלטיול יש משך זמן חיובי או אפס, ולא שהסיום יתרחש לפני ההתחלה.
 ![image](ב/QuriesPicture/אילוץ2.png)
 
 -3.תיאור השינוי: נוסיף אילוץ UNIQUE עבור העמודה email בטבלת customer כדי לוודא שכל כתובת דוא"ל בטבלה תהיה ייחודית.
