@@ -1,4 +1,3 @@
-#image
 //טיסות בין ראשון לחמישי ליעדים שביקרו בהם לפחות 100 לקוחות
 SELECT f.flightID, f.airline, f.departureDate, f.returnDate, t.tripID
 FROM flight f
