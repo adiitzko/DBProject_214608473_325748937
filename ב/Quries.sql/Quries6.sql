@@ -1,4 +1,3 @@
-#image
 // מדריכים שפנוים באוגוסט והמדינות שבהן הם הדריכו בשאר השנה
 SELECT g.guideID, g.guideName, g.phoneNumber,
     (SELECT string_agg(DISTINCT d.country, ', ')

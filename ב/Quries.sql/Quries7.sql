@@ -1,4 +1,3 @@
-#image
 //בתי מלון שהתפוסה שלהם לא היתה מלאה ברבעון הראשון של 2024
 SELECT DISTINCT h.hotelName, h.totalRooms
 FROM hotel h
