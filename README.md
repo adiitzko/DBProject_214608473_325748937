@@ -213,7 +213,8 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 
--3.השאילתא מוחקת את כל הטיולים שלא התקבלו בהם הזמנות, כלומר טיולים שאין להם לקוחות שהוזמנו אליהם📜[View `Delete3.sql`](ב/Quries.sql/Quries11Delete.sql)
+-3.השאילתא מחפשת את כל הטיולים שאין להם שום לקוח שנירשם לטיול ובנוסף שתאריך ההתחלה עבר- החברה רוצה לדעת איזה טיולים הם רלוונטים ולכן טיולים שכבר עבר זמנם ולא נרשמו אליהם לקוחות הם לא רלוונטים לעומת טיולים שעבר זמנם ונרשמו אליהם לקוחות כיון שהפרטים עוד חשובים
+📜[View `Delete3.sql`](ב/Quries.sql/Quries11Delete.sql)
 
 
 #### Before
