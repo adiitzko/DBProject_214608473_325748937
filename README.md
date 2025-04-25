@@ -226,7 +226,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 #### Update quries:
--1.השאילתא מחפשת טיולים שבהם המלון שלהם מלא מדי ומבצע עדכון כך שכל טיול כזה יקבל מלון אחר, שיש לו מספיק חדרים עבור כל הלקוחות שהוזמנו.📜[View `Update1.sql`](ב/Quries.sql/Quries12Update.sql)
+-1.השאילתא מחפשת טיולים שבהם המלון שלהם מלא מדי ומבצע עדכון כך שכל טיול כזה יקבל מלון אחר באותה מדינה, שיש לו מספיק חדרים עבור כל הלקוחות שהוזמנו.📜[View `Update1.sql`](ב/Quries.sql/Quries12Update.sql)
 
 
 ![image](ב/QuriesPicture/Sucsses1Up.png)
@@ -238,7 +238,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](ב/QuriesPicture/After1Up.png)
 
 
--2.השאילתא מעדכנת מבצעי קיץ -אם טיסה מתרחשת בין יוני לאוגוסט, נוסיף לשם חברת התעופה את התוספת " - Summer Promo" כדי לסמן מבצע קיץ.0%.📜[View `Update2.sql`](ב/Quries.sql/Quries13Update.sql)
+-2.השאילתה  מעדכנת את המדריך של טיולים המשובצים למדריכים עמוסים (להם 2 טיולים או יותר), ומחליפה אותם במדריך אחר שיש לו פחות מ-2 טיולים בסך הכל. העדכון מתבצע רק אם קיים מדריך פחות עמוס זמין.📜[View `Update2.sql`](ב/Quries.sql/Quries13Update.sql)
 
 
 ![image](ב/QuriesPicture/Sucsses2Up.png)
@@ -250,7 +250,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](ב/QuriesPicture/After2Up.png)
 
 
--3.השאילתא מעדכנת את שמות המדריכים שלא היו פעילים בשנה האחרונה על ידי הוספת המילים " (Inactive)" לשם המדריך.📜[View `Update3.sql`](ב/Quries.sql/Quries14Update.sql)
+-3.החברת הטיולים החליטה שטיולים בארה"ב לא יתחילו בשבת. השאילתה  מעדכנת את תאריך ההתחלה של טיולים. אם תאריך ההתחלה הוא יום שבת והיעד של הטיול הוא בארה"ב , תאריך ההתחלה יוזז ליום ראשון.📜[View `Update3.sql`](ב/Quries.sql/Quries14Update.sql)
 
 
 ![image](ב/QuriesPicture/Sucsses3Up.png)
