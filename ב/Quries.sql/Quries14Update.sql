@@ -1,9 +1,6 @@
-#TO DO
-    // עדכון מדריכים שלא היו פעילים בשנה האחרונה
-UPDATE guide g
-SET guideName = CONCAT(guideName, ' (Inactive)')
-WHERE g.guideID NOT IN (
-    SELECT DISTINCT guideID 
-    FROM trip t
-    WHERE t.startDate > CURRENT_DATE - INTERVAL '1 year'
-);
+#3image
+    // מעדכנת את תאריך ההתחלה של טיולים שמתחילים בשבת בארה"ב ליום ראשון
+UPDATE trip
+SET startDate = startDate + INTERVAL '1 day'
+WHERE EXTRACT(DOW FROM startDate) = 6
+  AND destinationZip IN (SELECT zipCode FROM destination WHERE "country" = 'USA');
