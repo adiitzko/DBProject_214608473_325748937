@@ -1,4 +1,3 @@
-#image
 //לקוחות שהשתתפו ביותר מ-3 טיולים שונים, ושהם הביאו יותר מ-5 לקוחות בכל טיול
 SELECT c.fullName, i.customerID, COUNT(DISTINCT t.tripID) AS num_of_trips, SUM(i.totalCustomer) AS total_customers_brought
 FROM customer c
