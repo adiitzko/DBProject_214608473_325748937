@@ -264,6 +264,9 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 ### Constraints 
+האילוצים:
+![image](ב/QuriesPicture/אילוצים.png)
+
 -1.תיאור השינוי: נוסיף אילוץ CHECK עבור שדה totalRooms בטבלת hotel, כך ששטח החדרים יהיה תמיד ערך חיובי (גדול מ-0).
 ![image](ב/QuriesPicture/אילוץ1.png)
 
