@@ -1,4 +1,3 @@
-#3image
     // מעדכנת את תאריך ההתחלה של טיולים שמתחילים בשבת בארה"ב ליום ראשון
 UPDATE trip
 SET startDate = startDate + INTERVAL '1 day'
