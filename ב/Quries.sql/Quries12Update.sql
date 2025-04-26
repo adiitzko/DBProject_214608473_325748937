@@ -1,4 +1,3 @@
-#3image
 //מעדכנת מלון שאין בו מקום למלון אחר שיש בו מקום לכל הלקוחות באותה מדינה
 WITH OverbookedTrips AS (
     SELECT t.tripID, t.hotelID, SUM(i.totalCustomer) AS totalGuests, h.totalRooms, h.location AS country
