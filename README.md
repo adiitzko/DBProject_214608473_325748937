@@ -257,7 +257,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 #### Before
-![image](ב/QuriesPicture/Before3Del.png)
+![image](ב/QuriesPicture/Before3UP.png)
 
 #### After
 ![image](ב/QuriesPicture/before3Up.png)
