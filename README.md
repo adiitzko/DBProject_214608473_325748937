@@ -262,8 +262,36 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 #### After
 ![image](ב/QuriesPicture/before3Up.png)
 
+### Rollback  
+-עדכון בסיס הנתונים
+
+![image](ב/QuriesPicture/CommitUpdate.png)
+-לפני Rollback
+
+![image](ב/QuriesPicture/RollbackBefore.png)
+-אחרי Rollback 
+
+![image](ב/QuriesPicture/RollbackAfter.png)
+
+### Commit  
+-עדכון בסיס הנתונים
+
+![image](ב/QuriesPicture/RollbackUpdate.png.png)
+-לפני Commit
+
+![image](ב/QuriesPicture/CommitBefore.png)
+-אחרי Commit 
+
+![image](ב/QuriesPicture/CommitAfter.png)
+
+
+
 
 ### Constraints 
+-האילוצים:
+
+![image](ב/QuriesPicture/אילוצים.png)
+
 -1.תיאור השינוי: נוסיף אילוץ CHECK עבור שדה totalRooms בטבלת hotel, כך ששטח החדרים יהיה תמיד ערך חיובי (גדול מ-0).
 ![image](ב/QuriesPicture/אילוץ1.png)
 
