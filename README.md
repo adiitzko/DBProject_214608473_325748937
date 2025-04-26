@@ -264,18 +264,24 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 ### Rollback  
 -עדכון בסיס הנתונים
+
 ![image](ב/QuriesPicture/CommitUpdate.png)
 -לפני Rollback
+
 ![image](ב/QuriesPicture/RollbackBefore.png)
 -אחרי Rollback 
+
 ![image](ב/QuriesPicture/RollbackAfter.png)
 
 ### Commit  
 -עדכון בסיס הנתונים
+
 ![image](ב/QuriesPicture/RollbackUpdate.png.png)
 -לפני Commit
+
 ![image](ב/QuriesPicture/CommitBefore.png)
 -אחרי Commit 
+
 ![image](ב/QuriesPicture/CommitAfter.png)
 
 
