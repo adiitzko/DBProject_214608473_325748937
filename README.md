@@ -257,10 +257,10 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 #### Before
-![image](ב/QuriesPicture/Before3UP.png)
+![image](ב/QuriesPicture/before3UP.png)
 
 #### After
-![image](ב/QuriesPicture/before3Up.png)
+![image](ב/QuriesPicture/After3Up.png)
 
 ### Rollback  
 -עדכון בסיס הנתונים
