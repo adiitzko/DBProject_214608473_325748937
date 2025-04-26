@@ -1,5 +1,4 @@
-
-//מחיקת טיולים שהתחילו לפני יותר מ-5 שנים ולא הוזמנו על ידי אף לקוח
-DELETE FROM trip 
-WHERE startDate < CURRENT_DATE - INTERVAL '5 years' 
-AND tripID NOT IN (SELECT DISTINCT tripID FROM invite);
+#3image
+// מחיקת הזמנות טיולים שהסתיימו לפני 15 חודשים
+DELETE FROM invite
+WHERE tripID IN (SELECT tripID FROM trip WHERE endDate < CURRENT_DATE - INTERVAL '15 months');

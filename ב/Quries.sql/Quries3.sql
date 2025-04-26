@@ -1,8 +1,27 @@
-//רשימת כל הלקוחות ופרטי הטיול שלהם 
-SELECT c.fullName, c.phoneNumber, c.email, d.country, h.hotelName, g.guideName, t.startDate, t.endDate
-FROM customer c
-JOIN invite i ON c.ID = i.customerID
-JOIN trip t ON i.tripID = t.tripID
-JOIN destination d ON t.destinationZip = d.zipCode
-JOIN hotel h ON t.hotelID = h.hotelID
-JOIN guide g ON t.guideID = g.guideID;
+//מיון החודשים שבהם היו גם הכי הרבה טיולים וגם הכי הרבה לקוחות
+WITH trip_counts AS (
+    SELECT 
+        EXTRACT(YEAR FROM t.startDate) AS year, 
+        EXTRACT(MONTH FROM t.startDate) AS month,
+        COUNT(t.tripID) AS totalTrips
+    FROM trip t
+    GROUP BY year, month
+),
+customer_counts AS (
+    SELECT 
+        EXTRACT(YEAR FROM t.startDate) AS year, 
+        EXTRACT(MONTH FROM t.startDate) AS month,
+        SUM(i.totalCustomer) AS totalCustomers
+    FROM trip t
+    JOIN invite i ON t.tripID = i.tripID
+    GROUP BY year, month
+)
+SELECT 
+    tc.year,
+    tc.month,
+    tc.totalTrips,
+    cc.totalCustomers
+FROM trip_counts tc
+JOIN customer_counts cc ON tc.year = cc.year AND tc.month = cc.month
+ORDER BY tc.totalTrips DESC, cc.totalCustomers DESC;
+
