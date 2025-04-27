@@ -157,7 +157,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ### Quries
 📜[View `AllQuries.sql`](ב/Quries.sql)
 #### Select quries:
--1. קיימים לקוחות שדורשים מדריך עם ניסיון. השאילתה מחזירה את רשימת המדריכים שליוו לפחות 5 טיולים שונים ולפחות שניים מהם ליעדים שונים. התוצאה כוללת את מזהה המדריך, שם המדריך, מספר הטיולים שהדריך ומספר היעדים השונים, ממוינת לפי כמות הטיולים שהדריך, מהגבוה לנמוך.📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
+-1. קיימים לקוחות שדורשים מדריך עם ניסיון. השאילתה מחזירה את רשימת המדריכים שליוו לפחות 3 טיולים שונים ולפחות שניים מהם ליעדים שונים. התוצאה כוללת את מזהה המדריך, שם המדריך, מספר הטיולים שהדריך ומספר היעדים השונים, ממוינת לפי כמות הטיולים שהדריך, מהגבוה לנמוך.📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
 
 ![image](ב/QuriesPicture/Select1Quries.png)
 
@@ -176,7 +176,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](ב/QuriesPicture/Select4Quries.png)
 
 
--5.חברת הטיולים רוצה להציע טיולים לשומרי שבת ולכן תמצא יעדים פופולרים שהטיסות שלהם בין ראשון לחמישי. השאילתה מחזירה מזהה טיסה, מזהה טיול, תאריך המראה, תאריך נחיתה, חברת תעופה.📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
+-5.חברת הטיולים רוצה להציע טיולים לשומרי שבת ולכן תמצא יעדים לא פופולרים כדי לקדם אותם, שהטיסות שלהם בין ראשון לחמישי. השאילתה מחזירה מזהה טיסה, מזהה טיול, תאריך המראה, תאריך נחיתה, חברת תעופה.📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
 
 ![image](ב/QuriesPicture/Select5Image.png)
 
@@ -257,18 +257,20 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 #### Before
-![image](ב/QuriesPicture/Before3Del.png)
+![image](ב/QuriesPicture/before3Up.png)
 
 #### After
-![image](ב/QuriesPicture/before3Up.png)
+![image](ב/QuriesPicture/After3Up.png)
 
 ### Rollback  
 -עדכון בסיס הנתונים
 
 ![image](ב/QuriesPicture/CommitUpdate.png)
+
 -לפני Rollback
 
 ![image](ב/QuriesPicture/RollbackBefore.png)
+
 -אחרי Rollback 
 
 ![image](ב/QuriesPicture/RollbackAfter.png)
@@ -277,9 +279,11 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 -עדכון בסיס הנתונים
 
 ![image](ב/QuriesPicture/RollbackUpdate.png.png)
+
 -לפני Commit
 
 ![image](ב/QuriesPicture/CommitBefore.png)
+
 -אחרי Commit 
 
 ![image](ב/QuriesPicture/CommitAfter.png)
@@ -292,8 +296,11 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 ![image](ב/QuriesPicture/אילוצים.png)
 
--1.תיאור השינוי: נוסיף אילוץ CHECK עבור שדה totalRooms בטבלת hotel, כך ששטח החדרים יהיה תמיד ערך חיובי (גדול מ-0).
+-1.תיאור השינוי: נוסיף אילוץ Default כך שבעת הוספת שורה חדשה לטבלת invite ללא ציון ערך עבור totalCustomer, העמודה תקבל אוטומטית את הערך 1.
+
 ![image](ב/QuriesPicture/אילוץ1.png)
+
+![image](ב/QuriesPicture/אילוץ1ב.png)
 
 
 -2.תיאור השינוי: נוסיף אילוץ CHECK עבור העמודות startDate ו-endDate בטבלת trip. אילוץ זה מוודא שתאריך ההתחלה של הטיול תמיד יהיה מוקדם או שווה לתאריך הסיום שלו. זה מבטיח שלטיול יש משך זמן חיובי או אפס, ולא שהסיום יתרחש לפני ההתחלה.
