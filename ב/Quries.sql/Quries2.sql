@@ -1,4 +1,4 @@
-//היעד או היעדים עם הכי הרבה לקוחות
+//ה היעדים עם הכי הרבה לקוחות
 WITH destination_totals AS (
     SELECT d.zipCode, d.country, d.address, SUM(i.totalCustomer) AS total_customers
     FROM destination d
@@ -8,6 +8,4 @@ WITH destination_totals AS (
 )
 SELECT *
 FROM destination_totals
-WHERE total_customers = (
-    SELECT MAX(total_customers) FROM destination_totals
-);
+WHERE total_customers > 130;
