@@ -176,7 +176,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ![image](ב/QuriesPicture/Select4Quries.png)
 
 
--5.חברת הטיולים רוצה להציע טיולים לשומרי שבת ולכן תמצא יעדים פופולרים שהטיסות שלהם בין ראשון לחמישי. השאילתה מחזירה מזהה טיסה, מזהה טיול, תאריך המראה, תאריך נחיתה, חברת תעופה.📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
+-5.חברת הטיולים רוצה להציע טיולים לשומרי שבת ולכן תמצא יעדים לא פופולרים כדי לקדם אותם, שהטיסות שלהם בין ראשון לחמישי. השאילתה מחזירה מזהה טיסה, מזהה טיול, תאריך המראה, תאריך נחיתה, חברת תעופה.📜[View `select5.sql`](ב/Quries.sql/Quries5.sql)
 
 ![image](ב/QuriesPicture/Select5Image.png)
 
