@@ -1,4 +1,3 @@
-#image
 //היעד או היעדים עם הכי הרבה לקוחות
 WITH destination_totals AS (
     SELECT d.zipCode, d.country, d.address, SUM(i.totalCustomer) AS total_customers
