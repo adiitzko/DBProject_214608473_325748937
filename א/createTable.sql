@@ -44,8 +44,8 @@ CREATE TABLE trip (
 );
 
 CREATE TABLE invite (
-    tripID INT,
-    customerID INT,
+    tripID VARCHAR(100),
+    customerID VARCHAR(10),
     totalCustomer INT,
     PRIMARY KEY (tripID, customerID),
     FOREIGN KEY (tripID) REFERENCES trip(tripID),
