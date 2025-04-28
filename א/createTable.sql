@@ -52,9 +52,4 @@ CREATE TABLE invite (
     FOREIGN KEY (customerID) REFERENCES customer(ID)
 );
 
-CREATE TABLE include (
-    tripID INT PRIMARY KEY,
-    flightID INT,
-    FOREIGN KEY (tripID) REFERENCES trip(tripID),
-    FOREIGN KEY (flightID) REFERENCES flight(flightID)
-);
+
