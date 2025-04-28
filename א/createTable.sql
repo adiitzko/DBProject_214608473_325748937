@@ -40,7 +40,8 @@ CREATE TABLE trip (
     guideID INT,
     FOREIGN KEY (destinationZip) REFERENCES destination(zipCode),
     FOREIGN KEY (hotelID) REFERENCES hotel(hotelID),
-    FOREIGN KEY (guideID) REFERENCES guide(guideID)
+    FOREIGN KEY (guideID) REFERENCES guide(guideID),
+    FOREIGN KEY (flightID) REFERENCES flight(flightID)
 );
 
 CREATE TABLE invite (
