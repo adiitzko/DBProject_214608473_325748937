@@ -19,7 +19,7 @@ CREATE TABLE flight (
 );
 
 CREATE TABLE destination (
-    zipCode INT PRIMARY KEY,
+    zipCode VARCHAR(100) PRIMARY KEY,
     country VARCHAR(100),
     address VARCHAR(255)
 );
@@ -35,9 +35,9 @@ CREATE TABLE trip (
     tripID VARCHAR(100) PRIMARY KEY,
     startDate DATE,
     endDate DATE,
-    destinationZip INT,
-    hotelID INT,
-    guideID INT,
+    destinationZip VARCHAR(100),
+    hotelID VARCHAR(100),
+    guideID VARCHAR(10),
     FOREIGN KEY (destinationZip) REFERENCES destination(zipCode),
     FOREIGN KEY (hotelID) REFERENCES hotel(hotelID),
     FOREIGN KEY (guideID) REFERENCES guide(guideID),
