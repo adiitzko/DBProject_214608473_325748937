@@ -28,10 +28,10 @@ INSERT INTO hotel (hotelID, hotelName, location, totalRooms) VALUES
 (3, 'Grand Roma Hotel', 'Rome', 120);
 
 -- Inserting data into the trip table
-INSERT INTO trip (tripID, startDate, endDate, destinationZip, hotelID, guideID) VALUES 
-(1, '2025-06-01', '2025-06-10', 12345, 1, 1),
-(2, '2025-07-15', '2025-07-22', 67890, 2, 2),
-(3, '2025-08-01', '2025-08-10', 54321, 3, 3);
+INSERT INTO trip (tripID, startDate, endDate, destinationZip, hotelID, guideID, flightID) VALUES 
+(1, '2025-06-01', '2025-06-10', 12345, 1, 1, 1),
+(2, '2025-07-15', '2025-07-22', 67890, 2, 2, 2),
+(3, '2025-08-01', '2025-08-10', 54321, 3, 3, 3);
 
 -- Inserting data into the invite table
 INSERT INTO invite (tripID, customerID, totalCustomer) VALUES 
@@ -39,8 +39,3 @@ INSERT INTO invite (tripID, customerID, totalCustomer) VALUES
 (2, 2, 3),
 (3, 3, 4);
 
--- Inserting data into the include table
-INSERT INTO include (tripID, flightID) VALUES 
-(1, 1),
-(2, 2),
-(3, 3);
