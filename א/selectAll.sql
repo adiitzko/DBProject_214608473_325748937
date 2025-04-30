@@ -1,5 +1,4 @@
 SELECT * FROM invite;
-SELECT * FROM include;
 SELECT * FROM trip;
 SELECT * FROM customer;
 SELECT * FROM guide;

@@ -19,7 +19,7 @@ CREATE TABLE flight (
 );
 
 CREATE TABLE destination (
-    zipCode INT PRIMARY KEY,
+    zipCode VARCHAR(100) PRIMARY KEY,
     country VARCHAR(100),
     address VARCHAR(255)
 );
@@ -35,26 +35,22 @@ CREATE TABLE trip (
     tripID VARCHAR(100) PRIMARY KEY,
     startDate DATE,
     endDate DATE,
-    destinationZip INT,
-    hotelID INT,
-    guideID INT,
+    destinationZip VARCHAR(100),
+    hotelID VARCHAR(100),
+    guideID VARCHAR(10),
     FOREIGN KEY (destinationZip) REFERENCES destination(zipCode),
     FOREIGN KEY (hotelID) REFERENCES hotel(hotelID),
-    FOREIGN KEY (guideID) REFERENCES guide(guideID)
+    FOREIGN KEY (guideID) REFERENCES guide(guideID),
+    FOREIGN KEY (flightID) REFERENCES flight(flightID)
 );
 
 CREATE TABLE invite (
-    tripID INT,
-    customerID INT,
+    tripID VARCHAR(100),
+    customerID VARCHAR(10),
     totalCustomer INT,
     PRIMARY KEY (tripID, customerID),
     FOREIGN KEY (tripID) REFERENCES trip(tripID),
     FOREIGN KEY (customerID) REFERENCES customer(ID)
 );
 
-CREATE TABLE include (
-    tripID INT PRIMARY KEY,
-    flightID INT,
-    FOREIGN KEY (tripID) REFERENCES trip(tripID),
-    FOREIGN KEY (flightID) REFERENCES flight(flightID)
-);
+
