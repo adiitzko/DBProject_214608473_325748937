@@ -152,9 +152,7 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 
-
-## Phase 2: Integration 
-### Quries
+## Phase 2: Quries
 📜[View `AllQuries.sql`](ב/Quries.sql)
 #### Select quries:
 -1. קיימים לקוחות שדורשים מדריך עם ניסיון. השאילתה מחזירה את רשימת המדריכים שליוו לפחות 3 טיולים שונים ולפחות שניים מהם ליעדים שונים. התוצאה כוללת את מזהה המדריך, שם המדריך, מספר הטיולים שהדריך ומספר היעדים השונים, ממוינת לפי כמות הטיולים שהדריך, מהגבוה לנמוך.📜[View `select1.sql`](ב/Quries.sql/Quries1.sql)
@@ -318,6 +316,26 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 
 
 
+## Phase 2: Integration 
 
+- בשלב באינטגרציה נדרשנו לבצע אינטגרציה של הנושא שלנו חברת טיולים עם נושא אחר שקיבלנו מלון.
 
+###  DSD של האגף החדש
+#(IMAGE)
+
+###  ERD אגף חדש
+#(IMAGE)
+
+###    ERD משותף
+#(IMAGE)
+
+### DSD לאחר אינטגרציה
+#(IMAGE)
+
+במלון Person היא ישות-על (supertype) שממנה יורשים Guest, Employee ובחברת טיולים קיימות הישויות Customer, Guide. המשמעות של guest ושל customr דומה ולכן נשאיר את customer לכן באינטגרציה ביניהם Person היא ישות-על (supertype) שממנה יורשים Customer, Employee, Guide ולכן לGuide במקום התכונה guideID נשנה את השם לID ובמקום התכונה guideName נשנה את השם לfullName ונוסיף לGuide גם תכונה email.
+בחברת טיולים לכל טיול יש מלון לשהייה בזמן הטיול, במלון מתבצעת הזמנה של חדרים במלון. באינטגרציה נוסיף למלון את הישות starRating שלא קיימת בחברת הטיולים. במקום לקשר בין הישות Hotel לTrip נקשר את Reservation לTrip (רבים לרבים) כך שכאשר יקבעו טיול יבצעו הזמנת חדרים שונים לכל אדם. נוסיף את הקשר (רבים לרבים) includes של מלון בין Reservation לRoom ואת הקשר(יחיד לרבים) belong_to של מלון בין Room לHotel.
+נוסיף את הקשר Responsible של מלון בין employee ל room.
+במלון יש קשר makes בין reservation לguest(במקרה שלנו customer) אבל באינטגרציה לא נוסיף אותו כי ההזמנה מתבצעת ע"י הטיול ולא ע"י הלקוח.
+במלון הישות reservation מקושרת ע"י settles לpayment. באינטגרציה נשאיר את הקשר הזה אבל נוסיף קשר נוסף tripPay(רבים לרבים) בין trip לpayment וקשר paid(יחיד לרבים) customer לpayment, כי בחברת טיולים הלקוח מבצע תשלום על טיול, והמחיר של הטיול תלוי גם בהזמנת החדרים(המחיר שמשתנה לפי מספר חדרים, מספר מיטות, סוג החדר)
+את שאר הקשרים בחברת הטיולים בין trip לguide, destination, customer, flight לא שינינו כי האינטגרציה לא השפיע עליהן.
 
