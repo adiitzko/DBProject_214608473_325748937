@@ -332,10 +332,243 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 ### DSD לאחר אינטגרציה
 #(IMAGE)
 
-במלון Person היא ישות-על (supertype) שממנה יורשים Guest, Employee ובחברת טיולים קיימות הישויות Customer, Guide. המשמעות של guest ושל customr דומה ולכן נשאיר את customer לכן באינטגרציה ביניהם Person היא ישות-על (supertype) שממנה יורשים Customer, Employee, Guide ולכן לGuide במקום התכונה guideID נשנה את השם לID ובמקום התכונה guideName נשנה את השם לfullName ונוסיף לGuide גם תכונה email.
-בחברת טיולים לכל טיול יש מלון לשהייה בזמן הטיול, במלון מתבצעת הזמנה של חדרים במלון. באינטגרציה נוסיף למלון את הישות starRating שלא קיימת בחברת הטיולים. במקום לקשר בין הישות Hotel לTrip נקשר את Reservation לTrip (רבים לרבים) כך שכאשר יקבעו טיול יבצעו הזמנת חדרים שונים לכל אדם. נוסיף את הקשר (רבים לרבים) includes של מלון בין Reservation לRoom ואת הקשר(יחיד לרבים) belong_to של מלון בין Room לHotel.
-נוסיף את הקשר Responsible של מלון בין employee ל room.
-במלון יש קשר makes בין reservation לguest(במקרה שלנו customer) אבל באינטגרציה לא נוסיף אותו כי ההזמנה מתבצעת ע"י הטיול ולא ע"י הלקוח.
-במלון הישות reservation מקושרת ע"י settles לpayment. באינטגרציה נשאיר את הקשר הזה אבל נוסיף קשר נוסף tripPay(רבים לרבים) בין trip לpayment וקשר paid(יחיד לרבים) customer לpayment, כי בחברת טיולים הלקוח מבצע תשלום על טיול, והמחיר של הטיול תלוי גם בהזמנת החדרים(המחיר שמשתנה לפי מספר חדרים, מספר מיטות, סוג החדר)
-את שאר הקשרים בחברת הטיולים בין trip לguide, destination, customer, flight לא שינינו כי האינטגרציה לא השפיע עליהן.
+Integration Report: Hotel and Travel Agency Databases
+During the integration process between the hotel database and the travel agency database, the schema was unified to eliminate redundancy, maintain data integrity, and more accurately reflect real-world semantics. Here is a detailed summary of the changes:
 
+# Defining Person as a Supertype
+To unify entities related to Person, it was decided that:
+-Person will be used as a supertype (superclass) from which Customer, Employee, and Guide will inherit.
+-The Guest entity from the hotel database is aligned with Customer from the travel agency, and is therefore merged into Customer. The decision to retain Customer rather than Guest was based on the fact that the concept of "Customer" is broader and better fits the semantics of both systems.
+-Person will retain the attributes id, fullname, email, and phonenumber, and its descendants will only have id.
+
+# Renaming Columns for Consistency
+-The following changes have been made across multiple tables to maintain consistent naming conventions:
+In Person, the columns have been renamed:
+pid → id
+pname → fullname
+phone → phonenumber
+The pid column in Employee, Guest, and Responsible has been renamed to id.
+The guestid column in Reservation has been renamed to id.
+Converting Identifier Types to VARCHAR
+-To support consistent formatting across systems, all identifier-related columns have been updated from INT to VARCHAR(100):
+This includes the id, roomid, hotelid, rid, and payid fields in all relevant tables (Employee, Reservation, Responsible, Room, Hotel, Payment, Includes, and Settles).
+
+# Dropping Foreign Keys Before Type Updates
+-To allow for changes to column types, foreign keys were temporarily dropped from:
+Employee, Guest, Reservation, Responsible, Includes, and Settles.
+They were restored after the changes.
+
+# Re-create Foreign Keys After Changes
+-After all column names and types were updated, the foreign key constraints were redefined to ensure relational integrity:
+employee.id → person.id
+responsible.id → person.id
+guest.id → person.id
+reservation.id → person.id
+includes.rid → reservation.rid
+settles.payid → payment.payid
+settles.rid → reservation.rid
+includes.roomid → room.roomid
+responsible.roomid → room.roomid
+
+# Merge Guide and Customer into Person
+To fully integrate all entities related to Person:
+Data from Customer and Guide was inserted into the Person table (excluding duplicates).
+After the migration, the columns fullname, email, and phonenumber were removed from Customer and Guide.
+
+# Modify Guide Table
+The guideName field was renamed to fullname.
+An email field was added to match the Person structure.
+# Change the Employee Table
+The column names were changed to id, fullname, and phonenumber to match the Person structure.
+
+# Update Hotel-Trip Relationships
+The name of the Hotel entity in the travel agency was changed to Hotels to avoid name clashes.
+The previous relationship between Trip and Hotel was reorganized:
+Instead of directly relating Trip to Hotel, a many-to-many relationship was created between Trip and Reservation, allowing room reservations for a person per trip.
+As a result of this restructuring, the previous relationship makes between Guest/Customer and Reservation was not retained. This is because in the integrated model, the trip, rather than the individual customer, is responsible for the reservation, which better reflects the business logic of a group booking.
+
+# Merge Reservation with Trip
+A new many-to-many relationship was created between Trip and Reservation.
+The existing many-to-many includes (between Reservation and Room) and one-to-many belongs_to (between Room and Hotel) relationships were preserved.
+
+# Merge Owner Relationships
+The Responsible relationship (between Employee and Room) from the hotel database was incorporated into the unified schema.
+
+# Change Payment Relationships
+To reflect that payment is made per trip and not per booking:
+The existing settles relationship (between Reservation and Payment) has been preserved.
+Two new relationships have been added:
+tripPay: Many-to-many between Trip and Payment
+paid: One-to-many from Customer to Payment
+This structure allows for trip-based payments that depend on room type, number of beds, and number of people.
+
+# Add starRating to Hotel
+The new starRating attribute has been added to the Hotel table, which was missing in the travel agency schema.
+Data was consolidated from hotel to hotels accordingly.
+
+# Unchanged Relationships from Travel Agency
+All other existing relationships in the travel agency schema, such as Trip with Guide, Destination, Customer, and Flight, were not affected by the integration. They remain unchanged as they were not impacted by the unification process.
+
+
+- בשביל להתחיל לעבוד על 2 בסיסי הנתונים ביחד, שיניתי את השם של הישות hotel בבסיס הנתונים של חברת הטיולים לhotels כך:
+- ALTER TABLE hotel RENAME TO hotels;
+
+-התאמת ישויות Person בין בסיסי הנתונים של המלון וחברת הטיולים. נעשה איחוד בין ישויות guest, customer, employee, ו־guide תחת הישות העל person.
+
+ALTER TABLE person RENAME COLUMN "pid" TO id;
+ALTER TABLE person RENAME COLUMN "pname" TO fullname;
+ALTER TABLE person RENAME COLUMN "phone" TO phonenumber;
+ALTER TABLE employee RENAME COLUMN "pid" TO id;
+ALTER TABLE guest RENAME COLUMN "pid" TO id;
+ALTER TABLE reservation RENAME COLUMN "guestid" TO id;
+ALTER TABLE responsible RENAME COLUMN "pid" TO id;
+-נסיר את המפתחות הזרים בטבלאות כדי שנוכל לעדכן את הטיפוסים לvarchar ואז נחזיר את המפתחות הזרים
+-ALTER TABLE responsible DROP CONSTRAINT IF EXISTS responsible_pid_fkey;
+-ALTER TABLE employee DROP CONSTRAINT IF EXISTS employee_pid_fkey;
+-ALTER TABLE guest DROP CONSTRAINT IF EXISTS guest_pid_fkey;
+-ALTER TABLE reservation DROP CONSTRAINT reservation_guestid_fkey;
+-ALTER TABLE includes DROP CONSTRAINT includes_roomid_fkey;
+-ALTER TABLE responsible DROP CONSTRAINT responsible_roomid_fkey;
+-ALTER TABLE includes DROP CONSTRAINT includes_rid_fkey;
+-ALTER TABLE settles DROP CONSTRAINT settles_rid_fkey;
+-ALTER TABLE settles DROP CONSTRAINT settles_payid_fkey;
+--שינוי טיפוסי העמודות ל־VARCHAR(100) כדי לאחד את הסוגים
+-ALTER TABLE employee ALTER COLUMN ID TYPE VARCHAR(100);
+-ALTER TABLE responsible ALTER COLUMN ID TYPE VARCHAR(100);
+-ALTER TABLE person ALTER COLUMN id TYPE VARCHAR(100);
+-ALTER TABLE reservation ALTER COLUMN id TYPE VARCHAR(100);
+-ALTER TABLE hotel ALTER COLUMN hotelid TYPE VARCHAR(100);
+-ALTER TABLE room ALTER COLUMN roomid TYPE VARCHAR(100);
+-ALTER TABLE room ALTER COLUMN hotelid TYPE VARCHAR(100);
+-ALTER TABLE includes ALTER COLUMN roomid TYPE VARCHAR(100);
+-ALTER TABLE includes ALTER COLUMN rid TYPE VARCHAR(100);
+-ALTER TABLE responsible ALTER COLUMN roomid TYPE VARCHAR(100);
+-ALTER TABLE reservation ALTER COLUMN rid TYPE VARCHAR(100);
+-ALTER TABLE settles ALTER COLUMN rid TYPE VARCHAR(100);
+-ALTER TABLE settles ALTER COLUMN payid TYPE VARCHAR(100);
+-ALTER TABLE payment ALTER COLUMN payid TYPE VARCHAR(100);
+--שחזור המפתחות הזרים לאחר שינוי הטיפוסים
+-ALTER TABLE employee ADD CONSTRAINT fk_employee_person FOREIGN KEY (ID) REFERENCES person(ID);
+-ALTER TABLE responsible ADD CONSTRAINT fk_responsible_person FOREIGN KEY (ID) REFERENCES person(ID);
+-ALTER TABLE guest ADD CONSTRAINT guest_pid_fkey FOREIGN KEY (ID) REFERENCES person(ID);
+-ALTER TABLE reservation ADD CONSTRAINT reservation_guestid_fkey FOREIGN KEY (id) REFERENCES person(id);
+-ALTER TABLE includes ADD CONSTRAINT includes_rid_fkey FOREIGN KEY (rid) REFERENCES reservation(rid);
+-ALTER TABLE settles ADD CONSTRAINT settles_payid_fkey FOREIGN KEY (payid) REFERENCES payment(payid);
+-ALTER TABLE settles ADD CONSTRAINT settles_rid_fkey FOREIGN KEY (rid) REFERENCES reservation(rid);
+-ALTER TABLE includes ADD CONSTRAINT fk_includes_room FOREIGN KEY (roomID) REFERENCES room(roomID);
+-ALTER TABLE responsible ADD CONSTRAINT fk_responsible_room FOREIGN KEY (roomID) REFERENCES room(roomID);
+
+-- הפיכת customer ו־guide ליורשים של person. העברת נתונים מהטבלאות ל־person והסרת שדות כפולים.
+--העברת לקוחות חדשים ל־person:
+-DELETE FROM customer
+  WHERE ID IN (SELECT ID FROM person);
+  INSERT INTO person (ID, fullName, Email, Phonenumber)
+  SELECT ID, fullName, Email, Phonenumber
+-FROM customer WHERE ID NOT IN (SELECT ID FROM person);
+-ALTER TABLE customer DROP COLUMN fullName;
+-ALTER TABLE customer DROP COLUMN Email;
+-ALTER TABLE customer DROP COLUMN Phonenumber;
+--העברת מדריכים ל־person:
+-DELETE FROM invite WHERE tripID IN (SELECT tripID FROM trip WHERE guideID IN (SELECT ID FROM person))
+-DELETE FROM guide WHERE ID IN (SELECT ID FROM person);
+--איחוד אורחים עם לקוחות:
+-INSERT INTO person (ID, fullName, Email, Phonenumber)
+  SELECT ID, fullName, Email, Phonenumber
+  FROM guide
+  WHERE ID NOT IN (SELECT ID FROM person);
+-ALTER TABLE guide DROP COLUMN fullName;
+-ALTER TABLE guide DROP COLUMN Email;
+-ALTER TABLE guide DROP COLUMN Phonenumber;
+-אורח הוא לקוח ולכן העברנו את הנתונים שבאורח ללקוח ומחקנו את טבלת אורח. הקשר בין אורח לבין reservation לא נפגע כי העברנו את הנתונים.
+-INSERT INTO customer 
+  SELECT ID
+  FROM guest
+  WHERE ID NOT IN (SELECT ID FROM customer);
+-DROP TABLE guest;
+איחוד טבלאות Hotel ו־Hotels. העברת נתונים מ־Hotels ל־Hotel ושילוב מידע.
+--הוספת התכונה totalrooms לhotel:
+-ALTER TABLE Hotel ADD COLUMN totalRooms INT
+--עדכון כמות החדרים כדי שהנתונים לא יאבדו לפי מזהה מלון:
+-UPDATE Hotel
+  SET totalRooms = h.totalRooms
+  FROM Hotels h
+  WHERE Hotel.hotelID = h.hotelID
+  AND Hotel.hotelID::INT BETWEEN 201 AND 400;
+--מחיקת המלונות עם מזהה בין 1 ל200 כדי להכניס את המלונות מ1 ל200 מhotels
+-DELETE FROM Hotel WHERE hotelID::INT BETWEEN 1 AND 200; 
+--הכנסת מלונות מ־Hotels:
+-INSERT INTO Hotel (hotelID, hotelName, location, totalRooms)
+  SELECT hotelID, hotelName, location, totalRooms
+  FROM Hotels
+  WHERE hotelID::INT BETWEEN 1 AND 200;
+-DROP TABLE IF EXISTS hotels CASCADE;
+-יצירת קשרים חדשים בין Trip ל־Reservation ו־Room. החלפת הקשר הישיר בין Trip ל־Hotel בקשרים עקיפים דרך הזמנות וחדרים.
+-ניצור טבלה has לקשר בין trip ל reservation. נדאג לקחת את הנתונים שהיו לנו ולעדכן אותם בקשר:
+-CREATE TABLE has (
+    rid VARCHAR(100),
+    tripid VARCHAR(100),
+    PRIMARY KEY (rid, tripid),
+    FOREIGN KEY (rid) REFERENCES reservation(rid),
+    FOREIGN KEY (tripid) REFERENCES trip(tripid)
+);
+--הכנסת הנתונים לטבלה החדשה על פי הקשר העקיף דרך המלון
+-INSERT INTO has (rid, tripid)
+  SELECT DISTINCT reservation.rid, trip.tripid
+  FROM includes
+  JOIN reservation ON includes.rid = reservation.rid
+  JOIN room ON includes.roomid = room.roomid
+  JOIN hotel ON room.hotelid = hotel.hotelid
+  JOIN trip ON hotel.hotelid = trip.hotelid;
+-התאמת תשלומים ללקוחות ולטיולים. שמירה על קשר בין לקוחות, תשלומים והזמנות טיול.
+--נוסיף לטבלה payment את השדה id של לקוחות שהזמינו טיולים.
+-ALTER TABLE payment ADD COLUMN id VARCHAR(100);
+--עדכון לקוח ששילם עבור טיול:
+-UPDATE payment
+  SET id = customer.ID
+  FROM settles
+  JOIN reservation ON settles.rid = reservation.rid
+  JOIN has ON reservation.rid = has.rid
+  JOIN invite ON has.tripID = invite.tripID
+  JOIN customer ON invite.customerID = customer.ID
+  WHERE payment.payid = settles.payid;
+--יצירת טבלת trippay לקשר בין תשלום לטיול:
+-CREATE TABLE trippay (
+    tripID VARCHAR(100),
+    payID VARCHAR(100)
+);
+--הכנסת נתונים לטבלה על פי הזמנות ותשלומים קיימים
+-INSERT INTO trippay (tripID, payID)
+  SELECT invite.tripID, payment.payID
+  FROM invite
+  JOIN has ON invite.tripID = has.tripID
+  JOIN reservation ON has.rid = reservation.rid
+  JOIN settles ON reservation.rid = settles.rid
+  JOIN payment ON settles.payid = payment.payid;
+-העברת אחראי חדרים (responsible) לשדה ישיר ב־room. במקום טבלה נפרדת, נוסיף את השדה id לטבלת room.
+-ALTER TABLE room ADD COLUMN id VARCHAR(100);
+-עדכון מזהי העובדים בחדרים:
+-UPDATE room
+  SET id = r.id
+  FROM responsible r
+  WHERE room.roomID = r.roomID;
+--מחיקת טבלת responsible לאחר המיזוג
+-DROP TABLE responsible;
+-הוספת מזהה תשלום להזמנה וסגירת הקשר. הפיכת הקשר בין reservation ל־payment לישיר.
+-הוספת עמודת payid ל־reservation:
+-ALTER TABLE reservation ADD COLUMN payid VARCHAR(100);
+-עדכון מזהי תשלום לפי הקשר settles:
+-UPDATE reservation
+  SET payid = s.payid
+  FROM settles s
+  WHERE reservation.rid = s.rid;
+  -הסרת טבלת settles:
+-DROP TABLE settles
+
+# Views
+--המבט HotelReservations מאחד נתונים מטבלאות המלונות, החדרים, ההזמנות והקשרים ביניהם.
+--הוא כולל רק הזמנות שהסתיימו (שהסטטוס שלהן הוא 'Completed') ומציג את כל המידע הקשור אליהן.
+(image)
+
+--יצירת View בשם TripDetails 
+--מאחד טיולים עם פרטי המלון שאליו הם שויכו. כולל רק טיולים למלונות עם יותר מ־200 חדרים.
+(image)
