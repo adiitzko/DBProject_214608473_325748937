@@ -441,3 +441,7 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 -- שאילתה שמחזירה את כל הטיולים מתוך TripDetails שהתחילו לפני 1 באוקטובר 2024 והסתיימו אחרי 1 באוגוסט 2024
 
 ![image](ג/Views/select2TripVIEW.png)
+
+## Backupfile
+
+📜[View `Backup3.sql`](ג/backup3.backup)
