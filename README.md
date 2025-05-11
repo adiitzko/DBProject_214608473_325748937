@@ -321,16 +321,16 @@ results for  the command `SELECT COUNT(*) FROM guide;`:
 - בשלב באינטגרציה נדרשנו לבצע אינטגרציה של הנושא שלנו חברת טיולים עם נושא אחר שקיבלנו מלון.
 
 ###  DSD של האגף החדש
-#(IMAGE)
+![image](ג/HotelNewDSD.png)
 
 ###  ERD אגף חדש
-#(IMAGE)
+![image](ג/HotelNewERD.png)
 
 ###    ERD משותף
-#(IMAGE)
+![image](ג/ERDIntegration.png)
 
 ### DSD לאחר אינטגרציה
-#(IMAGE)
+![image](ג/DSDIntegration.png)
 
 Integration Report: Hotel and Travel Agency Databases
 During the integration process between the hotel database and the travel agency database, the schema was unified to eliminate redundancy, maintain data integrity, and more accurately reflect real-world semantics. Here is a detailed summary of the changes:
@@ -567,8 +567,13 @@ ALTER TABLE responsible RENAME COLUMN "pid" TO id;
 # Views
 --המבט HotelReservations מאחד נתונים מטבלאות המלונות, החדרים, ההזמנות והקשרים ביניהם.
 --הוא כולל רק הזמנות שהסתיימו (שהסטטוס שלהן הוא 'Completed') ומציג את כל המידע הקשור אליהן.
-(image)
-
+![image](א/picture/guideImage.jpg)
+![image](א/picture/guideImage.jpg)
+![image](א/picture/guideImage.jpg)
+![image](א/picture/guideImage.jpg)
 --יצירת View בשם TripDetails 
 --מאחד טיולים עם פרטי המלון שאליו הם שויכו. כולל רק טיולים למלונות עם יותר מ־200 חדרים.
-(image)
+![image](א/picture/guideImage.jpg)
+![image](א/picture/guideImage.jpg)
+![image](א/picture/guideImage.jpg)
+![image](א/picture/guideImage.jpg)
