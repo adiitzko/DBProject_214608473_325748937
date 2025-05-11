@@ -1,5 +1,7 @@
--- שינוי שם הטבלה hotel ל-hotels
+-- בשביל להתחיל לעבוד על 2 בסיסי הנתונים ביחד, שיניתי את השם של הישות hotel בבסיס הנתונים של חברת הטיולים לhotels כך:
 ALTER TABLE hotel RENAME TO hotels;
+
+--התאמת ישויות Person בין בסיסי הנתונים של המלון וחברת הטיולים. נעשה איחוד בין ישויות guest, customer, employee, ו־guide תחת הישות העל person.
 
 -- התאמת שמות עמודות בטבלה person
 ALTER TABLE person RENAME COLUMN "pid" TO id;
@@ -54,7 +56,7 @@ ALTER TABLE includes ADD CONSTRAINT fk_includes_room FOREIGN KEY (roomID) REFERE
 ALTER TABLE responsible ADD CONSTRAINT fk_responsible_room FOREIGN KEY (roomID) REFERENCES room(roomID);
 
 
--- העברת נתונים מטבלת customer ל-person (למניעת כפילויות)
+-- הפיכת customer ו־guide ליורשים של person. העברת נתונים מהטבלאות ל־person והסרת שדות כפולים.
 DELETE FROM customer WHERE ID IN (SELECT ID FROM person);
 INSERT INTO person (ID, fullName, Email, Phonenumber)
 SELECT ID, fullName, Email, Phonenumber
@@ -68,6 +70,7 @@ ALTER TABLE customer DROP COLUMN Phonenumber;
 -- העברת נתונים מטבלת guide ל-person
 DELETE FROM invite WHERE tripID IN (SELECT tripID FROM trip WHERE guideID IN (SELECT ID FROM person));
 DELETE FROM guide WHERE ID IN (SELECT ID FROM person);
+--איחוד אורחים עם לקוחות:
 INSERT INTO person (ID, fullName, Email, Phonenumber)
 SELECT ID, fullName, Email, Phonenumber
 FROM guide WHERE ID NOT IN (SELECT ID FROM person);
@@ -78,7 +81,7 @@ ALTER TABLE guide DROP COLUMN Email;
 ALTER TABLE guide DROP COLUMN Phonenumber;
 
 
--- אורח הוא לקוח - הוספת האורחים ללקוחות
+--אורח הוא לקוח ולכן העברנו את הנתונים שבאורח ללקוח ומחקנו את טבלת אורח. הקשר בין אורח לבין reservation לא נפגע כי העברנו את הנתונים.
 INSERT INTO customer 
 SELECT ID
 FROM guest
@@ -87,7 +90,7 @@ WHERE ID NOT IN (SELECT ID FROM customer);
 -- מחיקת טבלת guest לאחר המיזוג
 DROP TABLE guest;
 
-
+--איחוד טבלאות Hotel ו־Hotels. העברת נתונים מ־Hotels ל־Hotel ושילוב מידע.
 -- הוספת שדה totalRooms ל-Hotel
 ALTER TABLE Hotel ADD COLUMN totalRooms INT;
 
@@ -98,7 +101,7 @@ FROM Hotels h
 WHERE Hotel.hotelID = h.hotelID
 AND Hotel.hotelID::INT BETWEEN 201 AND 400;
 
--- מחיקת המלונות הישנים
+--מחיקת המלונות עם מזהה בין 1 ל200 כדי להכניס את המלונות מ1 ל200 מhotels
 DELETE FROM Hotel WHERE hotelID::INT BETWEEN 1 AND 200;
 
 -- הכנסת המלונות מטבלת Hotels
@@ -110,7 +113,8 @@ WHERE hotelID::INT BETWEEN 1 AND 200;
 -- הסרת טבלת Hotels
 DROP TABLE IF EXISTS hotels CASCADE;
 
-
+--יצירת קשרים חדשים בין Trip ל־Reservation ו־Room. החלפת הקשר הישיר בין Trip ל־Hotel בקשרים עקיפים דרך הזמנות וחדרים.
+--ניצור טבלה has לקשר בין trip ל reservation. נדאג לקחת את הנתונים שהיו לנו ולעדכן אותם בקשר:
 CREATE TABLE has (
     rid VARCHAR(100),
     tripid VARCHAR(100),
@@ -119,7 +123,7 @@ CREATE TABLE has (
     FOREIGN KEY (tripid) REFERENCES trip(tripid)
 );
 
--- הכנסת נתונים לקשר
+--הכנסת הנתונים לטבלה החדשה על פי הקשר העקיף דרך המלון
 INSERT INTO has (rid, tripid)
 SELECT DISTINCT reservation.rid, trip.tripid
 FROM includes
@@ -128,7 +132,7 @@ JOIN room ON includes.roomid = room.roomid
 JOIN hotel ON room.hotelid = hotel.hotelid
 JOIN trip ON hotel.hotelid = trip.hotelid;
 
-
+---התאמת תשלומים ללקוחות ולטיולים. שמירה על קשר בין לקוחות, תשלומים והזמנות טיול.
 -- הוספת id ל-payment (לקישור ללקוח)
 ALTER TABLE payment ADD COLUMN id VARCHAR(100);
 
@@ -142,13 +146,13 @@ JOIN invite ON has.tripID = invite.tripID
 JOIN customer ON invite.customerID = customer.ID
 WHERE payment.payid = settles.payid;
 
-
+--יצירת טבלת trippay לקשר בין תשלום לטיול:
 CREATE TABLE trippay (
     tripID VARCHAR(100),
     payID VARCHAR(100)
 );
 
--- הכנסת נתונים לקשר
+--הכנסת נתונים לטבלה על פי הזמנות ותשלומים קיימים
 INSERT INTO trippay (tripID, payID)
 SELECT invite.tripID, payment.payID
 FROM invite
@@ -157,8 +161,8 @@ JOIN reservation ON has.rid = reservation.rid
 JOIN settles ON reservation.rid = settles.rid
 JOIN payment ON settles.payid = payment.payid;
 
-
--- הוספת עמודת עובד לחדר לפי הקשר responsible
+--העברת אחראי חדרים (responsible) לשדה ישיר ב־room. 
+--במקום טבלה נפרדת, נוסיף את השדה id לטבלת room.
 ALTER TABLE room ADD COLUMN id VARCHAR(100);
 
 -- עדכון מזהה עובד בחדר
@@ -170,6 +174,8 @@ WHERE room.roomID = r.roomID;
 -- מחיקת טבלת responsible
 DROP TABLE responsible;
 
+
+--הוספת מזהה תשלום להזמנה וסגירת הקשר. הפיכת הקשר בין reservation ל־payment לישיר.
 -- הוספת עמודת תשלום ל-reservation
 ALTER TABLE reservation ADD COLUMN payid VARCHAR(100);
 
