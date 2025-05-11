@@ -567,13 +567,28 @@ ALTER TABLE responsible RENAME COLUMN "pid" TO id;
 # Views
 --המבט HotelReservations מאחד נתונים מטבלאות המלונות, החדרים, ההזמנות והקשרים ביניהם.
 --הוא כולל רק הזמנות שהסתיימו (שהסטטוס שלהן הוא 'Completed') ומציג את כל המידע הקשור אליהן.
-![image](א/picture/guideImage.jpg)
-![image](א/picture/guideImage.jpg)
-![image](א/picture/guideImage.jpg)
-![image](א/picture/guideImage.jpg)
+![image](ג/Views/hotelVIEW.png)
+
+![image](ג/Views/hotelVIEW.png)
+
+--  הצגת כל ההזמנות שבוצעו לחדרים מסוג "Double"
+
+![image](ג/Views/select1HotelVIEW.png)
+
+--רשימה של כל ההזמנות שהסתיימו ומחיר הלילה של החדר גבוה מ־200.
+
+![image](ג/Views/select2HotelVIEW.png)
+
 --יצירת View בשם TripDetails 
 --מאחד טיולים עם פרטי המלון שאליו הם שויכו. כולל רק טיולים למלונות עם יותר מ־200 חדרים.
-![image](א/picture/guideImage.jpg)
-![image](א/picture/guideImage.jpg)
-![image](א/picture/guideImage.jpg)
-![image](א/picture/guideImage.jpg)
+![image](ג/Views/tripVIEW.png)
+
+![image](ג/Views/selectTripVIEW.png)
+
+-- שאילתה שמחזירה את כל הטיולים מתוך TripDetails למלונות שיש בהם פחות מ-250 חדרים
+
+![image](ג/Views/select1TripVIEW.png)
+
+-- שאילתה שמחזירה את כל הטיולים מתוך TripDetails שהתחילו לפני 1 באוקטובר 2024 והסתיימו אחרי 1 באוגוסט 2024
+
+![image](ג/Views/select2TripVIEW.png)
