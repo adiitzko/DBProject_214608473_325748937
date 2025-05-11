@@ -418,7 +418,7 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 --הוא כולל רק הזמנות שהסתיימו (שהסטטוס שלהן הוא 'Completed') ומציג את כל המידע הקשור אליהן.
 ![image](ג/Views/hotelVIEW.png)
 
-![image](ג/Views/hotelVIEW.png)
+![image](ג/Views/selectHotelVIEW.png)
 
 --  הצגת כל ההזמנות שבוצעו לחדרים מסוג "Double"
 
