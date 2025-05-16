@@ -18,9 +18,9 @@ Gili Shechter
   - [Constraint](#Constraints)  
   - [Backup](#Backupfile)
  - [Phase 3: Programming](#phase-3-Programming)
-  - [Quries](#Quries)  
-  - [Constraint](#Constraints)  
-  - [Backup](#Backupfile)  
+    - [Functions](#Functions)  
+    - [PROCEDURE ](#PROCEDURE )  
+    - [Backup](#Backupfile)  
 
 ## Phase 1: Design and Build the Database  
 
