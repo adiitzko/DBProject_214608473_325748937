@@ -539,13 +539,19 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 -לפני ההרצה
 
-![image](ד/views/procedure1complete.png)
+![image](ד/views/procedure1before.png)
+
+
+-קריאה לפרוצדורה
+
+![image](ד/views/procedure1call.png)
+
 
 
 -אחרי ההרצה
 
 
-![image](ד/views/procedure1complete.png)
+![image](ד/views/procedure1after.png)
 
 
 
