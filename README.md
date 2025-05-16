@@ -454,5 +454,9 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 
 ## Phase 3: Programming
+### Functions
+
+📜 **[View `funtctions.sql`](א/createTable.sql)**  
+
 
 
