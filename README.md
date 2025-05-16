@@ -456,7 +456,29 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 ## Phase 3: Programming
 ### Functions
 
-📜 **[View `funtctions.sql`](ד/functions)**  
+📜 **[View `funtctions.sql`](ד/functions)**   
+
+- פונקציה 1 – get_total_paid_by_customer
+- פונקציה זו מקבלת מזהה של לקוח (customer ID) ומחזירה את סכום כל התשלומים שביצע הלקוח, כפי שמופיע בטבלת payment. הפונקציה בודקת האם הלקוח קיים, ומטפלת בשגיאות. אם הלקוח לא קיים – נזרקת חריגה. אם מתרחשת שגיאה אחרת – מוחזר הערך -1.
+📜 **[View `funtction1.sql`](ד/functions/function1.sql)**   
+
+-מרכיבים תכנותיים:
+IF – לבדיקה האם הלקוח קיים
+
+DML – שימוש ב־SELECT INTO
+
+EXCEPTION – טיפול בשגיאות
+
+COALESCE – למניעת NULL בסכום
+
+-יצירת הפונקציה
+
+![image](ד/views/function1complete.png)
+
+-פלט הפונקציה
+
+![image](ד/views/function1output.png)
+
 
 
 
