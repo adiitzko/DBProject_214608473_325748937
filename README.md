@@ -592,7 +592,60 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 
 
+### Trigger
 
+📜 **[View `Triggers.sql`](ד/triggers)**   
+
+- טריגר 1: מניעת שיבוץ כפול של מדריך
+- טריגר זה נועד למנוע מצב בו אותו מדריך (guideID) משובץ ליותר מטיול אחד שמתחיל באותו תאריך.
+-הטריגר מופעל לפני הכנסת טיול חדש (BEFORE INSERT) לטבלת trip.
+-אם המדריך כבר משובץ בטיול אחר באותו תאריך – הפעולה נחסמת באמצעות RAISE EXCEPTION
+
+
+📜 **[View `TriggerFunction1.sql`](ד/triggers/triggerFunction1.sql)**  
+📜 **[View `Trigger1.sql`](ד/triggers/trigger1.sql)**  
+
+
+-יצירת הפונקציה והטריגר
+
+
+
+![image](ד/views/createFunctiomTrigger1.png)
+![image](ד/views/createtrigger1.png)
+
+-הפעלת הטריגר 
+
+
+![image](ד/views/triggeractive1.png)
+
+
+
+-טריגר 2: מניעת טיול עם תאריכים שגויים
+-טריגר זה מונע הכנסת טיול שבו תאריך הסיום מוקדם מתאריך ההתחלה.
+-הטריגר מופעל אוטומטית לפני הכנסת טיול חדש (BEFORE INSERT ON trip).
+-אם התאריכים אינם תקינים – הפעולה תיחסם עם הודעת שגיאה.
+
+
+
+
+
+📜 **[View `TriggerFunction1.sql`](ד/triggers/triggerFunction2.sql)**  
+📜 **[View `Trigger1.sql`](ד/triggers/trigger2.sql)**  
+
+
+
+
+-יצירת הפונקציה והטריגר
+
+
+
+![image](ד/views/createFunctiomTrigger2.png)
+![image](ד/views/createtrigger2.png)
+
+-הפעלת הטריגר 
+
+
+![image](ד/views/triggeractive2.png)
 
 
 
