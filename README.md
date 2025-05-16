@@ -20,7 +20,8 @@ Gili Shechter
  - [Phase 3: Programming](#phase-3-Programming)
     - [Functions](#Functions)  
     - [Procedure ](#Procedure )
-    - [Trigger ](#Trigger ) 
+    - [Trigger ](#Trigger )
+    -  [Programes ](#Programes )
     - [Backup](#Backupfile)  
 
 ## Phase 1: Design and Build the Database  
@@ -652,6 +653,88 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 
 ![image](ד/views/triggeractive2.png)
+
+
+
+### Programes
+
+
+- תוכנית ראשית 1: main_program_1
+
+- תוכנית זו בודקת את סך התשלומים של לקוח מסוים, ולאחר מכן מפעילה את הפרוצדורה שמאחדת טיולים קטנים ודומים (merge_small_trips).
+- שלבים שהתוכנית מבצעת:
+-קריאה לפונקציה get_total_paid_by_customer('C001')
+-מחשבת את סך כל התשלומים של לקוח לפי payment.totalpay
+-הערך מוחזר למשתנה ומודפס כהודעה
+-הרצת הפרוצדורה merge_small_trips()
+-מאחדת טיולים בעלי תפוסה נמוכה (פחות מ־5 משתתפים כל אחד)
+-בתנאי שמתקיימים באותו יעד ובהפרש של עד 3 ימים
+-הדפסת הודעת סיום הפעולה.
+
+
+
+
+
+📜 **[View `programe1.sql`](ד/programe/programe1.sql)**
+
+
+
+-יצירת התוכנית
+
+
+![image](ד/views/createmain1.png)
+
+
+-הפעלת התוכנית
+
+
+
+
+![image](ד/views/runmain1.png)
+
+
+
+
+
+- תוכנית ראשית 2: main_program_2
+
+- תוכנית זו מאתרת אילו טיולים פתוחים קיימים ללקוח מסוים (שהוא עוד לא רשום אליהם), ואם אין אף טיול זמין – היא זורקת חריגה.
+-לאחר מכן, היא מפעילה את הפרוצדורה שמעבירה טיול ממדריך עמוס למדריך פנוי (reassign_overloaded_guides).
+
+-שלבים שהתוכנית מבצעת:
+-קריאה לפונקציה get_available_trips_for_customer('C001')
+-הפונקציה מחזירה refcursor עם כל הטיולים ש־C001 עדיין לא הוזמן אליהם
+-בלולאה, נשלפים הטיולים ומודפסים אחד־אחד
+-אם לא נמצאו טיולים – נזרקת חריגה עם הודעה מותאמת
+-הרצת הפרוצדורה reassign_overloaded_guides()
+-מאתרת מדריכים עם עומס (3 טיולים עתידיים בתוך 40 יום)
+-מעבירה את הטיול האחרון למדריך אחר פנוי
+-הודעה לסיום הפעולה
+
+
+
+
+
+
+📜 **[View `programe2.sql`](ד/programe/programe2.sql)**
+
+
+
+-יצירת התוכנית
+
+
+![image](ד/views/createmain2.png)
+
+
+-הפעלת התוכנית
+
+
+
+
+![image](ד/views/runmain2.png)
+
+
+### Backup
 
 
 
