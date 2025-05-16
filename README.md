@@ -461,8 +461,20 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 - פונקציה 1 – get_total_paid_by_customer
 - פונקציה זו מקבלת מזהה של לקוח (customer ID) ומחזירה את סכום כל התשלומים שביצע הלקוח, כפי שמופיע בטבלת payment. הפונקציה בודקת האם הלקוח קיים, ומטפלת בשגיאות. אם הלקוח לא קיים – נזרקת חריגה. אם מתרחשת שגיאה אחרת – מוחזר הערך -1.
 
-- 
+  
 📜 **[View `funtction1.sql`](ד/functions/function1.sql)**   
+
+
+
+-יצירת הפונקציה
+
+![image](ד/views/function1complete.png)
+
+-פלט הפונקציה
+
+![image](ד/views/function1output.png)
+
+
 
 - מרכיבים תכנותיים:
 - IF – לבדיקה האם הלקוח קיים
@@ -492,7 +504,7 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 -פלט הפונקציה
 
-![image](ד/views/function2output.png)
+![image](ד/views/fnction2output.png)
 
 
 
