@@ -460,25 +460,39 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 - פונקציה 1 – get_total_paid_by_customer
 - פונקציה זו מקבלת מזהה של לקוח (customer ID) ומחזירה את סכום כל התשלומים שביצע הלקוח, כפי שמופיע בטבלת payment. הפונקציה בודקת האם הלקוח קיים, ומטפלת בשגיאות. אם הלקוח לא קיים – נזרקת חריגה. אם מתרחשת שגיאה אחרת – מוחזר הערך -1.
+
+- 
 📜 **[View `funtction1.sql`](ד/functions/function1.sql)**   
 
--מרכיבים תכנותיים:
-IF – לבדיקה האם הלקוח קיים
+- מרכיבים תכנותיים:
+- IF – לבדיקה האם הלקוח קיים
+- DML – שימוש ב־SELECT INTO
+- EXCEPTION – טיפול בשגיאות
+- COALESCE – למניעת NULL בסכום
 
-DML – שימוש ב־SELECT INTO
 
-EXCEPTION – טיפול בשגיאות
 
-COALESCE – למניעת NULL בסכום
+-פונקציה 2 – get_available_trips_for_customer
+-פונקציה זו מקבלת מזהה לקוח (customerID) ומחזירה REF CURSOR עם רשימת טיולים עתידיים שהלקוח לא רשום אליהם, ושהם עדיין פתוחים להצטרפות (כלומר, לא בתפוסה מלאה לפי מספר חדרים במלון). לכל טיול מחושב תג זמינות מילולי: "Very Available", "Medium Availability" או "Almost Full" – לפי כמות המשתתפים מול מספר החדרים.
 
+
+📜 **[View `funtction2.sql`](ד/functions/function2.sql)**   
+
+- מרכיבים תכנותיים:
+- REF CURSOR – החזרת תוצאה בפורמט דינמי
+- CASE – לקביעת רמת זמינות
+- JOINs – חיבורים בין טבלאות: trip, destination, hotel, invite
+- GROUP BY + HAVING – כדי לחשב סך משתתפים לטיול
+- DML – פתיחת קורסור עם OPEN ... FOR
+
+  
 -יצירת הפונקציה
 
-![image](ד/views/function1complete.png)
+![image](ד/views/function2complete.png)
 
 -פלט הפונקציה
 
-![image](ד/views/function1output.png)
-
+![image](ד/views/function2output.png)
 
 
 
