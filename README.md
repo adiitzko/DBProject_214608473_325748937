@@ -504,7 +504,7 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 -פלט הפונקציה
 
-![image](ד/views/fnction2output.png)
+![image](ד/views/fuction2output.png)
 
 
 
