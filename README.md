@@ -19,7 +19,8 @@ Gili Shechter
   - [Backup](#Backupfile)
  - [Phase 3: Programming](#phase-3-Programming)
     - [Functions](#Functions)  
-    - [PROCEDURE ](#PROCEDURE )  
+    - [Procedure ](#Procedure )
+    - [Trigger ](#Trigger ) 
     - [Backup](#Backupfile)  
 
 ## Phase 1: Design and Build the Database  
@@ -505,6 +506,93 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 -פלט הפונקציה
 
 ![image](ד/views/fuction2output.png)
+
+
+
+
+
+### Procedure
+
+
+📜 **[View `Procedures.sql`](ד/procedures)**   
+
+-פרוצדורה ראשונה: merge_small_trips
+-הפרוצדורה merge_small_trips נועדה לבצע אינטגרציה חכמה בין טיולים דומים בעלי תפוסה נמוכה. היא מזהה זוגות של טיולים:
+-שמתקיימים באותו יעד
+-בטווח של עד 3 ימים זה מזה
+-וכל אחד מהם כולל פחות מ־5 משתתפים
+
+-במקרה כזה, המשתתפים בטיול השני מועברים לראשון.
+-אם לקוח כבר רשום בשני הטיולים — מספר המשתתפים שלו מאוחד (totalCustomer).
+-בסיום, הטיול השני נמחק, ונשמרת טבלה נקייה ומאוחדת.
+
+
+
+
+📜 **[View `Procedure1.sql`](ד/procedures/procedure1.sql)**  
+
+
+-יצירת הפרוצדורה
+
+![image](ד/views/procedure1complete.png)
+
+
+-לפני ההרצה
+
+![image](ד/views/procedure1complete.png)
+
+
+-אחרי ההרצה
+
+
+![image](ד/views/procedure1complete.png)
+
+
+
+
+
+
+
+
+- פרוצדורה שנייה: reassign_overloaded_guides
+-הפרוצדורה זו נועדה לטפל במדריכים שמופעלים בעומס יתר.
+-היא סורקת את טבלת trip ומזהה מדריכים שיש להם לפחות 3 טיולים עתידיים בתוך טווח של 40 ימים.
+-כאשר נמצאת דוגמה כזו:
+-המערכת מחפשת מדריך חלופי שאין לו שום טיול אחר באותו חלון זמן.
+-אם מדריך כזה קיים, הפרוצדורה מעדכנת את הטיול השלישי ברצף כך שהוא ישובץ למדריך הפנוי.
+-פעולה זו נועדה לפזר את העומס ולאפשר תכנון נכון..
+
+
+
+
+📜 **[View `Procedure2.sql`](ד/procedures/procedure2.sql)**  
+
+
+-יצירת הפרוצדורה
+
+![image](ד/views/procedure1complete.png)
+
+
+-לפני ההרצה
+
+![image](ד/views/procedure2before.png)
+
+
+
+-קריאה לפרוצדורה
+
+
+![image](ד/views/procedure2call.png)
+
+
+-אחרי ההרצה
+
+
+![image](ד/views/procedure2call.png)
+
+
+
+
 
 
 
