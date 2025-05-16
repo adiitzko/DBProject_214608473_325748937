@@ -1,5 +1,5 @@
 -- Procedure: reassign_overloaded_guides
--- Author: [Your Name]
+
 -- Description:
 -- This procedure identifies overloaded guides who have at least 
 -- 3 future trips starting within a 40-day period. 
