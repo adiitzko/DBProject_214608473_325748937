@@ -483,6 +483,9 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 - DML – שימוש ב־SELECT INTO
 - EXCEPTION – טיפול בשגיאות
 - COALESCE – למניעת NULL בסכום
+- CURSOR - הכרזה, פתיחה, קריאה וסגירה
+- לולאות - LOOP לקריאת הרשומות מה־CURSOR
+- רשומות - pay_rec RECORD לשמירת שורת תשלום
 
 
 
