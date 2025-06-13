@@ -1,6 +1,23 @@
 {% extends "base.html" %} {% block content %}
 <div class="table-container">
   <h2>👥 רשימת אנשים</h2>
+  {% if success %}
+  <div class="toast-wrapper">
+    <div class="toast-message" id="toast-message">
+      <button class="close-btn" onclick="closeToast()">×</button>
+      {{ success }}
+    </div>
+  </div>
+  <script>
+    function closeToast() {
+      const toast = document.getElementById("toast-message");
+      toast.style.opacity = "0";
+      setTimeout(() => (toast.style.display = "none"), 300);
+    }
+    setTimeout(() => closeToast(), 5000); // נעלם אחרי 5 שניות
+  </script>
+  {% endif %}
+
   <a href="/persons/new" class="btn-primary">➕ הוסף אדם</a>
   <table>
     <thead>

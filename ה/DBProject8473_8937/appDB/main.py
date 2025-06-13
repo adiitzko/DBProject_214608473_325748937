@@ -70,13 +70,21 @@ async def new_person_form(request: Request):
     )
 
 
-@app.post("/persons")
+@app.post("/persons", response_class=HTMLResponse)
 async def create_person(
-    fullname: str = Form(...), email: str = Form(...), phonenumber: str = Form(...)
+    request: Request,
+    fullname: str = Form(...),
+    email: str = Form(...),
+    phonenumber: str = Form(...),
 ):
     try:
         PersonDB.create(fullname, email, phonenumber)
-        return RedirectResponse(url="/persons", status_code=303)
+        success_message = f"הלקוח {fullname} נוסף בהצלחה ✅"
+        persons = PersonDB.get_customers_only()
+        return templates.TemplateResponse(
+            "persons/list.html",
+            {"request": request, "persons": persons, "success": success_message},
+        )
     except Exception as e:
         logger.error(f"Error creating person: {e}")
         raise HTTPException(status_code=500, detail="שגיאה ביצירת רשומה")
@@ -115,7 +123,7 @@ async def update_person(
 @app.post("/persons/{person_id}/delete")
 async def delete_person(person_id: str):
     try:
-        # מחיקת הלקוח קודם
+
         CustomerDB.delete(person_id)
         # ואז מחיקת האדם
         PersonDB.delete(person_id)

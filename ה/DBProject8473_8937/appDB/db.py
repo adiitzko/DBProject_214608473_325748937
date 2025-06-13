@@ -75,11 +75,10 @@ class PersonDB:
                 )
                 person_id = cur.fetchone()["id"]
 
-                # יצירת Guide
                 cur.execute("INSERT INTO customer (id) VALUES (%s)", (person_id,))
 
                 conn.commit()
-                return str(cur.fetchone()["id"])
+                return str(person_id)
 
     @staticmethod
     def update(person_id, fullname, email, phonenumber):
