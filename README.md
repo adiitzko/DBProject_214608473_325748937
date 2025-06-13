@@ -829,7 +829,7 @@ Git & GitHub – לניהול גרסאות, שמירת התקדמות והגשת
 מתרחשת שגיה כעת המשתמש אינו עובד
 
 ![image](ה/views/login.png)
-![image](ד/views/runmain2.png)
+
 
 # מסך ראשי
 
