@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="form-container">
+  <h2>{% if action == 'edit' %} עריכת טיול{% else %}➕ הוספת טיול חדש{% endif %}</h2>
+  {% if error %}
+  <p class="error">{{ error }}</p>
+  {% endif %}
+  <form id="trip-form" method="post" action="{% if action == 'edit' %}/trips/{{ trip.tripid }}{% else %}/trips/form{% endif %}">
+    <div class="form-group">
+      <label>מתאריך:</label>
+      <input type="date" name="start" required value="{{ trip.startdate if trip else '' }}" />
+      <label>עד תאריך:</label>
+      <input type="date" name="end" required value="{{ trip.enddate if trip else '' }}" />
+    </div>
+
+    <div class="form-group">
+      <label>יעד (Zipcode):</label>
+      <select name="destinationzip" required>
+        {% for d in destinations %}
+        <option value="{{ d.zipcode }}" {% if trip and trip.destinationzip == d.zipcode %}selected{% endif %}>
+          {{ d.zipcode }} – {{ d.country }}
+        </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>מלון:</label>
+      <select name="hotelid" required>
+        {% for h in hotels %}
+        <option value="{{ h.hotelid }}" {% if trip and trip.hotelid == h.hotelid %}selected{% endif %}>
+          {{ h.hotelname }} ({{ h.hotelid }})
+        </option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>בחר מדריך פנוי:</label>
+      <select name="guideid" id="guide-select" required>
+        <option value="" disabled hidden {% if not trip %}selected{% endif %}>— בחרי מדריך פנוי —</option>
+        {% if guides %}
+        {% for g in guides %}
+        <option value="{{ g.id }}" {% if trip and trip.guideid == g.id %}selected{% endif %}>
+          {{ g.fullname }} ({{ g.id }})
+        </option>
+        {% endfor %}
+        {% endif %}
+      </select>
+      {% if not action or action != 'edit' %}
+      <button type="button" id="load-guides">הצג מדריכים פנויים</button>
+      {% endif %}
+    </div>
+
+    <button type="submit" class="btn-primary">{% if action == 'edit' %}שמור שינויים{% else %}צור טיול{% endif %}</button>
+  </form>
+</div>
+
+{% if not action or action != 'edit' %}
+<script>
+  // טענת מדריכים פנויים לטווח תאריכים
+  document.getElementById("load-guides").addEventListener("click", async () => {
+    const form = document.getElementById("trip-form");
+    const start = form.start.value,
+      end = form.end.value;
+    if (!start || !end) {
+      return alert("אנא בחרי תאריכים קודם");
+    }
+    const res = await fetch(`/guides/available?start=${start}&end=${end}`);
+    const guides = await res.json();
+    const sel = document.getElementById("guide-select");
+    sel.innerHTML =
+      '<option value="" disabled hidden selected>— בחרי מדריך פנוי —</option>';
+    guides.forEach((g) => {
+      const opt = document.createElement("option");
+      opt.value = g.id;
+      opt.text = `${g.fullname} (${g.id})`;
+      sel.appendChild(opt);
+    });
+  });
+
+  // חוסם שליחה אם לא נבחר מדריך
+  document.getElementById("trip-form").addEventListener("submit", (e) => {
+    const sel = document.getElementById("guide-select");
+    if (!sel.value) {
+      e.preventDefault();
+      alert("אנא בחרי מדריך לפני שליחה");
+    }
+  });
+</script>
+{% endif %}
+{% endblock %}

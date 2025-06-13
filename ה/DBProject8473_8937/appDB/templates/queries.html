@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block content %}
+<div class="form-container">
+  <h2>📊 הפעלת שאילתות ופרוצדורות</h2>
+
+  <hr />
+
+  <!-- כפתורים לפרוצדורות כלליות -->
+  <form method="post" action="/queries/general-actions">
+    <div class="form-group">
+      <button name="action" value="merge_trips" class="btn-warning">
+        🔀 איחוד טיולים קטנים
+      </button>
+      <button name="action" value="reassign_guides" class="btn-warning">
+        🔄 איזון עומס מדריכים
+      </button>
+    </div>
+  </form>
+
+  <!-- אזור תוצאה -->
+  {% if result %}
+  <div class="result-box">
+    <h3>📋 תוצאה:</h3>
+    {{ result|safe }}
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

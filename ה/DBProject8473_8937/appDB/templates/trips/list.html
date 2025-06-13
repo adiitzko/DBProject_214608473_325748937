@@ -1,0 +1,54 @@
+{% extends "base.html" %} {% block content %}
+<div class="form-container">
+  <h2>רשימת הטיולים</h2>
+
+  <div style="margin-bottom: 20px">
+    <a href="/trips/new" class="btn-primary"> הוספת טיול חדש</a>
+  </div>
+
+  {% if trips %}
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>תאריכים</th>
+        <th>יעד</th>
+        <th>מלון</th>
+        <th>מדריך</th>
+        <th>פעולות</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for trip in trips %}
+      <tr>
+        <td>{{ trip.startdate }} - {{ trip.enddate }}</td>
+        <td>{{ trip.destinationzip }} – {{ trip.destination_name }}</td>
+        <td>{{ trip.hotelid }} – {{ trip.hotelname }}</td>
+        <td>{{ trip.guideid }} – {{ trip.guide_name }}</td>
+
+        <td>
+          <a href="/trips/{{ trip.tripid }}/edit" class="btn-secondary"
+            >עריכה</a
+          >
+          <form
+            action="/trips/{{ trip.tripid }}/delete"
+            method="post"
+            style="display: inline"
+          >
+            <button
+              type="submit"
+              class="btn-danger"
+              onclick="return confirm('בטוח שברצונך למחוק את הטיול?')"
+            >
+              מחיקה
+            </button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>אין טיולים להצגה.</p>
+  {% endif %}
+</div>
+{% endblock %}

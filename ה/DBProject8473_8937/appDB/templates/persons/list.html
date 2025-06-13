@@ -1,0 +1,75 @@
+{% extends "base.html" %} {% block content %}
+<div class="table-container">
+  <h2>👥 רשימת אנשים</h2>
+  <a href="/persons/new" class="btn-primary">➕ הוסף אדם</a>
+  <table>
+    <thead>
+      <tr>
+        <th>שם מלא</th>
+        <th>אימייל</th>
+        <th>טלפון</th>
+        <th>פעולות</th>
+        <th>פרוצדורות</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for person in persons %}
+      <tr>
+        <td>{{ person.fullname }}</td>
+        <td>{{ person.email }}</td>
+        <td>{{ person.phonenumber }}</td>
+        <td>
+          <a href="/persons/{{ person.id }}/edit" class="btn-secondary"
+            >✏️ עריכה</a
+          >
+          <form
+            method="post"
+            action="/persons/{{ person.id }}/delete"
+            style="display: inline"
+          >
+            <button
+              class="btn-danger"
+              onclick="return confirm('למחוק את {{ person.fullname }}?')"
+            >
+              מחיקה
+            </button>
+          </form>
+        </td>
+        <td>
+          <form class="customer-action-form">
+            <input type="hidden" name="customer_id" value="{{ person.id }}" />
+            <select name="action">
+              <option value="payments">סך תשלומים</option>
+              <option value="available_trips">טיולים זמינים</option>
+            </select>
+            <button type="submit" class="btn-info">הצג</button>
+          </form>
+          <div class="action-result" id="result-{{ person.id }}"></div>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  document.querySelectorAll(".customer-action-form").forEach((form) => {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const customer_id = formData.get("customer_id");
+
+      const response = await fetch("/queries/customer-actions", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+      const target = document.getElementById("result-" + customer_id);
+      if (target) {
+        target.innerHTML = `<div class="result-box" style="margin-top: 10px; border: 1px solid #aaa; padding: 10px; background: #f9f9f9">${data.html}</div>`;
+      }
+    });
+  });
+</script>
+{% endblock %}

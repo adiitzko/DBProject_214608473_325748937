@@ -1,0 +1,46 @@
+{% extends "base.html" %} {% block content %}
+<div class="form-container">
+  <h2>
+    {% if action == 'edit' %}✏️ עריכת מדריך{% else %}➕ הוספת מדריך{% endif %}
+  </h2>
+
+  <form
+    method="post"
+    action="{% if action == 'edit' %}/guides/{{ guide.id }}{% else %}/guides{% endif %}"
+  >
+    <div class="form-group">
+      <label>שם מלא:</label>
+      <input
+        type="text"
+        name="fullname"
+        value="{{ guide.fullname if guide else '' }}"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label>דוא"ל:</label>
+      <input
+        type="email"
+        name="email"
+        value="{{ guide.email if guide else '' }}"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label>מספר טלפון:</label>
+      <input
+        type="text"
+        name="phonenumber"
+        value="{{ guide.phonenumber if guide else '' }}"
+        required
+      />
+    </div>
+
+    <button type="submit" class="btn-primary">
+      {% if action == 'edit' %}שמור שינויים{% else %}צור מדריך{% endif %}
+    </button>
+  </form>
+</div>
+{% endblock %}

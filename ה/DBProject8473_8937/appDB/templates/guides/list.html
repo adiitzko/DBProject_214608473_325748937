@@ -1,0 +1,46 @@
+{% extends "base.html" %} {% block content %}
+<div class="page-container">
+  <h2>🧭 ניהול מדריכים</h2>
+
+  <div class="actions-bar">
+    <a href="/guides/new" class="btn-primary">➕ הוסף מדריך חדש</a>
+  </div>
+
+  {% if guides %}
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>שם מלא</th>
+        <th>דוא"ל</th>
+        <th>טלפון</th>
+        <th>פעולות</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for g in guides %}
+      <tr>
+        <td>{{ g.id }}</td>
+        <td>{{ g.fullname }}</td>
+        <td>{{ g.email }}</td>
+        <td>{{ g.phonenumber }}</td>
+        <td>
+          <a href="/guides/{{ g.id }}/edit" class="btn-secondary">✏️ ערוך</a>
+          <form
+            method="post"
+            action="/guides/{{ g.id }}/delete"
+            style="display: inline"
+            onsubmit="return confirm('האם אתה בטוח שברצונך למחוק מדריך זה?');"
+          >
+            <button type="submit" class="btn-danger">🗑️ מחק</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>לא נמצאו מדריכים במערכת.</p>
+  {% endif %}
+</div>
+{% endblock %}

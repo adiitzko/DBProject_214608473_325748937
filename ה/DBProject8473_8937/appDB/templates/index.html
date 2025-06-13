@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>מערכת טיולים - מסך כניסה</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>🧳 ברוכים הבאים למערכת הטיולים</h1>
+      <p class="subtitle">מערכת לניהול טיולים מאורגנים</p>
+
+      <div class="nav-buttons">
+        <div class="button-group">
+          <button onclick="location.href='/persons'" class="btn-primary">
+            ניהול אנשים
+          </button>
+          <button onclick="location.href='/trips'" class="btn-primary">
+            הצגת טיולים
+          </button>
+        </div>
+
+        <div class="button-group">
+          <button onclick="location.href='/queries'" class="btn-info">
+            שאילתות ופרוצדורות
+          </button>
+          <button onclick="location.href='/guides'" class="btn-primary">
+            ניהול מדריכים
+          </button>
+        </div>
+      </div>
+    </div>
+    {% if success %}
+    <div class="toast-wrapper">
+      <div class="toast-message" id="toast-message">
+        <button class="close-btn" onclick="closeToast()">×</button>
+        {{ success|safe }}
+      </div>
+    </div>
+    <script>
+      function closeToast() {
+        const toast = document.getElementById("toast-message");
+        toast.style.opacity = "0";
+        setTimeout(() => (toast.style.display = "none"), 300);
+      }
+
+      setTimeout(() => closeToast(), 5000);
+    </script>
+    {% endif %}
+  </body>
+</html>

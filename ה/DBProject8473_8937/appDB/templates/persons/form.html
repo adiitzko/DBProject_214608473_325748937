@@ -1,0 +1,39 @@
+<!-- templates/persons/form.html -->
+{% extends "base.html" %} {% block content %}
+<div class="form-container">
+  <h2>{{ "✏️ עריכת אדם" if person else "➕ הוספת אדם חדש" }}</h2>
+  <form
+    method="post"
+    action="{% if person %}/persons/{{ person.id }}{% else %}/persons{% endif %}"
+  >
+    <div class="form-group">
+      <label>שם מלא:</label>
+      <input
+        type="text"
+        name="fullname"
+        value="{{ person.fullname if person else '' }}"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label>אימייל:</label>
+      <input
+        type="email"
+        name="email"
+        value="{{ person.email if person else '' }}"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label>טלפון:</label>
+      <input
+        type="text"
+        name="phonenumber"
+        value="{{ person.phonenumber if person else '' }}"
+        required
+      />
+    </div>
+    <button type="submit" class="btn-primary">💾 שמירה</button>
+  </form>
+</div>
+{% endblock %}
