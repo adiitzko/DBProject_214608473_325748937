@@ -24,7 +24,8 @@ Gili Shechter
     -  [Programes ](#Programes )
     - [Backup](#Backupfile)
 - [Phase 4: App](#phase-4-App)
-    - [Instructions](#Instructions)  
+    - [Instructions](#Instructions)
+    - [Explnation](#Explnation)  
    
 ## Phase 1: Design and Build the Database  
 
@@ -745,12 +746,14 @@ You can find the SQL queries in the file [integrate.sql](ג/integrate.sql).
 
 
 ## Phase 4: App
-### Instractions
+### Instructions
 
 📜 **[View `Instractions`](ה/instraction)**
 
 -הפעלת האפליקציה:
 -הרצת השרת- uvicorn main:app --reload
+
+### Explnation
 
 -הסבר על דרך העבודה והכלים בהם השתמשנו
  מטרת הפרויקט
