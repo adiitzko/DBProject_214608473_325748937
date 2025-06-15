@@ -38,13 +38,6 @@ def get_db_connection():
 class PersonDB:
 
     @staticmethod
-    def get_all():
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT * FROM person ORDER BY id")
-                return cur.fetchall()
-
-    @staticmethod
     def get_customers_only():
         with get_db_connection() as conn:
             with conn.cursor() as cur:
@@ -66,12 +59,12 @@ class PersonDB:
                 return cur.fetchone()
 
     @staticmethod
-    def create(fullname, email, phonenumber):
+    def create(person_id, fullname, email, phonenumber):
         with get_db_connection() as conn:
             with conn.cursor() as cur:
                 cur.execute(
-                    "INSERT INTO person (fullname, email, phonenumber) VALUES (%s, %s, %s) RETURNING id",
-                    (fullname, email, phonenumber),
+                    "INSERT INTO person (id,fullname, email, phonenumber) VALUES (%s,%s, %s, %s) RETURNING id",
+                    (person_id, fullname, email, phonenumber),
                 )
                 person_id = cur.fetchone()["id"]
 
@@ -119,89 +112,6 @@ class EmployeeDB:
                 )
                 return cur.fetchone()
 
-    @staticmethod
-    def get_all():
-        """קבלת כל העובדים עם פרטי Person"""
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT e.id, p.fullname, p.email, p.phonenumber, 
-                           e.tenure, e.salary, e.role
-                    FROM employee e
-                    JOIN person p ON e.id = p.id
-                    ORDER BY e.id
-                """
-                )
-                return cur.fetchall()
-
-    @staticmethod
-    def get_by_id(employee_id):
-        """קבלת עובד ספציפי לפי ID"""
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT e.id, p.fullname, p.email, p.phonenumber, 
-                           e.tenure, e.salary, e.role
-                    FROM employee e
-                    JOIN person p ON e.id = p.id
-                    WHERE e.id = %s
-                """,
-                    (employee_id,),
-                )
-                return cur.fetchone()
-
-    @staticmethod
-    def create(fullname, email, phonenumber, tenure, salary, role):
-        """יצירת עובד חדש"""
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                # יצירת Person תחילה
-                cur.execute(
-                    "INSERT INTO person (fullname, email, phonenumber) VALUES (%s, %s, %s) RETURNING id",
-                    (fullname, email, phonenumber),
-                )
-                person_id = cur.fetchone()["id"]
-
-                # יצירת Employee
-                cur.execute(
-                    "INSERT INTO employee (id, tenure, salary, role) VALUES (%s, %s, %s, %s)",
-                    (person_id, tenure, salary, role),
-                )
-                conn.commit()
-                return person_id
-
-    @staticmethod
-    def update(employee_id, fullname, email, phonenumber, tenure, salary, role):
-        """עדכון עובד"""
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                # עדכון Person
-                cur.execute(
-                    "UPDATE person SET fullname = %s, email = %s, phonenumber = %s WHERE id = %s",
-                    (fullname, email, phonenumber, employee_id),
-                )
-                # עדכון Employee
-                cur.execute(
-                    "UPDATE employee SET tenure = %s, salary = %s, role = %s WHERE id = %s",
-                    (tenure, salary, role, employee_id),
-                )
-                conn.commit()
-                return True
-
-    @staticmethod
-    def delete(employee_id):
-        """מחיקת עובד"""
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                # מחיקת Employee תחילה (בגלל Foreign Key)
-                cur.execute("DELETE FROM employee WHERE id = %s", (employee_id,))
-                # מחיקת Person
-                cur.execute("DELETE FROM person WHERE id = %s", (employee_id,))
-                conn.commit()
-                return True
-
 
 class GuideDB:
     """מחלקה לניהול טבלת Guide"""
@@ -238,18 +148,15 @@ class GuideDB:
                 return cur.fetchone()
 
     @staticmethod
-    def create(fullname, email, phonenumber):
+    def create(id_guide, fullname, email, phonenumber):
         """יצירת מדריך חדש"""
         with get_db_connection() as conn:
             with conn.cursor() as cur:
-                # יצירת Person תחילה
                 cur.execute(
-                    "INSERT INTO person (fullname, email, phonenumber) VALUES (%s, %s, %s) RETURNING id",
-                    (fullname, email, phonenumber),
+                    "INSERT INTO person (id,fullname, email, phonenumber) VALUES (%s,%s, %s, %s) RETURNING id",
+                    (id_guide, fullname, email, phonenumber),
                 )
                 person_id = cur.fetchone()["id"]
-
-                # יצירת Guide
                 cur.execute("INSERT INTO guide (id) VALUES (%s)", (person_id,))
                 conn.commit()
                 return person_id
@@ -279,19 +186,6 @@ class GuideDB:
                 return True
 
 
-def test_connection():
-    """בדיקת חיבור לבסיס הנתונים"""
-    try:
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                cur.execute("SELECT 1")
-                logger.info("✅ Connected successfully to PostgreSQL!")
-                return True
-    except Exception as e:
-        logger.error(f"❌ Failed to connect: {e}")
-        return False
-
-
 class CustomerDB:
     """ניהול לקוחות (customer) לפי person_id"""
 
@@ -305,6 +199,22 @@ class CustomerDB:
                 )  # ← המרה למחרוזת
                 conn.commit()
                 return True
+
+    @staticmethod
+    def get_by_id(guide_id):
+        """קבלת לקוח ספציפי לפי ID"""
+        with get_db_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT g.id, p.fullname, p.email, p.phonenumber
+                    FROM customer g
+                    JOIN person p ON g.id = p.id
+                    WHERE g.id = %s
+                """,
+                    (guide_id,),
+                )
+                return cur.fetchone()
 
 
 class HotelDB:
@@ -421,7 +331,7 @@ class TripDB:
 
     @staticmethod
     def create(start, end, destinationzip, hotelid, guideid: str):
-        tripid = str(uuid.uuid4())  # 🔹 מזהה ייחודי באורך מלא
+        tripid = str(uuid.uuid4())
         with get_db_connection() as conn:
             with conn.cursor() as cur:
                 cur.execute(
@@ -523,6 +433,19 @@ class TripDB:
                     (start, end, destinationzip, hotelid, guideid, trip_id),
                 )
             conn.commit()
+
+
+def test_connection():
+    """בדיקת חיבור לבסיס הנתונים"""
+    try:
+        with get_db_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("SELECT 1")
+                logger.info("✅ Connected successfully to PostgreSQL!")
+                return True
+    except Exception as e:
+        logger.error(f"❌ Failed to connect: {e}")
+        return False
 
 
 if __name__ == "__main__":

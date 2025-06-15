@@ -9,6 +9,11 @@
     action="{% if action == 'edit' %}/guides/{{ guide.id }}{% else %}/guides{% endif %}"
   >
     <div class="form-group">
+      <label>מזהה (ID):</label>
+      <input type="text" name="id" class="form-control" value="{{ person.id if
+      person else '' }}" {% if action == 'edit' %}readonly{% endif %}>
+    </div>
+    <div class="form-group">
       <label>שם מלא:</label>
       <input
         type="text"

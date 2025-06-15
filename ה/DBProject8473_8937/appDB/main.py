@@ -9,7 +9,6 @@ from fastapi.responses import JSONResponse
 from typing import Optional
 
 
-# הגדרת הלוגים
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -18,7 +17,6 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 
-# בדיקת חיבור לבסיס נתונים בהפעלה
 @app.on_event("startup")
 async def startup_event():
     if test_connection():
@@ -36,19 +34,25 @@ async def login_form(request: Request):
 async def login(
     request: Request,
     username: str = Form(...),
-    password: str = Form(...),
+    password: str = Form(...),  # משמש גם כ־ID
 ):
     user = EmployeeDB.get_by_credentials(username, password)
     if not user:
-        # התחברות לא הצליחה: מציגים שוב את טופס ההתחברות עם שגיאה
+        if GuideDB.get_by_id(password) is not None:
+            return templates.TemplateResponse(
+                "login.html",
+                {"request": request, "error": "המשתמש הוא מדריך ואינו עובד"},
+            )
+        if CustomerDB.get_by_id(password) is not None:
+            return templates.TemplateResponse(
+                "login.html",
+                {"request": request, "error": "המשתמש הוא לקוח ואינו עובד"},
+            )
         return templates.TemplateResponse(
             "login.html", {"request": request, "error": 'שם משתמש או תע"ז שגויים'}
         )
-    # התחברות הצליחה: מציגים את index.html
+
     return templates.TemplateResponse("index.html", {"request": request})
-
-
-# ==================== Person Routes ====================
 
 
 @app.get("/persons", response_class=HTMLResponse)
@@ -73,12 +77,13 @@ async def new_person_form(request: Request):
 @app.post("/persons", response_class=HTMLResponse)
 async def create_person(
     request: Request,
+    id: str = Form(...),
     fullname: str = Form(...),
     email: str = Form(...),
     phonenumber: str = Form(...),
 ):
     try:
-        PersonDB.create(fullname, email, phonenumber)
+        PersonDB.create(id, fullname, email, phonenumber)
         success_message = f"הלקוח {fullname} נוסף בהצלחה ✅"
         persons = PersonDB.get_customers_only()
         return templates.TemplateResponse(
@@ -125,100 +130,11 @@ async def delete_person(person_id: str):
     try:
 
         CustomerDB.delete(person_id)
-        # ואז מחיקת האדם
         PersonDB.delete(person_id)
         return RedirectResponse(url="/persons", status_code=303)
     except Exception as e:
         logger.error(f"Error deleting person: {e}")
         raise HTTPException(status_code=500, detail="שגיאה במחיקת רשומה")
-
-
-# ==================== Employee Routes ====================
-
-
-@app.get("/employees", response_class=HTMLResponse)
-async def list_employees(request: Request):
-    try:
-        employees = EmployeeDB.get_all()
-        return templates.TemplateResponse(
-            "employees/list.html", {"request": request, "employees": employees}
-        )
-    except Exception as e:
-        logger.error(f"Error fetching employees: {e}")
-        raise HTTPException(status_code=500, detail="שגיאה בטעינת הנתונים")
-
-
-@app.get("/employees/new", response_class=HTMLResponse)
-async def new_employee_form(request: Request):
-    return templates.TemplateResponse(
-        "employees/form.html",
-        {"request": request, "employee": None, "action": "create"},
-    )
-
-
-@app.post("/employees")
-async def create_employee(
-    fullname: str = Form(...),
-    email: str = Form(...),
-    phonenumber: str = Form(...),
-    tenure: int = Form(...),
-    salary: float = Form(...),
-    role: str = Form(...),
-):
-    try:
-        EmployeeDB.create(fullname, email, phonenumber, tenure, salary, role)
-        return RedirectResponse(url="/employees", status_code=303)
-    except Exception as e:
-        logger.error(f"Error creating employee: {e}")
-        raise HTTPException(status_code=500, detail="שגיאה ביצירת רשומה")
-
-
-@app.get("/employees/{employee_id}/edit", response_class=HTMLResponse)
-async def edit_employee_form(request: Request, employee_id: int):
-    try:
-        employee = EmployeeDB.get_by_id(employee_id)
-        if not employee:
-            raise HTTPException(status_code=404, detail="רשומה לא נמצאה")
-        return templates.TemplateResponse(
-            "employees/form.html",
-            {"request": request, "employee": employee, "action": "edit"},
-        )
-    except Exception as e:
-        logger.error(f"Error fetching employee: {e}")
-        raise HTTPException(status_code=500, detail="שגיאה בטעינת הנתונים")
-
-
-@app.post("/employees/{employee_id}")
-async def update_employee(
-    employee_id: int,
-    fullname: str = Form(...),
-    email: str = Form(...),
-    phonenumber: str = Form(...),
-    tenure: int = Form(...),
-    salary: float = Form(...),
-    role: str = Form(...),
-):
-    try:
-        EmployeeDB.update(
-            employee_id, fullname, email, phonenumber, tenure, salary, role
-        )
-        return RedirectResponse(url="/employees", status_code=303)
-    except Exception as e:
-        logger.error(f"Error updating employee: {e}")
-        raise HTTPException(status_code=500, detail="שגיאה בעדכון רשומה")
-
-
-@app.post("/employees/{employee_id}/delete")
-async def delete_employee(employee_id: int):
-    try:
-        EmployeeDB.delete(employee_id)
-        return RedirectResponse(url="/employees", status_code=303)
-    except Exception as e:
-        logger.error(f"Error deleting employee: {e}")
-        raise HTTPException(status_code=500, detail="שגיאה במחיקת רשומה")
-
-
-# ==================== Guide Routes ====================
 
 
 @app.get("/guides", response_class=HTMLResponse)
@@ -242,10 +158,13 @@ async def new_guide_form(request: Request):
 
 @app.post("/guides")
 async def create_guide(
-    fullname: str = Form(...), email: str = Form(...), phonenumber: str = Form(...)
+    id: str = Form(...),
+    fullname: str = Form(...),
+    email: str = Form(...),
+    phonenumber: str = Form(...),
 ):
     try:
-        GuideDB.create(fullname, email, phonenumber)
+        GuideDB.create(id, fullname, email, phonenumber)
         return RedirectResponse(url="/guides", status_code=303)
     except Exception as e:
         logger.error(f"Error creating guide: {e}")
@@ -316,9 +235,6 @@ async def available_guides(start: str, end: str):
     guides = TripDB.get_available_guides(start, end)
 
     return JSONResponse(content=guides)
-
-
-from typing import Optional
 
 
 @app.get("/trips", response_class=HTMLResponse)

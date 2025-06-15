@@ -22,6 +22,7 @@
   <table>
     <thead>
       <tr>
+        <th>ID</th>
         <th>שם מלא</th>
         <th>אימייל</th>
         <th>טלפון</th>
@@ -32,6 +33,7 @@
     <tbody>
       {% for person in persons %}
       <tr>
+        <td>{{ person.id }}</td>
         <td>{{ person.fullname }}</td>
         <td>{{ person.email }}</td>
         <td>{{ person.phonenumber }}</td>
