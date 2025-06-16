@@ -44,8 +44,7 @@ class PersonDB:
                 cur.execute(
                     """
                     SELECT * FROM person
-                    WHERE id NOT IN (SELECT id FROM employee)
-                    AND id NOT IN (SELECT id FROM guide)
+                    WHERE id IN (SELECT id FROM customer)
                     ORDER BY id
                 """
                 )

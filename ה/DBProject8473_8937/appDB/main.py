@@ -34,7 +34,7 @@ async def login_form(request: Request):
 async def login(
     request: Request,
     username: str = Form(...),
-    password: str = Form(...),  # משמש גם כ־ID
+    password: str = Form(...),
 ):
     user = EmployeeDB.get_by_credentials(username, password)
     if not user:
