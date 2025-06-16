@@ -58,7 +58,7 @@
 
 {% if not action or action != 'edit' %}
 <script>
-  // טענת מדריכים פנויים לטווח תאריכים
+
   document.getElementById("load-guides").addEventListener("click", async () => {
     const form = document.getElementById("trip-form");
     const start = form.start.value,
@@ -79,7 +79,6 @@
     });
   });
 
-  // חוסם שליחה אם לא נבחר מדריך
   document.getElementById("trip-form").addEventListener("submit", (e) => {
     const sel = document.getElementById("guide-select");
     if (!sel.value) {

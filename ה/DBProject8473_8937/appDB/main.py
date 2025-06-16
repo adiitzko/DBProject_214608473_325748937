@@ -130,7 +130,6 @@ async def delete_person(person_id: str):
     try:
 
         CustomerDB.delete(person_id)
-        PersonDB.delete(person_id)
         return RedirectResponse(url="/persons", status_code=303)
     except Exception as e:
         logger.error(f"Error deleting person: {e}")
@@ -256,11 +255,10 @@ async def create_trip(
     end: str = Form(...),
     destinationzip: str = Form(...),
     hotelid: int = Form(...),
-    guideid: Optional[str] = Form(None),  # מקבלים string
+    guideid: Optional[str] = Form(None),
 ):
     error = None
 
-    # בדיקת guideid
     if not guideid:
         error = "אנא בחרי מדריך לפני שליחה"
 
@@ -277,7 +275,6 @@ async def create_trip(
             },
         )
 
-    # אחרת – יוצרים טיול ומקצים מדריך
     tripid = TripDB.create(start, end, destinationzip, hotelid, guideid)
 
     success_message = (

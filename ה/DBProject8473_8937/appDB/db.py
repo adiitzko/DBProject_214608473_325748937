@@ -78,7 +78,7 @@ class PersonDB:
             with conn.cursor() as cur:
                 cur.execute(
                     "UPDATE person SET fullname = %s, email = %s, phonenumber = %s WHERE id = %s",
-                    (fullname, email, phonenumber, str(person_id)),  # ← המרה ל־str
+                    (fullname, email, phonenumber, str(person_id)),
                 )
                 conn.commit()
                 return cur.rowcount > 0
@@ -177,9 +177,7 @@ class GuideDB:
         """מחיקת מדריך"""
         with get_db_connection() as conn:
             with conn.cursor() as cur:
-                # מחיקת Guide תחילה
                 cur.execute("DELETE FROM guide WHERE id = %s", (guide_id,))
-                # מחיקת Person
                 cur.execute("DELETE FROM person WHERE id = %s", (guide_id,))
                 conn.commit()
                 return True
@@ -193,9 +191,7 @@ class CustomerDB:
         """מחיקת לקוח בלבד (לא מוחק מ-person)"""
         with get_db_connection() as conn:
             with conn.cursor() as cur:
-                cur.execute(
-                    "DELETE FROM customer WHERE id = %s", (str(customer_id),)
-                )  # ← המרה למחרוזת
+                cur.execute("DELETE FROM customer WHERE id = %s", (str(customer_id),))
                 conn.commit()
                 return True
 
